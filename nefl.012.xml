@@ -1,0 +1,531 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nefl.012">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Nebraska Folklore: Pamphlet Twelve</title>
+                <title level="a" type="sub-title">Animal Legends</title>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <name n="Mueller, Zach" xml:id="mzm">Mueller, Zach</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>University of Nebraska–Lincoln</publisher>
+                <date>2016</date>
+                <availability>
+                    <p> Copyright © 2016 by Of the Plains, all rights reserved.Redistribution or republication in any medium, except as allowed under the Fair Use provisions of U.S. copyright law, requires express written consent from the editors and advance notification of the publisher, the Of the Plains.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title level="a" type="main">Nebraska Folklore: Pamphlet Twelve</title>
+                    <title level="a" type="sub-title">Indian Ghost Legends</title>
+                    <date when="1937-11-15">November 15, 1937</date>
+                    <publisher>Nebraska Writer's Project</publisher>
+                    <pubPlace>Lincoln</pubPlace>
+                    <note type="project"> Our transcription is based on a digital image of the original. </note>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>University of Nebraska-Lincoln Special Collections</repository>
+                        <collection><!----></collection>
+                        <idno><!----></idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listOrg>
+                    <org>
+                        <orgName xml:id="trb.004">Pawnee</orgName>
+                    </org>
+                    <org>
+                        <orgName xml:id="trb.005">Sioux</orgName>
+                    </org>
+                    <org>
+                        <orgName xml:id="trb.008">Rees</orgName>
+                    </org>
+                    <org>
+                        <orgName xml:id="trb.009" type="band">Skidi Pawnee</orgName>
+                    </org>  
+                    <org>
+                        <orgName xml:id="trb.010">Comanche</orgName>
+                    </org>                  
+                </listOrg>
+                <listPerson type="Character">
+                    <person xml:id="per.046">
+                        <persName>Pahukatawa</persName>
+                        <persName>Grandfather</persName>
+                        <persName>wolf</persName>
+                    </person>
+                    <person xml:id="per.047">
+                        <persName type="group">Pawnee Men</persName>
+                    </person>
+                    <person xml:id="per.048">
+                        <persName>Father</persName>
+                    </person>
+                    <person xml:id="per.049">
+                        <persName>Mother</persName>
+                    </person>
+                    <person xml:id="per.050">
+                        <persName type="group">Parents</persName> <!--group of per.048 and per.049-->
+                    </person>
+                    <person xml:id="per.051">
+                        <persName type="group">Tribe</persName>
+                        <persName type="group">Indians</persName> 
+                    </person>
+                    <person xml:id="per.052">
+                        <persName>Daughter</persName>
+                    </person>
+                    <person xml:id="per.053">
+                        <persName>Son</persName>
+                    </person>
+                    <person xml:id="per.054">
+                        <persName type="group">Chiefs</persName>
+                    </person>
+                    <person xml:id="per.055">
+                        <persName type="group">Warriors</persName>
+                        <persName type="group">Braves</persName>
+                    </person>
+                    <person xml:id="per.056">
+                        <persName type="group">Tribe</persName>
+                        <persName type="group">Enemies</persName>
+                    </person>
+                    <person xml:id="per.057">
+                        <persName>Man</persName>
+                    </person>
+                    <person xml:id="per.058">
+                        <persName>Fighter</persName>
+                    </person>
+                    <person xml:id="per.059">
+                        <persName>Fighter</persName>
+                    </person>
+                    <person xml:id="per.060">
+                        <persName type="group">Wives</persName>
+                    </person>
+                    <person xml:id="per.061">
+                        <persName type="group">Messenger</persName>
+                    </person>
+                    <person xml:id="per.062">
+                        <persName>Woman</persName>
+                    </person>
+                    <person xml:id="per.063">
+                        <persName>Male Lover</persName>
+                        <persName>Young Man</persName>
+                    </person>
+                    <person xml:id="per.064">
+                        <persName type="group">Tribe</persName>
+                    </person>
+                    <person xml:id="per.066">
+                        <persName>Woman</persName>
+                        <persName>Relative</persName> <!--related to per.063-->
+                    </person>
+                    <person xml:id="per.067">
+                        <persName>Ghost-man</persName>
+                    </person>
+                    <person xml:id="per.068">
+                        <persName>Man</persName> <!--sick man;-->
+                        <persName>Cured Man</persName>
+                    </person>
+                    <person xml:id="per.069">
+                        <persName>Indian Brave</persName>
+                        <persName>Young Man</persName>
+                        <persName>Husband</persName>
+                    </person>
+                    <person xml:id="per.070">
+                        <persName type="group">Tribe</persName>
+                    </person>
+                    <person xml:id="per.071">
+                        <persName>Young Woman</persName>
+                        <persName>Girl</persName>
+                        <persName>First Wife</persName>
+                    </person>
+                    <person xml:id="per.072">
+                        <persName>Second Wife</persName>
+                    </person>
+                    <person xml:id="per.073">
+                        <persName>Child</persName> <!--Sex: male-->
+                    </person>
+                    <person xml:id="per.074">
+                        <persName>Mother</persName>
+                    </person>
+                    <person xml:id="per.075">
+                        <persName type="group">Uncles</persName>
+                    </person>
+                    <person xml:id="per.076">
+                        <persName type="group">Dancers</persName>
+                    </person>
+                    <person xml:id="per.082">
+                        <persName>Man</persName>
+                    </person>
+                    <person xml:id="per.078">
+                        <persName type="group">Old Man</persName>
+                    </person>
+                    <person xml:id="per.079"> 
+                        <persName>White Hawk</persName>
+                    </person>
+                    <person xml:id="per.080">
+                        <persName type="group">Medicine-men</persName>
+                    </person>
+                    <person xml:id="per.083">
+                        <persName type="group">Women</persName> <!--count: 2-->
+                    </person>
+                    <person xml:id="per.084">
+                        <persName type="group">Women</persName> <!--count: 2-->
+                    </person>
+                    <person xml:id="per.085">
+                        <persName>Baby</persName>
+                    </person>
+                    <person xml:id="per.086">
+                        <persName>Chief Warrior</persName>
+                        <persName>Husband</persName>
+                    </person>
+                    <person xml:id="per.087">
+                        <persName type="group">Warriors</persName>
+                    </person>
+                    <person xml:id="per.088">
+                        <persName>Girl</persName>
+                        <persName>Daughter</persName>
+                        <persName>Wife</persName>
+                    </person>
+                    <person xml:id="per.089">
+                        <persName>Father</persName>
+                    </person>
+                    <person xml:id="per.090">
+                        <persName>Woman</persName>
+                    </person>
+                    <person xml:id="per.091">
+                        <persName>Hag</persName>
+                    </person>
+                    <person xml:id="per.092">
+                        <persName>Boy</persName>
+                    </person>
+                    <person xml:id="per.093">
+                        <persName>Mother</persName>
+                    </person>
+                    <person xml:id="per.096">
+                        <persName>Man</persName> <!--Condition: wounded-->
+                        <persName>The Wonder Man</persName>
+                    </person>
+                    <person xml:id="per.095">
+                        <persName type="group">Survivors</persName>
+                    </person>
+                    <person xml:id="per.097">
+                        <persName>Scalped Man</persName>
+                        <persName>savior</persName>
+                    </person>
+                    <person xml:id="per.098">
+                        <persName type="group">Medicine Men</persName>
+                    </person>
+                    <person xml:id="per.099">
+                        <persName type="group">Warriors</persName>
+                    </person>
+                    <person xml:id="per.100">
+                        <persName type="group">Enemy Warrior</persName>
+                    </person>
+                </listPerson>
+                <listPerson type="Character_Animals">
+                    <person>
+                        <persName/>
+                    </person>
+                </listPerson>
+                <listPerson type="Character_Spirit">
+                    <person xml:id="per.005">
+                        <persName>Nahurac</persName>
+                        <note>In the Pawnee traditional religion, the supreme being Tirawa conferred miraculous powers on certain animals. These spirit animals, knthe nahurac, act as Tirawa's messengers and servants</note>
+                    </person>
+                    <person xml:id="per.065">
+                        <persName type="group">ghosts</persName>
+                    </person>
+                    <person xml:id="per.077">
+                        <persName type="group">Uncles</persName>
+                    </person>
+                    <person xml:id="per.081">
+                        <persName type="group">Spirits</persName>
+                    </person>
+                    <person xml:id="per.094">
+                        <persName type="group">Spirits</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="tgn_1130227">
+                        <placeName>Loup River</placeName>
+                    </place>
+                    <place xml:id="tgn_2677501">
+                        <placeName>Platte River</placeName>
+                    </place>
+                    <place xml:id="tgn_7014086">
+                        <placeName>Missouri River</placeName>
+                    </place>
+                 </listPlace>
+            </settingDesc>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2016-04-06" who="#mzm">transcribed</change>
+            <change when="2016-04-09" who="#mzm">encoded characters</change>
+            <change when="2016-04-12" who="#mzm">encoded places, animals and seasons</change>
+            <change when="2016-04-16" who="#snc">added tgn xml:ids</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="pamphlet">
+                <pb xml:id="p000" facs="nefl.12.000.jpg"/>
+                <figure>
+                    <graphic url="#nefl.012"/>
+                    <figDesc>Highly stylized drawing of hooded ghost. The lettering around Indian Ghost Legends is dark. The figures of a skull, teepee, a winged bird, and a fire pir surround the shrouded etheral figure.</figDesc>
+                </figure>
+                <span>Nebraska Folklore<lb/> Pamphlet Twelve<lb/> Indian Ghost Legends</span>
+<span> Federal Writers' Project<lb/> Nebraska Nov. 15, 1937 </span>
+                <pb xml:id="p001" facs="nefl.12.001.jpg"/>
+                <fw><hi rend="all_caps">Nebraska Folklore Pamphlets</hi><lb/> Reproduced from Material Gathered for a Book on the Folklore of the State<lb/> Issued Irregularly, at Least Once Each Month by the<lb/>
+                    <hi rend="all_caps">Federal Writers' Project in Nebraska</hi>
+                    <lb/> Prepared In Cooperation With the State Superintendent of Public Instruction</fw>
+                <fw>Number Twelve<lb/> Animals Legends<lb/> Lincoln, Nebraska<lb/> November 15, 1937<lb/> - - - - - - - - - - - </fw>
+                <div2 type="editors_note">
+                    <p>Editor's Note:<lb/>
+These Indian tales are reproduced as a result of reconstruction and piecing together. Elderly Indians and early residents, scattered over the State, furnished from their memories the titles and fragments of the stories. A great many other stories exist as titles only, and some other too fragmentary to piece out. Those included in this pamphlet appear to be among the commonest or most generally known and are here reproduced by correlating versions of the same story from different sources, checked where possible with such anthologies as there are available. They are not offered as newly found versions of old tales. Our purpose has been to offer the stories themselves, in as complete a form as possible, for use in the schools.</p>
+                </div2>
+
+                <div2 type="article">
+<p><title><hi rend="all_caps">Pahukatawa</hi></title></p>
+                    
+                    <p>One year toward the end of winter, five <orgName ref="trb.004">Pawnee</orgName> <persName ref="per.047">men</persName> set out from a village to trap <name type="animal">beaver</name>. When they reached the south fork of the Loup River, they sent out a brave <persName ref="per.046">Pahukatawa</persName> to look for signs of <name type="animal">beaver</name> and a good trapping ground.</p>
+
+                    <p><persName ref="per.046">Pahukatawa</persName> had not gone far from the camp when he met a party of <orgName ref="trb.005">Sioux</orgName>. He ran across a little creek and hid in the brush. The other <orgName ref="trb.004">Pawnee</orgName> heard shots and yells and hid themselves and waited. Next morning, the four <persName ref="per.047">men</persName> found <persName ref="per.046">Pahukatawa</persName> shot full of arrows and scalped, his arms and legs unjointed. They did not bury him. They returned to the village; and one of <persName ref="per.047">them</persName> called out, "<persName ref="per.046">Pahukatawa</persName> was killed."</p>
+                    
+                    <p>His <persName ref="per.048">father</persName> and <persName ref="per.049">mother</persName> grieved for him. It was nearly time for clearing patches for corn planting and hoeing and the <persName ref="per.050">parents</persName> said, "We are old and he helped us; but now he is gone."</p>
+                    
+                    <p>After the <name type="season">spring</name> planting the whole tribe set out on their summer <name type="animal">buffalo</name> hunt. When they came to the place where <persName ref="per.046">Pahukatawa</persName> was killed, the father and mother searched for his bones, wishing to bury them. But they could find no bones--only arrows sticking straight up in the
+                    <pb xml:id="p002" facs="nefl.12.002.jpg"/>
+                    <fw>2.</fw>
+                        ground. The <persName ref="per.049">mother</persName> cried so much she became blind. The <persName ref="per.051">tribe</persName> continued the <name type="animal">buffalo</name> hunt, and after two months returned home by way of the Platte River.</p>
+                    
+                    <p> One evening when the <orgName ref="trb.004">Pawnee</orgName> were camped on the riverbank, they heard a voice. The air was warm and still; there was a light smoke in the air and the sky was red in the west. The voice came from the other side of the river, saying "<persName ref="per.046">Pahukatawa</persName> is coming back to you." The <persName ref="per.051">Indians</persName> all ran across the river to meet him but no one was there. Then they heard the voice from the camp-side: "He is coming from here." They ran back but he was not there. In a little while they heard the voice from across the river again, saying "He is coming." Then they stopped running about; they knew it was only a voice. The next day they went down the river to the main village. After six months their dried meat was all eaten up and it was not yet <name type="season">spring</name>.</p>
+                    
+                    <p>One night at midnight <persName ref="per.046">Pahukatawa</persName> came to the lodge where his <persName ref="per.049">mother</persName> was sleeping. His <persName ref="per.049">mother</persName> dreamed of him almost every night; so when he touched her and said "Mother!" she thought she was dreaming. He touched her again and she awoke.</p>
+                    
+                    <p> His <persName ref="per.049">mother</persName> put her arms around him and cried, "My <persName ref="per.046">son</persName>, you have come back to me." The boy said, "Yes, the <persName ref="per.005">Nahurac</persName>, the magical animals, made me alive again. I must go now; do not cry about me any more." When the <persName ref="per.049">mother</persName> awoke next morning she found a piece of fresh meat by her side. Some nights later the <persName ref="per.046">son</persName> came again. He said, "<persName ref="per.049">mother</persName>, you are blind on account of me. Beside your <persName ref="per.052">daughter's</persName> bed there is water in a wooden bowl. Put your face in the water and open your eyes and you shall see." He gave her some meat, and left. The <persName ref="per.049">mother</persName> felt her way to the wooden bowl, put her face deep into the water, and opened her eyes. She could see. Everyone wondered how the mother's eyes had been healed but she told only her eldest <persName ref="per.053">son.</persName></p>
+                    
+                    <p><persName ref="per.046">Pahukatawa</persName> visited his <persName ref="per.053">brother</persName> next and said to him: "You have heard that I come to see our <persName ref="per.049">mother</persName> often. Put your lodge up outside the camp so that I can come and talk to you." When his <persName ref="per.053">brother</persName> had done this, <persName ref="per.046">Pahukatawa</persName> came and said to him, "Select two braves and let them go through the camp tomorrow night to summon the <persName ref="per.054">chiefs</persName> and the bravest <persName ref="per.055">warriors</persName> to your lodge. Do not build a fire."</p>
+                    
+                    <p>The <persName ref="per.054">chiefs</persName> and <persName ref="per.055">braves</persName> gathered at the lodge just before dark and waited. When he came it seemed that sparks of fire flew out from him with every step he made. "I am in everything," he said, "and I know everything--even your thoughts, even about the ocean which is so far off." He taught them two dances and songs about himself and then he said, "A <persName ref="per.056">tribe</persName> of your enemies from far up the Missouri River is getting ready to make war against you. I will keep you informed concerning their movements."</p>
+                    
+                    <p>Two nights later <persName ref="per.046">Pahukatawa</persName> came and said, "Tomorrow night they will be spying around camp. You must ask me to help you; I will make you strong. If you want to kill two or three, ask me. Call me <persName ref="per.046">Grandfather</persName>."</p>
+                    
+                    <p>The next night they danced and prayed. One <persName ref="per.0057">man</persName> asked, "Let me strike nine and at the tenth let me be wounded." <persName ref="per.0058">Another</persName> said, "I want to strike
+                       <pb xml:id="p003" facs="nefl.12.003.jpg"/>
+                    <fw>3</fw>
+                        five and capture the biggest man in the party." <persName ref="per.0059">Another</persName> asked, "Let me strike two and then be killed." They heard <persName ref="per.046">Pahukatawa</persName> answer, "Let it be so," but they could not see him.</p>
+                    
+                    <p>"Tomorrow morning," the voice said then, "The enemy will attack, I will send a fog form the north as a warning. Go out on the plain and have a skirmish; then draw off and watch the Bluff. Charge when the wind changes."</p>
+                    
+                    <p> The enemy came and the <persName ref="per.055">warriors</persName> went out to meet them. After a skirmish the <orgName ref="trb.004">Pawnee</orgName> withdrew and looked toward the bluff. A white <persName ref="per.046">wolf</persName> came over the point, then turned and faced the north. Immediately the wind changed, and the braves knew that the <persName ref="per.046">wolf</persName> was <persName ref="per.046">Pahukatawa</persName>.</p>
+                    
+                    <p>They made the charge, and all promises were fulfilled. The <persName ref="per.055">braves</persName> chased and killed <orgName ref="trb.005">Sioux</orgName> all day long and drove them far away.</p>
+                    
+                    <p>The next night <persName ref="per.046">Pahukatawa</persName> came to his <persName ref="per.053">brother</persName>'s lodge and told him that he wished to speak to him alone. The <persName ref="per.053">brother</persName> sent all his <persName ref="per.060">wives</persName> out of the lodge. Then <persName ref="per.046">Pahukatawa</persName> said, "<persName ref="per.053">Brother</persName>, I want you to feel all over my body." The <persName ref="per.053">brother</persName> felt of his arms, legs, chest and head. He felt something soft on the head, and <persName ref="per.046">Pahukatawa</persName> said, "That is down-feathers."</p>
+                    
+                    <p>Then he told his <persName ref="per.053">brother</persName> about his death. "The <persName ref="per.005">Nahurac</persName> took pity on me," he said. "<name type="animal">Flies</name>, <name type="animal">bugs</name>, <name type="animal">fishes</name>, <name type="animal">birds</name>, <name type="animal">deer</name>, <name type="animal">wolves</name> and other animals helped me come to life again. They brought my flesh and bones together and laid each piece in its own place but the top of my skull they could not find. In place of the skull they put the down-feathers. Then they danced, sang, prayed, and passed their paws over me. At length I began to breathe; I was alive again, not as a <persName ref="per.046">person</persName> but as a <persName ref="per.046">spirit</persName>.</p>
+                    
+                   <p> "I am in everything. I hear everything. I will help you in sickness and in war, but there is one thing: you must not get tired of me."</p>
+                    
+                    <p>"I shall never get tired of you," the <persName ref="per.053">brother</persName> said.</p>
+                    
+                    <p>After that, <persName ref="per.046">Pahukatawa</persName> often gave help to the <orgName ref="trb.004">Pawnee</orgName>. But one night when he came to his <persName ref="per.053">brother</persName>'s lodge, another <persName ref="per.061">man</persName> was sleeping there. <persName ref="per.046">Pahukatawa</persName> sent the <persName ref="per.061">man</persName> to summon his <persName ref="per.053">brother</persName>. The <persName ref="per.053">brother</persName> told the <persName ref="per.061">messenger</persName> to say that he was sleeping. <persName ref="per.046">Pahukatawa</persName> sent the <persName ref="per.061">messenger</persName> three times, and the third time the <persName ref="per.053">brother</persName> said: "Tell him I cannot come; I am too sleepy." Then <persName ref="per.046">Pahukatawa</persName> said, "Very well. Tell my <persName ref="per.053">brother</persName> to sleep all he wants. He will see me no more. I shall go to another tribe."</p>
+                    
+                    <p> So <persName ref="per.046">Pahukatawa</persName> went to the <orgName ref="trb.007">Rees</orgName>, and for a long time the <orgName ref="trb.004">Pawnee</orgName> were angry at the <persName ref="per.053">brother</persName>.</p>
+                    <fw>--------</fw>
+                    <p>Note: <hi rend="underline">When this story was related in 1888 the Indian narrator said that a Ree woman who had recently died had seen and talked with <persName ref="per.046">Pahukatawa</persName> when she was a child.</hi></p>
+
+                </div2>
+
+                <div2 type="article">
+                    <pb xml:id="p004" facs="nefl.12.004.jpg"/>
+                    <fw>4</fw>
+                    <p><title rend="all_caps">The Ghost Bride</title></p>
+                    
+                    <p>In a <orgName ref="trb.004">Pawnee</orgName> village one of the young <persName ref="per.062">women</persName> died. The <persName ref="per.063">tribe</persName> buried her in her finest clothes and then started out on a hunt.</p>
+                    
+                    <p>The girl's <persName ref="per.063">lover</persName> had been away on a visit, and returned to the village while the <persName ref="per.064">tribe</persName> was gone. From far off, he saw someone sitting on top of a lodge; coming nearer, he saw that it was the <persName ref="per.062">girl</persName> he loved. She got down when she saw him coming and went inside. The <persName ref="per.063">young man</persName> went into the lodge and asked, "Why are you here alone?"</p>
+                    
+                   <p> "The people have gone on the hunt," she replied. "I was sulky and my relatives went away without me."</p>
+                    
+                    <p> The <persName ref="per.063">young man</persName> wanted her to go with him and be married immediately. But the girl said, "No, I cannot marry you yet. You must not be afraid of what is going to happen. The <persName ref="per.065">ghosts</persName> will dance tonight." Then the <persName ref="per.063">young man</persName> knew that she had died and had come back. Often a ghost of the dead came back and talked to the living. Then the other <persName ref="per.06">ghosts</persName> would come and dance, going from one ledge to another singing and dancing. The <persName ref="per.063">young man</persName> could hear them coming along the deserted streets, going in and out of the lodges. When they came to the lodge where the <persName ref="per.063">young man</persName> was, they sang and danced around him.</p>
+                    
+                   <p>The next day the <persName ref="per.063">young man</persName> persuaded the <persName ref="per.062">girl</persName> to follow the <persName ref="per.064">tribe</persName> and go with them on the hunt. They started out but she told him she could not marry him yet. When they came to a hill in side of the camp, the <persName ref="per.062">girl</persName> stopped. "Now," she said, "you must go to the village first and get a place ready for me. I must sleep behind a curtain and must remain behind the curtain for four days and four nights. You must not speak to me nor mention my name."</p>
+                    
+                    <p>The <persName ref="per.063">young man</persName> went down to where the tribe was encamped, and found his lodge ready for him. He told a <persName ref="per.066">woman</persName>, one of his relatives, to go out and bring in the <persName ref="per.062">girl</persName> who was waiting on the hill. "Who is the woman?" the <persName ref="per.066">relative</persName> asked. In order not to mention her name he told who her mother and father were. "It cannot be that <persName ref="per.062">girl</persName>," the <persName ref="per.066">woman</persName> said, "for she died a few days before we went on the hunt."</p>
+                    
+                    <p>The <persName ref="per.063">young man</persName> did not answer but looked very cross; so the <persName ref="per.066">woman</persName> went out to the hill. She came back presently and said the <persName ref="per.062">girl</persName> was not there. The <persName ref="per.063">young man</persName> won't up to look for her, and there she stood waiting for him. "You disobeyed me and told who I was," she said. "Now I shall always be a ghost. Because of what you have done, I cannot live again upon earth." Then she disappeared.</p>
+                    
+                    <p>The <persName ref="per.063">young man</persName> went back to the camp and that night he died in his sleep.</p>
+                    
+                </div2>
+
+<div2 type="article">
+                    <p><title rend="all_caps">The Whirlwind Ghost-Man</title></p>
+                    
+    <p> Once, long ago, a <persName ref="per.067">man</persName> left his home and went to live in a graveyard. Whenever he came to the village, people noticed that whirlwinds came up by him as he walked along. They said that he must be a ghost.</p>
+                    <pb xml:id="p005" facs="nefl.12.005.jpg"/>
+                    <fw>5</fw>
+    <p>Some time after the <persName ref="per.067">Ghost-Man</persName> went to live in the graveyard, a man in the village began to feel sick. When he walked about, a ghost or whirl-wind surrounded him and tried to carry him away. The <persName ref="per.067">Ghost-Man</persName>  heard about this and offered to cure the sick <persName ref="per.068">man</persName>. He sat down beside the bed, picked up dust from the earth floor and threw it in the air. The dust became a whirlwind which enveloped the sick <persName ref="per.068">man</persName> and made him well. The <persName ref="per.067">Ghost-Man</persName>  cured other sick people.</p>
+                    
+    <p>One man became sick because he had dreamed of a dead person. The <persName ref="per.067">Ghost-Man</persName> went to his lodge to help him; but instead of throwing dust into the air, he whirled himself around and became a whirlwind which enveloped the sick man and made him well. When the whirlwind settled, a skeleton fell to the ground. This frightened the people and they ran out of the lodge. The cured <persName ref="per.068">man</persName> gathered up the bones and buried them, and the <persName ref="per.067">Ghost-Man</persName> was never seen again.</p>
+                    
+            <p>After that, the Indians said that whirlwinds were ghosts. </p>
+                    
+                    
+                    <p><title rend="all_caps">The Wife Who Returned From Spirit Land</title></p>
+                    
+                    <fw rend="underline">It is possible that this legend is a variant and an elaboration of The Ghost Bride. Another similar story is The Ghost Wife.</fw>
+                    
+    <p>An <persName ref="per.069">Indian brave</persName> returned from a journey and found his village quiet and apparently deserted. The <persName ref="per.070">tribe</persName> had gone on a hunt, he thought; perhaps someone had stayed home and would give him something to eat. He noticed smoke coming up from one lodge, and saw through the window a <persName ref="per.071">young woman</persName> sitting on the ground. He could not see her face. Around her were buffalo robes and other presents of the sort that are placed on graves.</p>
+                    
+    <p>After a while the <persName ref="per.071">girl</persName> said, without turning her head: "Come in, but do not come near me. Sit by the door." The <persName ref="per.069">young man</persName> knew the voice. This was the <persName ref="per.071">girl</persName> he had loved, and he knew that now she was dead.</p>
+                    
+    <p>The <persName ref="per.069">young man</persName> sat by the doorway all the night. Next morning the <persName ref="per.071">girl</persName> told him to come to the fire pit and take some meat from the kettle on the fire. Every night after that she allowed him to come a little nearer to her. At last he came to where she was sitting, but the <persName ref="per.071">girl</persName> told him not to touch her. She told him to lie down in the bed and rest; she was just a ghost, she said, and did not rest.</p>
+                    
+    <p> One night the <persName ref="per.071">girl</persName> told the <persName ref="per.069">young man</persName> that something was going to happen; he must not be afraid and run away or she might disappear. Soon the <persName ref="per.069">young man</persName> heard drumming, shouting, and singing in the village. The sounds came nearer and he heard a noise like little children running before the drummers. They seemed to come into the lodge, though the <persName ref="per.069">young man</persName> could not see any one.</p>
+                    
+    <p>The dancing stopped and a voice said "We have smoked." The <persName ref="per.071">girl</persName> told the <persName ref="per.069">young man</persName> to reply "Mawa," and he did. Then the <persName ref="per.076">dancers</persName> left the lodge; the <persName ref="per.069">young man</persName> could tell by the moving away of the sounds.</p>
+                    
+    <pb xml:id="p006" facs="nefl.12.006.jpg"/>
+                    <fw>6</fw>
+                    <p>The same thing happened the next night, but this time the <persName ref="per.069">young man</persName> could see the feet of the dancers as they circled around the fireplace. The next night the <persName ref="per.069">young man</persName> could see the children's bodies. The next night, when the dancing was over, the leader said: "Young man, we knew that you would be poor in spirit because this girl had died and we decided to send her back to the living. You see her but she is not real, and you must not make her angry or you will lose her. There is one thing more you must do before this girl can stay with you."</p>
+                    
+    <p> When the <persName ref="per.076">dancers</persName> had gone the <persName ref="per.071">girl</persName> said: "Those ghosts were my<persName ref="077">Uncles</persName> and relatives. They are helping you to get me back."</p>
+                    
+    <p>For a few days there were no more dancing spirits. The <persName ref="per.069">young man</persName> rested and gained flesh. They had fresh corn to eat, and dried buffalo meat. One day the <persName ref="per.071">girl</persName> said: "Tomorrow is the day you must do that one thing more. It will take all your strengths. When I tell you to, you must take hold of me; for my living uncles will be at my grave and I will try to disappear."</p>
+                    
+                   <p> The following morning they went out to the edge of the village toward the hill where the <persName ref="per.071">girl</persName> was buried. They stopped when they saw her <persName ref="per.075">uncles</persName> approaching the grave. As her uncles were placing meat on her grave she said, "Take hold of me quickly." The <persName ref="per.069">young man</persName> seized her, and the girl threw herself this way and that. The <persName ref="per.069">young man</persName> was thrown to the ground and the <persName ref="per.071">girl</persName> got away. When the <persName ref="per.069">young man</persName> got back to the lodge, there was the <persName ref="per.071">young woman</persName> laughing at him. "You have no strength at all," she said. "If I got away from you four times you will never see me again. Now let us go out; and you shall try again."</p>
+                    
+    <p>Twice more the <persName ref="per.071">girl</persName> escaped. When they returned to the grave the fourth time, the <persName ref="per.071">girl</persName> said: "This is your last dance. If you want to keep me you must use more strength. If my <persName ref="per.075">uncles</persName> hear you calling, they will come; if they touch me, then I will stay."</p>
+                    
+                    <p>This time the <persName ref="per.069">young man</persName> shouted to the <persName ref="per.075">uncles</persName>, and they came running to help him. The <persName ref="per.071">girl</persName> struggled with all her might and knocked the <persName ref="per.069">young man</persName> to the ground, but he held her by the hair. When all the <persName ref="per.075">uncles</persName> had hold of the <persName ref="per.071">girl</persName>  she gave up. "You have held me," she said to the <persName ref="per.069">young man</persName>, "and I will stay with you."</p>
+                    
+    <p>One night after the <persName ref="per.069">boy</persName> and <persName ref="per.071">girl</persName> were married, the <persName ref="per.071">girl</persName>  noticed her <persName ref="per.074">mother</persName> watching her. Presently the old woman took a hoe and went out. When she returned the <persName ref="per.071">girl</persName> said: "Mother, I know where you have been. You found my body in the grave and you think I am not your <persName ref="per.071">daughter</persName>. My body lies up there; my spirit is here. I can disappear if I am not happy."</p>
+                    
+    <p>The <persName ref="per.069">young man</persName> and the <persName ref="per.071">girl</persName> had a boy <persName ref="per.073">child</persName>, and lived happily together for many years. At last the <persName ref="per.069">man</persName> decided to take another wife. The <persName ref="per.071">girl</persName> told him she was afraid there were would be trouble, but she wanted him to be happy so she consented.</p>
+                    
+    <p>They were happy a few years more; then one day the <persName ref="per.072">second wife</persName> was jealous because the <persName ref="per.069">husband</persName> was wearing a pair of moccasins that his first wife's relatives had made for him. The <persName ref="per.071">first wife</persName> said to her <persName ref="per.069">husband</persName>, "Your
+                    <pb xml:id="p007" facs="nefl.12.007.jpg"/>
+                    <fw>7</fw>
+                    other wife called me a ghost-wife just as I said she would." The <persName ref="per.069">husband</persName> struck her; they argued and he struck her again. "I shall go away," she said, "and take my child with me." He struck at her but she disappeared; in her place a whirlwind arose, spun around, and vanished.</p>
+                    
+    <p>At evening the <persName ref="per.069">husband</persName> went up to the hill to his wife's grave. He cried and begged her to come back, and stayed there till late in the night. The people put the <persName ref="per.073">child</persName> to bed; next morning it was dead. They took the <persName ref="per.073">child</persName> and buried it in the mother's grave.</p>
+                    
+    <p>The <persName ref="per.069">husband</persName> mourned at the grave four days and four nights. Then the <persName ref="per.071">woman</persName> appeared to him and said: "I am not coming back to you. Do not stay around the grave for you shall never see me again." Then she disappeared in a whirlwind.</p>
+                    
+    <p>The <persName ref="per.069">man</persName> stayed at the grave. His other <persName ref="per.072">wife</persName> came for him, but he would not go with her. He stayed at the grave until he straved to death, and then his <persName ref="per.070">people</persName> took him away and buried him.</p>
+
+</div2>
+
+<div2 type="article">
+                    
+                    <p><title rend="all_caps">Proof of Ghosts</title></p>
+                    
+    <p>One time, when the <orgName ref="trb.009">Skidi Pawnee</orgName> were returning to the village from a hunt, a <persName ref="per.082">man</persName> who did not believe in ghosts happened to go ahead of the others. In the evening, after darkness came on, the <persName ref="per.082">man</persName> went to bed. He lay thinking about the stories an <persName ref="per.078">old man</persName> in the tribe had told about ghosts. Suddenly he heard strange noises all about the lodge; there were voices of persons he knew were dead and one voice said, "<persName ref="per.079">White Hawk</persName> has come back to the village." The voices went on and repeated what he had said about the number of bundles of dried meat for the <persName ref="per.080">medicine-men</persName>'s dance and for all the other dances. And they quoted him correctly. Still he said to himself, "These are my people; I will pay no attention to them." But as they seemed to come closer he cried out, "Now I believe the story of the old man; I know you are <persName ref="per.081">spirits</persName> of the dead."</p>
+                    
+    <p>The <persName ref="per.081">spirits</persName> then went away and the <persName ref="per.082">man</persName> went to sleep. In the night the rest of the tribe returned, and in the morning the <persName ref="per.082">man</persName> told them about the visit of the <persName ref="per.081">spirits</persName>. But there were two <persName ref="per.083">women</persName> who still did not believe.</p>
+                    
+    <p>It happened next evening that these two <persName ref="per.083">women</persName> were out gathering corn and they stayed late in the field. It was dark when they started for home. On the way they saw two <persName ref="per.084">women</persName> approaching, one of them carrying a <persName ref="per.085">baby</persName> in her arms. Suddenly the strangers and the baby vanished into air. The <persName ref="per.083">women</persName> who had been gathering corn were so frightened that when they reached the village they were sick. They now beleived that dead people lived and that their ghosts appeared to human beings.</p>
+
+</div2>
+
+<div2 type="article">
+                    
+                    <p><title rend="all_caps">Saline River Ghost</title></p>
+                    
+                    <p>In a <orgName ref="trb.004">Pawnee</orgName> village on the banks of the Platte lived the <persName ref="per.086">chief warrior</persName> of the nation, known throughout the surrounding country for his fierceness and cruelty. In every hostile village for miles around there was wailing
+    <pb xml:id="p008" facs="nefl.12.008.jpg"/>
+                    <fw>8</fw>
+                        for those he had killed. Women and children were afraid to go far from their homes.</p>
+                    
+                    <p>He thought of nothing but killing. He would remain behind alone on the battlefield and bathe his hands in the blood of his victims. He would surprise and kill <persName ref="per.087">warriors</persName> who stole back to mourn for some riend or relative. His own people were proud of him as a leader but they were afraid of him; they never went to this lodge to visit. He would sit alone and plan new attacks.</p>
+                    
+    <p> There was a beautiful <persName ref="per.088">girl</persName> in the village and many of the <persName ref="per.087">warriors</persName> desired her. At last the <persName ref="per.086">chief warrior</persName> noticed her, too, and told her <persName ref="per.089">father</persName> that he wanted the <persName ref="per.088">girl</persName> for his wife. The <persName ref="per.089">father</persName> did not want to give his <persName ref="per.088">daughter</persName> to so cruel a man but he knew that he could not keep her from him.</p>
+                    
+    <p>The fierce <persName ref="per.086">warrior</persName> really loved the <persName ref="per.088">girl</persName> and at last he seemed to be happy and his people became more friendly. The <persName ref="per.088">girl</persName> loved her <persName ref="per.086">husband</persName> and she was the only one who could make him change his mind about at anything. He would do almost anything she asked him to do. He was like a fierce animal tamed. But he did not have his <persName ref="per.088">wife</persName> long: in a few months she died.</p>
+                    
+                   <p> When she was buried, he did not moan or cry. He went and sat alone in his lodge. Some of the people went to his lodge but he would not let them in. All night he sat silent in his lodge, and in the morning he came out. His body was covered with war paint. He had his bow and arrows and was ready to go on the warpath, but he did not invite anyone to go with him. He eyes had an angry look. Walking with a firm step, not looking at anyone, he went to where his wife was buried. As he looked down at the grave his muscles seemed to relax and he bowed his head. He picked a flower from the grass nearby and dropped it upon the mound. Then he straightened up and strode off across the prairie.</p>
+                    
+                    <p>He came back in about a month. He brought back the scalps of men, women, and children, and hung them in the smoke of his lodge. The next day he started out again without speaking to anyone in the village. This time he was gone in a week. The people expected to see him bring back more scalps but instead he brought a big lump of salt. His countenance did not look so fierce and some of the bolder ones asked him about the salt. Then he told them this story:</p>
+                    
+    <p>He had traveled many miles over the prairie. The sun had gone down and he was tired. He went to sleep on a hill, but was awakened in the night by the cries of a <persName ref="per.089">woman</persName>. He sat up; it was moonlgiht. A little distance away he saw a decrepit old <persName ref="per.091">hag</persName> holding a tomahawk raised ready to strike. At her feet a young <persName ref="per.089">woman</persName> was kneeling and begging for mercy.</p>
+                    
+    <p>The <persName ref="per.086">chief</persName> wondered how two women came to be there alone in the middle of the night. There was no village within forty miles and he had made sure there was no hunting party near before he lay down to sleep. He got up and stood quite near them but they did not notice him. When the <persName ref="per.089">girl</persName> saw that the old <persName ref="per.091">hag</persName> would show no mercy she jumped up and tried to get hold of the tomahawk but the old <persName ref="per.091">hag</persName> was stronger than she. The <persName ref="per.091">hag</persName> twisted one hand in the <persName ref="per.089">girls</persName>'s long black hair and again raised the tomahawk. As the old
+                        <pb xml:id="p009" facs="nefl.12.009.jpg"/>
+                    <fw>9</fw>
+        <persName ref="per.091">woman</persName> made rady to strike, the <persName ref="per.089">girl</persName>'s face was turned toward the <persName ref="per.086">warrior</persName> and he looked upon the features of his dead <persName ref="per.088">wife</persName>. The <persName ref="per.086">chief</persName> rushed at the <persName ref="per.091">hag</persName> and split her skull with his tomahawk, but suddenly the earth opened and both women sank from sight. The hole closed and a rock of white salt stood on the spot where the women had struggled. The <persName ref="per.086">chief</persName> did not want to leave the spot where he had seen his wife. Finally he broke off a piece of salt from the side where his <persName ref="per.088">wife</persName> knelt and brought it home with him.</p>
+
+                    <fw>(*************************)</fw>
+                    
+    <p>All the tribes who visited the salt basin had heard this story. Many of them believe that the rock of salt is guarded by the old <persName ref="per.091">hag</persName> and that the only way to get any salt is to attack her. They do this by beating the ground with their tomahawks, and the old <persName ref="per.091">hag</persName> wails a protest. They continue this ceremony until they think the <persName ref="per.091">woman</persName> will let them get the salt without performing black magin against them. It is said that even the chiefs who ridicule this superstition perform the ceremony before collecting salt.</p>
+
+</div2>
+<div2 type="article">
+                    
+               <p><title rend="all_caps">The Woman and the Spirits</title></p>
+                    
+    <p>A small <persName ref="per.092">boy</persName> died one <name type="season">spring</name> and was buried on a hill that was bright with grass and flowers. Soon afterward the tribe started out on their annual summer hunt in the sandhills, many days' journey to the west. As they traveled farther from the village, the <persName ref="per.093">mother</persName> felt more and more desolate. Unable to eat the evening meal, she went to the edge of the camp and sat there alone. After awhile she got up and started walking.</p>
+                    
+                   <p> In the morning, weak and tired, she reached the home village. The village was still: there was not even a dog to greet her. She sat and wept for her child. Presently she heard sounds. There seemed to be whispering and murmuring all about her. Every day after that she heard these sounds: they were clearest when she fasted. Gradually she began to understand something of what they were saying. She learned that they were the <persName ref="per.094">spirits</persName> of persons who had died in the village and that it was their custom to come back when the village was deserted.</p>
+                    
+                    <p>In a few days the <persName ref="per.093">mother</persName> could not only hear the spirits but also talk with them. THey did not speak as living people do; there was a murmuring and rustling like the sounds in the grass or the growing grain. The <persName ref="per.093">woman</persName>  could not see the <persName ref="per.094">ghosts</persName> at first. Then she could see feet moving along on the floor, later she could see as far as the knees.</p>
+
+    <p>The people were gone a whole year. They were surprised to find the <persName ref="per.093">woman</persName> in her lodge when they returned; but when they spoke to her, she could not answer them. Her lips moved but no sounds came--not even a whisper.</p>
+                    
+                   <p>In a few days she was able to talk again. She took up her work and lived with her people as she did before the death of her <persName ref="per.092">child</persName>.</p>
+
+</div2>
+<div2 type="article">
+    <pb xml:id="p010" facs="nefl.12.010.jpg"/>
+                    <fw>10</fw>
+                    <p><title rend="all_caps">A Scalped Man Makes Medicine</title></p>
+                    
+    <p> A party of <orgName ref="trb.004">Pawnee</orgName> once went to the country of the <orgName ref="trb.010">Comanche</orgName> Indians to steal ponies, where they were attacked by the <orgName ref="trb.010">Comanches</orgName>. Many of the <orgName ref="trb.004">Pawnee</orgName> warriors were killed and the rest of the party fled in terror. The flight continued until night came when camp was made.</p>
+                    
+    <p>One <persName ref="per.096">man</persName> who was badly wounded was left on the field, with a buffalo that had been killed and dressed by the others, together with water and wood. The party of the <persName ref="per.095">survivors</persName> left, promising to send his relatives to carry him home.</p>
+                    
+    <p>The <persName ref="per.095">party</persName> was scarcely out of sight when the wounded <persName ref="per.096">man</persName> heard voices and thought that the enemy had discovered him. He was frightened but he did not move. Suddenly he heard a laugh and then someone spoke in his ear: "Are you afraid? I amde all that noise."</p>
+                    
+                    <p>The wounded <persName ref="per.096">man</persName> looked around but he could see no one. He missed some of his meat the next morning and he thought that the enemy had surely found him. He was so frightened that he cried out that whoever was stealing his meat should come and kill him. But no one came and each night more of his meat was stolen. Often he heard voices but when he called out, he heard only a laugh in reply. When his last piece of meat was gone he called out again. He then heard a laugh and a <persName ref="per.097">scalped man</persName> appeared before him and said, "I will take you to my home and heal your wounds," whereupon he put the wounded man on his back and carried him to a big cave.</p>
+                    
+                    <p>In the cave he saw blue beads, eagle feathers, pieces of silk, wampum, and many buffalo robes. Back of a buffalo skull was his dried meat. His <persName ref="per.097">savior</persName> laid him on one of the buffalo robes. He looked around but could see no opening and wandered how they had entered the cave.</p>
+                    
+                    <p>Every day the <persName ref="per.097">scalped man</persName> left the cave. And always just before he returned the wounded man would hear voices--war cries and moans. Then he would hear a laugh and the <persName ref="per.097">scalped man</persName> would appear. One day he thought he heard his father and mother calling to him, got up and went to search for them, but could find no door. As he was limping about, the voice of the <persName ref="per.097">scalped man</persName> said, "Get back before the people see you and take you away!" Then he laughed and appeared before the wounded <persName ref="per.096">man</persName>. He told him he had made all the noises but the <orgName ref="trb.004">Pawnee</orgName> would not believe him until he made a noise like many people talking at once. The <persName ref="per.097">scalped man</persName> then offered to give the <orgName ref="trb.004">Pawnee</orgName> this power of making noises.</p>
+                    
+    <p>The <persName ref="per.097">scalped man</persName> taught the <persName ref="per.096">wounded</persName> <orgName ref="trb.004">Pawnee</orgName> to make sounds of voices and to do many slight-of-hand tricks. He healed the wounded leg and put white clay all over his body. He put a white eagle feather in the <orgName ref="trb.004">Pawnee</orgName>'s hair, saying, "This will give you power. It stands for no! I am a spirit!" And he added, "This feather will ehlp you to run fast or to fight or to do whatever you wish. Also, cover your body with white clay. Carry pieces of wild sage with you and they will turn into arrows at your wish. Now I have taught you all that I know. Do not mention me to anyone or I will punish you."</p>
+                    
+                    <p>The scalped man then told him to return to the place where his friends had left him, for in a few days his people would come for him. When his
+    <pb xml:id="p011" facs="nefl.12.011.jpg"/>
+                    <fw>11</fw>
+                    people came they were surprised to find his wound healed. He asked them for some presents of beads, tobacco, and feathers, and, during the night, he slipped away and took the presents to the scalped man. The next morning he started back to the village with his relatives.</p>
+                    
+    <p>He went to the medicine lodge where the <persName ref="per.098">medicine men</persName> were performing and asked them to permit him to do some slight-of-hand tricks. When he controlled his voice so that it sounded like many voices, the <persName ref="per.098">medicine men</persName> were surprised and called him <persName ref="per.096">The Wonder Man</persName>.</p>
+                    
+    <p>During a ceremony of the <persName ref="per.098">medicine men</persName> an alarm was given that the enemy were approaching the village. The <orgName ref="trb.004">Pawnee</orgName> <persName ref="per.099">warriors</persName> rushed out to meet the attack. One of the enemy <persName ref="per.100">warriors</persName> possessed the power to turn arrows so that they would not strike him, and the <orgName ref="trb.004">Pawnee</orgName> were afraid of him. <persName ref="per.096">The Wonder Man</persName> covered his body with white clay, put on the downy feather, hung an eagle wing whistle around his neck and went to the attack. By the time he reached the field of battle, the <orgName ref="trb.004">Pawnee</orgName> were already fleeing from the enemy. The Wonder Man went swiftly to the roar of the enemy and shot arrows at them, and though the enemy returned the fire, he was not hit. The one enemy <persName ref="per.100">warrior</persName> also had power to turn away arrows, but <persName ref="per.096">the Wonder Man</persName> killed him with his war club. When the enemy saw this they gave way, but <persName ref="per.096">the Wonder Man</persName> rushed in and killed many.</p>
+                    
+<p rend="dotted_underline"><persName ref="per.096">The Wonder Man</persName> fought in many battles during his life was never wounded. When he was in middle age, he committed suicide. He knew, by divination, that the <persName ref="per.097">scalped Man</persName> was gone, and did not wish to live.</p>
+                    <fw><hi rend="all_caps">Nebraska Folklore pamphlet</hi> * Number Thirteen will be issued about December 1, 1937, and will contain *Tall Tales.</fw>
+</div2>     
+                
+            </div1>
+        </body>
+    </text>
+</TEI>

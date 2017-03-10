@@ -1,0 +1,775 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nefl.006">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Nebraska Folklore: Pamphlet Six</title>
+                <title level="a" type="sub-title">Animal Legends</title>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <name n="Little, Kirby T." xml:id="ktl">Kirby T. Little</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>University of Nebraska–Lincoln</publisher>
+                <date>2016</date>
+                <availability>
+                    <p> Copyright © 2016 by University of Nebraska–Lincoln, all rights reserved.
+                        Redistribution or republication in any medium, except as allowed under the
+                        Fair Use provisions of U.S. copyright law, requires express written consent
+                        from the editors and advance notification of the publisher, the University
+                        of Nebraska–Lincoln. </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title level="a" type="main">Nebraska Folklore: Pamphlet Six</title>
+                    <title level="a" type="sub-title">Animal Legends</title>
+                    <date when="1939-08-01">August 1, 1939</date>
+                    <publisher>Nebraska Writer's Project</publisher>
+                    <pubPlace>Lincoln</pubPlace>
+                    <note type="project"> Our transcription is based on a digital image of the
+                        original. </note>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>University of Nebraska-Lincoln Special Collections</repository>
+                        <collection><!----></collection>
+                        <idno><!----></idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <particDesc>
+                <listOrg>
+                    <org>
+                        <orgName xml:id="trb.004">Pawnee</orgName>
+                    </org>
+                    <org>
+                        <orgName xml:id="trb.005">Sioux</orgName>
+                    </org>
+                    <org>
+                        <orgName xml:id="trb.003">Dakota</orgName>
+                    </org>
+                    <org>
+                        <orgName xml:id="trb.006" type="band">Kitkehahki</orgName>
+                    </org>
+                </listOrg>
+                <listPerson type="Character_Person">
+                    <person xml:id="per.006">
+                        <persName>Tikewakush</persName>
+                    </person>
+                    <person xml:id="per.110">
+                        <persName>Pawnee Boy</persName>
+                    </person>
+                    <person xml:id="per.114">
+                        <persName>Young Man</persName>
+                    </person>
+                    <person xml:id="per.115">
+                        <persName>Head Chief</persName>
+                    </person>
+                    <person xml:id="per.116">
+                        <persName>Small Boy</persName>
+                    </person>
+                    <person xml:id="per.117">
+                        <persName>Great Doctor</persName>
+                    </person>
+                </listPerson>
+                <listPerson type="Character_Animals">
+                    <person xml:id="per.007">
+                        <persName>Older Brother</persName>
+                    </person>
+                    <person xml:id="per.111">
+                        <persName>Bear</persName>
+                    </person>
+                    <person xml:id="per.112">
+                        <persName>She-Bear</persName>
+                    </person>
+                    <person xml:id="per.113">
+                        <persName>He-Bear</persName>
+                    </person>
+                    <person xml:id="per.118">
+                        <persName>Elk</persName>
+                    </person>
+                    <person xml:id="per.119">
+                        <persName>Bird</persName>
+                    </person>
+                    <person xml:id="per.120">
+                        <persName>Beaver</persName>
+                    </person>
+                    <person xml:id="per.121">
+                        <persName>Ground Dog</persName>
+                    </person>
+                    <person xml:id="per.122">
+                        <persName>Head Bear</persName>
+                    </person>
+                    <person xml:id="per.123">
+                        <persName>Younger Brother</persName>
+                    </person>
+
+                </listPerson>
+                <listPerson type="Character_Spirit">
+                    <person xml:id="per.004">
+                        <persName>Tirawa</persName>
+                    </person>
+                    <person xml:id="per.005">
+                        <persName type="group">Nahurac</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="tgn_2677501">
+                        <placeName>Platte River</placeName>
+                    </place>
+                    <place xml:id="tgn_2062158">
+                        <placeName>Fremont</placeName>
+                    </place>
+                    <place xml:id="tgn_2062028">
+                        <placeName>Central City</placeName>
+                    </place>
+                    <place xml:id="tgn_2062189">
+                        <placeName>Grand Island</placeName>
+                    </place>
+                    <place xml:id="tgn_2036061">
+                        <placeName>Beloit</placeName>
+                    </place>
+                    <place xml:id="tgn_2615042">
+                        <placeName>Republican River</placeName>
+                    </place>
+                    <place xml:id="tgn_2097516">
+                        <placeName>Running Water</placeName>
+                    </place>
+                    <place xml:id="tgn_2362937">
+                        <placeName>Pahowa</placeName>
+                        <placeName>Waconda Spring</placeName>
+                        <placeName>Kitzawitzuk</placeName>
+                        <placeName>Kitsawitsak</placeName>
+                    </place>
+                    <place xml:id="tgn_1130227">
+                        <placeName>Loup River</placeName>
+                    </place>
+                    <place xml:id="tgn_2684746">
+                        <placeName>Paha Wakan</placeName>
+                        <placeName>Pahuk</placeName>
+                        <placeName>Spirit Mound</placeName>
+                    </place>
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2016-04-09" who="#ktl">transcribed and encoded</change>
+            <change when="2016-04-10" who="#ktl">transcribed and encoded</change>
+            <change when="2016-04-12" who="#ktl">transcribed and encoded</change>
+            <change when="2016-04-20" who="#ktl">encoded</change>
+            <change when="2016-04-26" who="#ktl">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="pamphlet">
+                <pb xml:id="p000" facs="nefl.06.000.jpg"/>
+                <figure>
+                    <graphic url="#nefl.006"/>
+                    <figDesc>Highly stylized drawing with a human figure in the center surrounded by
+                        stylized lettering of the phrase Animal Legends. A stylized nature scene of
+                        trees, sky, and animals surround the center figure.</figDesc>
+                </figure>
+                <span>Nebraska Folklore<lb/> Pamphlet Six<lb/> Animal Legends</span>
+                <span> Federal Writers' Project<lb/> Nebraska Aug. 1, 1937 </span>
+                <pb xml:id="p001" facs="nefl.06.001.jpg"/>
+                <fw><hi rend="all_caps"><title type="pamphlet">Nebraska Folklore
+                        Pamphlets</title></hi><lb/> Reproduced from Material Gathered for a Book on
+                    the Folklore of the State<lb/> Issued Irregularly, at Least Once Each Month by the<lb/>
+                    <hi rend="all_caps">Federal Writers' Project in Nebraska</hi>
+                    <lb/> Prepared In Cooperation With the State Superintendent of Public
+                    Instruction</fw>
+                <fw><title type="pamphlet.number">Number Six</title><lb/>
+                    <title type="pamphlet.name">Animals Legends</title><lb/> Lincoln, Nebraska<lb/>
+                    August 1, 1937<lb/> - - - - - - - - - - - </fw>
+                <div2 type="introduction">
+                    <p>These legends are for the most part stories of the supernatural power
+                        possessed by animals. The belief that animals had supernatural power did not
+                        discount the power of a supreme being known to the <orgName ref="trb.004"
+                            >Pawnee</orgName> as <persName ref="per.004">Tirawa</persName>. Within
+                        their habitat the <orgName ref="trb.004">Pawnee</orgName> had certain places
+                        which they held sacred. Five such places of importance in animal legend,
+                        which were also known to other Indian tribes are <placeName
+                            ref="tgn_2684746">Pahuk</placeName>, a promontory in a bend of the
+                            <placeName ref="tgn_2677501">Platte River</placeName> a few miles west
+                        of <placeName ref="tgn_2062158">Fremont</placeName>; Nakiskat, on an island
+                        in the <placeName ref="tgn_2677501">Platte River</placeName> near <placeName
+                            ref="tgn_2062028">Central City</placeName>; Tsuraspakn, (Girl Hill) on
+                        the south side of the <placeName ref="tgn_2677501">Platte</placeName> near
+                            <placeName ref="tgn_2062189">Grand Island</placeName>; <placeName
+                            ref="tgn_2362937">Kitsawitsak</placeName>, known to white People as
+                            <placeName ref="tgn_2362937">Waconda Springs</placeName>, near
+                            <placeName ref="tgn_2036061">Beloit, Kansas</placeName>; and <placeName
+                            ref="tgn_2362937">Pahowa</placeName>, a spring near the <placeName
+                            ref="tgn_2615042">Republican River</placeName>. <placeName
+                            ref="tgn_2684746">Pahuk</placeName>, the chief one of these animal
+                        lodges, was known and held sacred by other Indian tribes. The <orgName
+                            ref="trb.003">Dakotas</orgName> called it <placeName ref="tgn_2684746"
+                            >Paha Wakan</placeName> (Holy Hill).</p>
+                </div2>
+
+                <div2 type="article">
+                    <p>
+                        <title><hi rend="all_caps">The Bear Man</hi></title></p>
+                    <p>There was once a little <orgName ref="trb.004">Pawnee</orgName>
+                        <persName ref="per.110">boy</persName> who pretended that he was a <name
+                            type="animal">bear</name>. Before he was born his father had come upon a
+                        little <persName ref="per.111">bear</persName> cub while on the him. He did
+                        not want to kill it or leave it because it cried after He said, "Child, you
+                        are a <persName ref="per.005">Nahurac</persName>; <persName ref="per.004"
+                            >Tirawa</persName> will take care of you. I hope that when my child is
+                        born the <persName ref="per.005">Nahurac</persName> will take care of him."
+                        When the man returned to the village he told his wife about the <persName
+                            ref="per.111">bear</persName>.</p>
+                    <p>This <persName ref="per.110">boy</persName> was like a <name type="animal"
+                            >bear</name> because his father had petted it and told the mother about
+                        it before he was born. As he grew up he became still more like a <name
+                            type="animal">bear</name>. He told his friends jokingly that he could
+                        turn himself into one.</p>
+                    <p>When he became a man, he started out on the warpath, the leader of some
+                        thirty-five others. They went up on the <placeName ref="tgn_2097516">Running
+                            Water</placeName> and before they reached a village the <orgName
+                            ref="trb.005">Sioux</orgName> discovered them. The <orgName
+                            ref="trb.004">Pawnee</orgName> were over<pb xml:id="p002"
+                            facs="nefl.06.002.jpg"/>powered and all were killed.</p>
+                    <p>The country in which this battle occurred was rocky and overgrown with cedar
+                        trees. After the battle, two <name type="animal">bears</name> came along and
+                        found the dead <orgName ref="trb.004">Pawnee</orgName> lying in a hollow.
+                        The <persName ref="per.112">she-bear</persName> recognized the body of the
+                            <persName ref="per.110">boy</persName> who was like a <name
+                            type="animal">bear</name>. She called the <name type="animal"
+                                ><orig>he-bear</orig></name> and pointed out the <persName
+                            ref="per.110">man</persName>. She said, "Here is the <persName
+                            ref="per.110">boy</persName> who imitated us and sang about us. Can you
+                        help him?" The <persName ref="per.113">he-bear</persName> answered, "I will
+                        try. I have more power `when the sun is shining on me." The day was cloudy
+                        and cold and it was snowing, but now and then the clouds would pass and the
+                        sun would come out for a little while.</p>
+                    <p>The bears gathered up the pieces of the <persName ref="per.110"
+                            >man</persName>. The <persName ref="per.113">he-bear</persName> lay down
+                        and held the pieces to his breast. The <persName ref="per.112"
+                            >she-bear</persName> lay on top of them to warm them. They worked over
+                        the dead <persName ref="per.110">man</persName> with medicine, and often the
+                        bears Would pray, "Father, help me." After a while the <persName
+                            ref="per.110">man</persName> began to move and then he became conscious
+                        and had life.</p>
+                    <p>When he opened his eyes, the <persName ref="per.113">he-bear</persName> said,
+                        "It is not through me, but the <persName ref="per.112">she-bear</persName>,
+                        that you have been brought back to life. You are not yet well and whole. You
+                        must come and live with us, until your wounds are healed." Although the
+                            <persName ref="per.110">man</persName> was very weak and would faint and
+                        fall dawn, the bears took him with them to a cave in the rocks among the
+                        cedars. Here wore their young that they had left when they started out.</p>
+                    <p>The <persName ref="per.110">man</persName> lived with the bears until his
+                        wounds had healed. The bears taught him everything they knew. The <persName
+                            ref="per.113">he-bear</persName> said to the <persName ref="per.110"
+                            >man</persName>, "I am going to make you great, but do not think that I
+                        can do great things of myself. I look above to the giver of all power. I
+                        shall take you home and I want you to imitate us. That shall be a part of
+                        your greatness. I shall look after you and give you a part of myself. If I
+                        am killed, you shall be killed; if I grow old, you shall grow old. Look at
+                        that tree that <persName ref="per.004">Tirawa</persName> made. It is always
+                        green and young. Take some of it with you, and whenever it thunders and
+                        lightens throw some on the fire and let the smoke rise."</p>
+                    <p>The bears made a bearskin cap to cover his naked skull. Soon they set out
+                        upon their journey. When they reached the village it was night. The
+                            <persName ref="per.113">bear</persName> said, "Go into the village and
+                        get me a piece of <name type="animal">buffalo</name> meat, a blue bead, some
+                        Indian tobacco, and some sweet smelling clay." When the <persName
+                            ref="per.110">man</persName> went into the village his father was
+                        surprised and glad to see him; he had supposed that the whole party had been
+                        killed. Then the <persName ref="per.110">man</persName> went back to the
+                            <persName ref="per.113">bear</persName>.</p>
+                    <p>Before they parted the <persName ref="per.113">bear</persName> hugged him,
+                        put his head against the <persName ref="per.110">man</persName>'s cheek, and
+                        said, "My fur that has touched you will bless you and make you great." He
+                        drew his paws down the <persName ref="per.110">man's</persName> arms until
+                        they came to his hands and then he said, "I have rubbed my hands over you so
+                        that you shall be tough and fear nothing. Because my mouth has touched yours
+                        you shall be wise."</p>
+                    <p>The <persName ref="per.110">man</persName> became the greatest of warriors.
+                        he originated the <name type="animal">bear</name> dance celebrated among the
+                            <orgName ref="trb.004">Pawnee</orgName>. He died of old age; the
+                            <persName ref="per.113">bear</persName> died at the same time.</p>
+                    <pb xml:id="p003" facs="nefl.06.003.jpg"/>
+                    <p><title><hi rend="all_caps">Tikewakush: "The Man Who Called the
+                            Buffalo"</hi></title></p>
+                    <p>Sometime before the white men came among them, the various bands of the
+                            <orgName ref="trb.004">Pawnee</orgName> Indians lived in separate
+                        villages. One <name type="season">winter</name> the <orgName ref="trb.006"
+                            >Kitkehahki</orgName> band roamed over the country after <name
+                            type="animal">buffalo</name>, but they were unable to find any. The
+                        women and children cried from hunger.</p>
+                    <p>One of the young <persName ref="per.114">men</persName> felt very sorry for
+                        the sufferers and said to the <persName ref="per.115">Head Chief</persName>,
+                        "I think I can help then. Let them set up a new lodge to meet in outside the
+                        village." The <persName ref="per.115">chief</persName> gave orders to have
+                        this done.</p>
+                    <p>While the lodge was being built, this <persName ref="per.114">man</persName>
+                        would disappear in the night, returning it dawn. Sometimes as he sat in his
+                        lodge he would reach behind him and bring out a small piece of <name
+                            type="animal">buffalo</name> meat and give it to someone, saying, "When
+                        you have had enough to give what is left to someone else.” Although the
+                        piece was small and the person hungry, there was always some left to give
+                        away.</p>
+                    <p>It was the <persName ref="per.115">Head Chief's</persName> custom to ride
+                        through the village occasionally, urging the people to do right by each
+                        other. He announced that this <persName ref="per.114">man</persName> was
+                        going to try to help people. Many gave him presents and each one said, "Try
+                        to help us."</p>
+                    <p>When they were gathered together in the new lodge the <persName ref="per.114"
+                            >man</persName> said, "I thank you for these presents; I shall give them
+                        to the one who gives me power. In four days, help will come."</p>
+                    <p>Every night he disappeared and came back. He said he had been far away. When
+                        he returned the fourth night, he told the people that the <name
+                            type="animal">buffalo</name> were near. On a hill he sacrificed some
+                        eagle feathers, blue beads, and Indian tobacco. When he returned to the camp
+                        he said, "When an object comes to that place of sacrifice do not turn it
+                        back. Just watch.”</p>
+                    <p>The next morning at daylight the people were all in front of their lodges
+                        watching the place of sacrifice. As they looked a great <name type="animal"
+                            >buffalo</name> bull came over the hill, stood there a short time,
+                        walked down the hill, and galloped off past the village. Then the <persName
+                            ref="per.114">man</persName> said, "That is the leader; the whole herd
+                        will follow."</p>
+                    <p>He told the chiefs to send four boys to the top of the hill to look for <name
+                            type="animal">buffalo</name>. They came running back and went to the
+                        chiefs’ lodge and said, “A herd of <name type="animal">buffalo</name> are
+                        coming!”</p>
+                    <p>Then the <persName ref="per.115">chief</persName> rode through the village
+                        and told everyone to make ready for the chase. He said,” Do not leave
+                        anything on the killing ground. Bring the best portions to the new lodge and
+                        we shall have a feast there.”</p>
+                    <p>When the <name type="animal">buffalo</name> came over the hill, the Indians
+                        surrounded them and killed a great number. Each man brought the best
+                        portions of his meat to the new lodge, and for four days and nights they
+                        feasted. The <persName ref="per.114">man</persName> said, “We shall make
+                        three more surrounds. See that none of the meat is wasted. <persName
+                            ref="per.004">Tirawa</persName> does not like waste.” Each night he
+                        disappeared.</p>
+                    <pb xml:id="p004" facs="nefl.06.004.jpg"/>
+                    <p>On the fourth night he said, “Tomorrow the <name type="animal">buffalo</name>
+                        will come again. Be careful not to kill the little yellow <name
+                            type="animal"><orig>calf</orig><reg>buffalo</reg></name> that you will
+                        see with its mother.” They made the second surround and let the <name
+                            type="animal"><orig>calf</orig><reg>buffalo</reg></name> and its mother
+                        go.</p>
+                    <p>The tribe saw that this <persName ref="per.114">man</persName> was great.
+                        They gave him presents, including their best <name type="animal"
+                            >horses</name>.</p>
+                    <p>In the second surround, they again killed a great many <name type="animal"
+                            >buffalo</name>. Their sacks were full; dried meat was piled out of
+                        doors.</p>
+                    <p>As they were about to make this third surround the wind changed, the <name
+                            type="animal">buffalo</name> smelt them and stampeded. The <persName
+                            ref="per.114">man</persName> ran up to the place of sacrifice carrying a
+                        pole on which was tied the skin of a kit <name type="animal">fox</name>. He
+                        waved the pole and called out “Ska-a-a!” The <name type="animal"
+                            >buffalo</name> turned about and ran toward the hunters. Many were
+                        killed.</p>
+                    <p>After this surround, the <persName ref="per.114">man</persName> called the
+                        chiefs and asked, “Are you satisfied?” They answered, “We are satisfied and
+                        thankful to you. Through you the tribe has been saved from starvation.” He
+                        said, “you will make one more surround. Get all you can for that will be the
+                        last of the <name type="animal">buffalo</name> this <name type="season"
+                            >winter</name>. The presents you gave me I give back.” But the people
+                        would not let him return the presents.</p>
+                    <p>During the fourth surround the people again killed many <name type="animal"
+                            >buffalo</name> and saved the meat. That night the <persName
+                            ref="per.114">man</persName> disappeared again. The next morning he
+                        asked the people if they could see any <name type="animal">buffalo</name>,
+                        but they could not.</p>
+                    <p>The next day the Indians broke up camp and started east toward their home.
+                        They had so much meat that they had to make two trips for it. They usually
+                        had no fresh meat, but when this <persName ref="per.114">man</persName> came
+                        in he would always bring in a little piece of meat and divide it among the
+                        people. After it was boiled, everyone would eat, but they could not eat it
+                        all up. The <persName ref="per.114">man</persName> could even change buffalo
+                        chips into meat. He would cover them with his robe and when he took it off
+                        there would be buffalo meat and pemmican.</p>
+                    <p>The people wanted this great <persName ref="per.114">man</persName> to marry
+                        a chief’s daughter and raise children so that his stock would not run out,
+                        but he did not do so.</p>
+                    <p>Once more he saved the tribe from starvation. The second time the suffering
+                        was so great that they called a council and asked him to help. He consented
+                        to help, and again brought the <name type="animal">buffalo</name>, allowing
+                        them to make four surrounds.</p>
+                    <p>When the <persName ref="per.114">man</persName> died, all the people mourned
+                        for him. The <persName ref="per.115">chief</persName> rode around the
+                        village and called out, “I am poor in mind on account of this <persName
+                            ref="per.114">man’s</persName> death.”</p>
+                    <pb xml:id="p005" facs="nefl.06.005.jpg"/>
+                    <p><title><hi rend="all_caps">A Story of Faith</hi></title></p>
+                    <p>Once long ago before the <orgName ref="trb.004">Pawnee</orgName> had doctors’
+                        dances, there was a certain small <persName ref="pers.116">boy</persName> in
+                        one of the tribes. He had peculiar ways and kept to himself. His mother or
+                        father sometimes found him with mud smeared over his face and head. This was
+                        a sign of a doctor, showing that the <persName ref="pers.116">boy</persName>
+                        had faith in the earth from which roots used for medicine are taken.</p>
+                    <p>His parents did not understand his ways, but they did not interfere. After he
+                        had grown up he seemed very thoughtful. He would often sit by himself
+                        fasting and praying. His father, who was a brave but not a chief, was
+                        well-to-do and had plenty of <name type="animal">horses</name>.</p>
+                    <p>When anyone fell ill, this young <persName ref="pers.116">man</persName>
+                        would go to them and cure them. The doctors in the tribe wondered how he
+                        could do this: he had never been taught by them. He did not want to be with
+                        the doctors. He preferred to be alone. Some of the bad doctors became
+                        jealous of him. They had great influence because the people believed they
+                        could lay a curse on a man.</p>
+                    <p>His name became so great that it was well known among the other bands of
+                            <orgName ref="trb.004">Pawnee</orgName>. A great <persName
+                            ref="pers.117">doctor</persName> from another village paid a visit to
+                        this young <persName ref="pers.116">man</persName> and to find out where he
+                        got his knowledge and power. The young <persName ref="pers.116"
+                            >man</persName> greeted him courteously and entertained him in his
+                        lodge. The great <persName ref="pers.117">doctor</persName> said, “You may
+                        come to me for advice.” Although it was contrary to <orgName ref="trb.004"
+                            >Pawnee</orgName> customs, they smoked the doctor’s tobacco all night
+                        long. In the morning he departed.</p>
+                    <p>A short time after the <persName ref="pers.117">doctor</persName> left, the
+                        young <persName ref="pers.116">man</persName> began to be ill. He felt
+                        drowsy and heavy and seemed to be swelling up with some strange disease. The
+                            <persName ref="pers.117">doctor</persName> had poisoned him in some way.
+                        The <persName ref="pers.116">boy</persName> felt disgraced and did not know
+                        what to do. He prayed and fasted for several days at a time, and was so
+                        despondent that he thought of killing himself. He did not tell his trouble
+                        to anyone.</p>
+                    <p>He went out on a hill to meditate and pray, and had not returned when the
+                        tribe set out on a hunt. The father left a horse in the village upon which
+                        he might follow the tribe. When he came back, the village was empty except
+                        for a fine <name type="animal">horse</name> which his father had left for
+                        him. He did not follow the tribe, however, but rode eastward for several
+                        days.</p>
+                    <p>One day he stopped and tied his <name type="animal">horse</name> to a tree
+                        and prayed aloud, “My Father, through you I live and through you that
+                            <persName ref="pers.117">man</persName> put me in this condition. You
+                        are the ruler and nothing is impossible to you. I pray you take this illness
+                        from me.” Then he said, “To you, <name type="animal">fish</name> of the
+                        rivers, you, <name type="animal">birds</name> of the air, you animals that
+                        move upon the earth, and you, oh Sun! I offer up this animal. If you have
+                        any power, intercede for me.” After saying this he stabbed his <name
+                            type="animal">horse</name> and killed it. He placed it upright on its
+                        knees and skinned it that the animals might feed upon it.</p>
+                    <pb xml:id="p006" facs="nefl.06.006.jpg"/>
+                    <p>Although the tribe was camped on the <placeName ref="tgn_2615042">Republican
+                            River</placeName> he went on to a hill by the <placeName
+                            ref="tgn_2677501">Platte River</placeName> called <placeName
+                            ref="tgn_2684746">Pahuk</placeName> by the Indians. As he felt very
+                        badly he stayed there several days. One night, having fallen asleep
+                        exhausted by weeping and praying, he was awakened by a voice saying, “What
+                        are you doing here?” A second and a third night he had the same experience
+                        and each time he saw no one. On the third night he answered the voice,
+                        saying, “Whoever speaks to me, take pity on me.”</p>
+                    <p>As he lay with his head toward the east on the fourth night, something
+                        touched his shoulder. When he looked up he saw a large animal with big black
+                        eyes and a whitish body, (Pah) an <persName ref="per.118"
+                        >elk</persName>.</p>
+                    <p>The <persName ref="per.118">elk</persName> said, “Right here under you is the
+                        home of the (<persName ref="per.005">Nahurac</persName>) animals. We know
+                        your trouble. If one animal’s home fails to help you, I will take you to
+                        another; if that fails, to another. If they cannot help you we still have
+                        the One above.” Having said these things he vanished.</p>
+                    <p>As the <persName ref="pers.116">man</persName> sat absorbed in thought a
+                        voice roused him. It said, “I have passed here many times and have heard you
+                        crying.” Looking up he saw sitting by him a little <persName ref="pers.119"
+                            >bird</persName> blue above white below, with red legs. The <persName
+                            ref="pers.116">boy</persName> replied, “Oh, my brother, you understand;
+                        take pity on me.” The <persName ref="pers.119">bird</persName> said, “You
+                        must not talk that way to me. I am only a servant. Tomorrow night I will
+                        come again and whatever I do, you do also.” The <persName ref="pers.119"
+                            >bird</persName> disappeared and the <persName ref="pers.116"
+                            >man</persName> felt a little hopeful.</p>
+                    <p>The next night when the time came the <persName ref="pers.119"
+                            >bird</persName> flew close and said, “Come, we will go to the edge of
+                        the cut bank.” When they reached the edge the <persName ref="pers.119"
+                            >bird</persName> said, “Do as I do.” So when the <persName
+                            ref="pers.119">bird</persName> dived off the cut bank, the <persName
+                            ref="pers.116">man</persName> followed. As he sprang he felt like a
+                            <persName ref="pers.119">bird</persName> and could sail this way and
+                        that. When he reached the water it seemed that he was standing in the
+                        entrance of a lodge and could see the fire burning within.</p>
+                    <p>The <persName ref="pers.119">bird</persName> flew in ahead of him and said,
+                        “Here he is.” As he stepped forward the bears
+                        growled and the other animals all made sounds. Although a bear stood ready to seize him on one side of the
+                        entrance and on the other a snake was rattling,
+                        coiled as if to strike, something behind seemed to push him ahead. Knowing
+                        that he must enter, he looked neither to the right nor the left but walked
+                        straight ahead. As he passed them they sank back and were quiet. Then the
+                            <persName ref="per.005">Nahurac</persName> made a noise of welcome.
+                        Looking around he saw all kinds of animals--beaver, garfish, otter, and a sandhill crane. The
+                            <persName ref="pers.116">man</persName> looked very pitiful, and the
+                        <persName ref="pers.119">bird</persName> servant said, “I have taken pity on this
+                            <persName ref="pers.116">man</persName> and I want you to take pity on
+                        him.” It was very quiet; as the <persName ref="pers.116">man</persName>
+                        looked about he saw all the animals roll their eyes. Then the <persName ref="pers.119">bird</persName> stood up and said, “My rulers, I am your
+                        servant and am always obedient. I am weary of the crying of this poor-minded
+                            <persName ref="pers.116">man</persName>. Pity him because I pity
+                        him.”</p>
+                    <p>The <persName ref="pers.119">bird</persName> took the young man’s pipe,
+                        walked over to the <persName ref="pers.120">beaver</persName>, the head doctor, and
+                        held it out to him. The <persName ref="pers.120">beaver</persName> stretched out his
+                        hand and withdrew it; as the bird continued to cry, the <persName ref="pers.120">beaver</persName> took the pipe. All the animals were pleased. The <persName ref="pers.120">beaver</persName> said, “I take pity on my ser<pb
+                            xml:id="p007" facs="nefl.06.007.jpg"/>vant, but it is impossible for me
+                        to promise to help this <persName ref="pers.116">man</persName>.” He passed
+                        the pipe to the next doctor who said, “I am poor; I have not much power.”
+                        The pipe went around the circle. The white <persName ref="pers.120">beaver</persName>
+                        then said, “None of us have the power to help you. There is another lodge at
+                            <placeName ref="tgn_2362937">Pahowa</placeName>. Go there.” The
+                            <persName ref="per.005">Nahurac</persName> made medicine and when the
+                        young <persName ref="pers.116">man</persName> awoke he was lying on the hill
+                        where he had slept the night before.</p>
+                    <p>He wept all day. The <persName ref="pers.118">elk</persName> came at night and said,
+                        “Go to sleep and I will take you to <placeName ref="tgn_2362937"
+                            >Pahowa</placeName>.” The <persName ref="pers.116">man</persName> slept;
+                        next morning he awoke on the point of <placeName ref="tgn_2362937"
+                            >Pahowa</placeName>. That night the <persName ref="pers.119"
+                            >bird</persName> came and dived into a spring. As the young <persName
+                            ref="pers.116">man</persName> followed, he found himself again at the
+                        door of a lodge. The same thing happened and the animal doctors told him of
+                        another lodge on the west side of the <placeName ref="tgn_1130227">Loup
+                            River</placeName>. He went to sleep and awakened on top of the ground
+                        near <placeName ref="tgn_2362937">Pahowa</placeName>.</p>
+                    <p>That night the <persName ref="pers.118">elk</persName> took him while he slept to a
+                        place near the bank of the <placeName ref="tgn_1130227">Loup
+                            River</placeName>. The <persName ref="pers.119">bird</persName> led him
+                        over the bank to the <persName ref="per.005">Nahurac</persName> lodge at
+                        that place. Here were the same head doctors. They could not help him and
+                        told him to go to an island in the <placeName ref="tgn_2677501"
+                            >Platte</placeName> near Lone Tree (<placeName ref="tgn_2062028">Central
+                                City</placeName>). The <persName ref="pers.118">elk</persName> took him to the
+                        island and the <persName ref="pers.119">bird</persName> led him to the lodge under
+                        the center of the island. They sent him back to the lodge at <placeName
+                            ref="tgn_2684746">Pahuk</placeName> which the <persName ref="pers.120">beaver</persName> told him was the head lodge.</p>
+                    <p>He reached the lodge at <placeName ref="tgn_2684746">Pahuk</placeName> in the
+                        same manner as he had before. The animals were glad to see him. This time
+                        the <persName ref="pers.116">man</persName> himself asked the animals to
+                        help him. The white <persName ref="pers.120">beaver</persName> took the pipe and
+                        said, “My brother, I have done this to see if any of the other lodges were
+                        equal to me. I have an animal who will undertake to rid you of your
+                        trouble.” He walked to a certain ground <persName ref="pers.121">dog</persName> and
+                        held out the pipe. The ground <persName ref="pers.121">dog</persName> hesitated a
+                        long time. At last he reached out his paws, and the <persName ref="per.005"
+                            >Nahurac</persName> made a very big noise.</p>
+                    <p>The ground <persName ref="pers.121">dog</persName> said, “I have accepted this pipe
+                        for the sake of our servant who has been so faithful to our commands. And if
+                        I fail now, we can do nothing for him.”</p>
+                    <p>After the doctors had smoked, they told the young <persName ref="pers.116"
+                            >man</persName> to sit down between them and the fire. These twelve
+                        animals paced back and forth. At length the head doctor told him to stand
+                        and asked the other <persName ref="per.005">Nahurac</persName> to sing. The
+                        ground <name type="animal">dogs</name> danced, made their hands go up and
+                        down, made their jaws go as if eating but they did not open their mouths.
+                        Next they told him to lie down with his feet toward the entrance. The head
+                        ground <persName ref="pers.121">dog</persName> jumped over the man’s belly and seemed
+                        to be eating a big piece of flesh. Each one ran and jumped over the
+                            <persName ref="pers.116">man</persName> and as they jumped each one was
+                        eating a piece of flesh. As they were jumping, the swelling gradually
+                        disappeared from the young <persName ref="pers.116">man</persName>.</p>
+                    <p>The head ground <persName ref="pers.121">dog</persName> said, “Now, <persName
+                            ref="per.005">Nahurac</persName>, you see the power I have. That is the
+                        reason I do not travel on top of the ground. My appetite would overpower me
+                        and I would kill men and eat them.”</p>
+                    <pb xml:id="p008" facs="nefl.06.008.jpg"/>
+                    <p>The young <persName ref="pers.116">man</persName> had been unconscious since
+                        he first lay down. The ground dogs did not know
+                        how to restore him. The head doctor, the <persName ref="pers.120">beaver</persName>,
+                        said to the bears, “This <persName ref="pers.116"
+                            >man</persName> belongs to you. Let me see what you can do.” The head
+                            <persName ref="pers.122">bear</persName> said, “Very well. I will let you see
+                        what I can do.” First the bears began to sing.
+                        Then the head <persName ref="pers.122">bear</persName> jumped on the <persName
+                            ref="pers.116">man</persName> and acted as if he were going to tear him
+                        to pieces. The other took hold of him and shook him until at last his blood
+                        began to circulate and he began to breathe. After a while he regained
+                        consciousness. He felt as he had many months before and he found that his
+                        trouble was gone. The head <persName ref="pers.122">bear</persName> stood by him and
+                        said, “<persName ref="per.005">Nahurac</persName>, you have seen what I can
+                        do. However dangerously wounded I may be I know how to cure myself if I have
+                        any breath left in me.” The bears then sat down
+                        in their places.</p>
+                    <p>The <persName ref="pers.116">man</persName> arose and thanked the <persName
+                            ref="per.005">Nahurac</persName>. He stayed several days observing their
+                        ceremonies. They taught him their ways and their secrets. One day the head
+                        doctor said, “I wish to ask a favor of you in return for what we have done.”
+                        The <persName ref="pers.116">man</persName> agreed, and the head doctor
+                        continued, “See that my animals that move in the river are fed. I move in
+                        the water. You live in the air but we live where there is no air. The heaven
+                        is the house of <persName ref="per.004">Tirawa</persName> and we all live
+                        inside of it. When you do the things we have taught, you must blow a smoke
+                        to each of these head doctors, and to <persName ref="per.004"
+                            >Tirawa</persName> you must blow four smokes. Blow four to the night and
+                        to the east, for something may then foretell events to you while you sleep.
+                        Now, go home and after a short time pay a visit to the <persName
+                            ref="pers.117">doctor</persName> who caused your trouble.”</p>
+                    <p>The young <persName ref="pers.116">man</persName> arrived home in the night.
+                        His father had long mourned him as dead and was poor in mind on account of
+                        it. He went into his father’s lodge and awakened him. His father said, “Is
+                        it you or your ghost?” The son replied, “I am not a ghost.”</p>
+                    <p>He asked his father to summon his uncles and other relatives and ask them to
+                        bring a blue bead, a pipe, some Indian tobacco, and some buffalo meat. The relatives came to rejoice and bring the
+                        presents. The <persName ref="pers.116">boy</persName> took the presents down
+                        to the river and threw them in; they were carried to the <persName
+                            ref="per.005">Nahurac</persName> lodge at <placeName ref="tgn_2684746"
+                            >Pahuk</placeName>.</p>
+                    <p>After a few days the young <persName ref="pers.116">man</persName> mounted
+                        his <name type="animal">horse</name> and went to visit the <persName
+                            ref="pers.117">doctor</persName>. When he reached the village, someone
+                        said to the <persName ref="pers.117">doctor</persName>, “There is a
+                            <persName ref="pers.116">man</persName> at your lodge.” The <persName
+                            ref="pers.117">doctor</persName> was a little uneasy: he knew what he
+                        had done to the <persName ref="pers.116">boy</persName>. He thought,
+                        however, that he knew so much that no one could overcome him. He welcomed
+                        the <persName ref="pers.116">boy</persName> and took him into his lodge.</p>
+                    <p>After they had eaten the evening meal, the young <persName ref="pers.116"
+                            >man</persName> said, “When you were at my lodge we smoked your tobacco;
+                        tonight we will smoke mine.” While they smoked the <persName ref="pers.116"
+                            >boy</persName> moved his jaws as if eating. At daylight the <persName
+                            ref="pers.116">boy</persName> said he must go. When he reached the river
+                        he blew upon the ice which immediately melted and was full of blood. The
+                        young <persName ref="pers.116">man</persName> had learned the ground dogs’ secrets.</p>
+                    <p>The people found the <persName ref="pers.117">doctor</persName> dead in his
+                        lodge. He was hollow; his blood and insides had gone down the river to feed
+                        the animals. The <persName ref="pers.116">boy</persName> had fulfilled his
+                        promise to the <persName ref="per.005">Nahurac</persName> and had revenge
+                        upon the <persName ref="pers.117">doctor</persName>.</p>
+                    <pb xml:id="p009" facs="nefl.06.009.jpg"/>
+                    <p>The <persName ref="pers.116">boy</persName> became the greatest doctor of his
+                        band and taught his people the doctor’s ceremonies and many other wonderful
+                        things.</p>
+                    <p><title><hi rend="all_caps">The Snake
+                            Brother</hi></title></p>
+                    <p>Once long ago when a party of <orgName ref="trb.004">Pawnee</orgName> were on
+                        the warpath, two brothers got lost in a thick woods. They could not find the
+                        war party; so they decided to try to make their way home. Having no food,
+                        they watched for berries or for something to kill. Finally they came upon a
+                            <name type="animal">buffalo</name> which had been dead for some time.
+                        There was no flesh left but the marrow was still in the bones. They took
+                        some of these bones and carried them along.</p>
+                    <p>They traveled some time before they came out of the woods. The sun had gone
+                        down, so they stopped for the night. In a lone tree near by was a <name
+                            type="animal">squirrel</name>. One of the boys shot him with his bow and
+                        arrow, and they roasted him over a fire.</p>
+                    <p>While the <name type="animal">squirrel</name> was cooking, the older <persName ref="per.007">brother</persName>
+                        said, “I believe the <name type="animal">squirrel</name> and marrow will be
+                        good together.”</p>
+                    <p>The younger <persName ref="per.123">brother</persName> said, “This is not real meant,” (The Indians did not
+                        consider that <name type="animal">squirrel</name> flesh was real meat like
+                        the flesh of <name type="animal">buffalo</name> or <name type="animal"
+                            >elk</name>). “I do not wish to eat them together. You eat them together
+                        if you wish.” So the elder <persName ref="per.007">brother</persName> ate them together, taking a bit of marrow
+                        and then a bit of <name type="animal">squirrel</name>.</p>
+                    <p>In the middle of the night the elder <persName ref="per.007">brother</persName> awoke with a queer feeling in
+                        his legs and feet. He discovered that they were grown together, round like a
+                            <name type="animal">snake</name>, and had a rattle on the end. He woke
+                        the younger <persName ref="per.123">brother</persName> and said, “There is something wrong with my feet and
+                        legs.” The younger <persName ref="per.123">brother</persName> felt of his limbs and saw that he was changing
+                        into a <name type="animal">snake</name>.</p>
+                    <p>The elder <persName ref="per.007">boy</persName> thought about his <persName ref="per.123">brother</persName> alone on the prairie so far from
+                        home. He began telling the younger <persName ref="per.123">brother</persName> what to do while he was still
+                        able to talk. He said, “You will get home safely. I will be a <name
+                            type="animal">snake</name> and remain here, yet I will protect you and
+                        guide you. When I have changed entirely into a <name type="animal"
+                            >snake</name>, carry me to that hole by the tree. When you get home,
+                        tell father and mother what happened. I do not know whether it happened
+                        because I ate the marrow and <name type="animal">squirrel</name> together or
+                        whether it was to happen to me and I could not help it. Come back soon,
+                        alone. Afterwards, whenever you wish to go on the warpath, come this way
+                        with your party. I will help you.” While he was talking the change was
+                        moving up his body. Then the <name type="animal">snake</name> boy said, “Put
+                        the robe over my head for a little while.” When the younger <persName ref="per.123">boy</persName> took the
+                        robe away his <persName ref="per.007">brother</persName> had changed completely into a <name type="animal"
+                            >snake</name>, its head as bread as two hands.</p>
+                    <p>The boy picked up his snake <persName ref="per.007">brother</persName> and placed him
+                        on the ground before the hole. “Now, I am going home,” he said. “I do not
+                        know the country through which I must go. Remember your promises and take
+                        care of me.” He felt very sad, and did not wait to see the <persName ref="per.007">snake</persName> go into the hole; he started on his journey.
+                        When he reached home he told his parents and other relatives what had
+                        happened.</p>
+                    <p>When the young man had been home about ten days he told his mother he was
+                        going on the warpath by himself. He took five pairs of moccasins stuffed
+                        full of parched corn, also a sack of pounded buffalo meat, and set out to see his <persName ref="per.007">brother</persName>.</p>
+                    <p>After a week of fast traveling, he came to the place where he had left his
+                        snake <persName ref="per.007">brother</persName>. He went to the hole and said,
+                        “I am here, <persName ref="per.007">brother</persName>. I have come alone and I want to see you. Remember your
+                        promises.” He heard a rattling, a rustling, and a scraping in the hole; then
+                        out of the hole came a cloud of dust, followed by a huge <persName ref="per.007">snake</persName> that was his brother. Other <name type="animal"
+                            >snakes</name> came out and crawled around, but the snake <persName ref="per.007">brother</persName> remained by the hole. The <persName ref="per.123">boy</persName> took the big <persName ref="per.007">snake</persName> in his arms and hugged it and talked to it.
+                        The <persName ref="per.007">snake</persName> put out his tongue to kiss him. The
+                        young man put his snake <persName ref="per.007">brother</persName> down; all the
+                        other <name type="animal">snakes</name> went back into the hole, and the
+                        snake <persName ref="per.007">brother</persName> followed them.</p>
+                    <p>The young <persName ref="per.123">man</persName> went on his way until sunset, when he came to a creek. Here he
+                        stopped for the night. His snake <persName ref="per.007">brother</persName> came to him in a dream and said, “I
+                        am glad you came to see me; now I will help you. Tomorrow morning dress
+                        yourself for fighting. Put the feathers on your head, and put on the
+                        warpaint.”</p>
+                    <p>The next morning when the <persName ref="per.123">boy</persName> awoke, he did as his <persName ref="per.007">brother</persName> had told him.
+                        After dressing himself to fight, he went on. When he reached the top of a
+                        little hill, he saw some people and several <name type="animal"
+                            >horses</name> coming toward him. He thought it was a small band of
+                            <orgName ref="trb.005">Sioux</orgName>, so he went back and hid in the
+                        bushes where he had slept. The party came nearer and camped just below his
+                        hiding place. Peeking out from time to time, the <persName ref="per.123">boy</persName> saw there was only a
+                        man and a woman and many <name type="animal">horses</name>.</p>
+                    <p>After watching them for some time, he crept slowly through the brush until he
+                        was about twenty yards away. Then he looked again. The woman was cooking. He
+                        could not see the man, but bow and arrows were hanging in a tree. The man
+                        was probably sleeping. As the boy watched he became very excited, thinking
+                        of what he was about to do. As he watched, the woman went towards the <name
+                            type="animal">horses</name> to drive them nearer the camp. When she came
+                        back the boy left his hiding place and ran toward the woman. He was quite
+                        near before she saw him. He told her to stand still or he would kill her. He
+                        shot two arrows into her husband, who lay asleep almost at her feet, and
+                        took his scalp.</p>
+                    <p>He took the woman to where the <name type="animal">horses</name> were grazing
+                        and made her mount a <name type="animal">horse</name>; then he got on
+                        another. Driving the other <name type="animal">horses</name> before them, he
+                        went back to where his snake <persName ref="per.007">brother</persName> lived. He
+                        tied the woman to the tree under which his <persName ref="per.007">brother</persName> lived. He also tied a
+                        spotted <name type="animal">horse</name> and a <name type="animal"
+                            >mule</name> to the tree. Then he went to the hole where his <persName ref="per.007">brother</persName>
+                        lived and said, “<persName ref="per.007">Brother</persName>, I thank you for helping me. I have brought these
+                        two animals and the woman to you. They are yours. I would like to see you
+                        before I 11 go away.” Soon he heard the rattling and saw a cloud of dust
+                        coming from the hole. The snake <persName ref="per.007">brother</persName> came out,
+                        followed as usual by smaller <name type="animal">snakes</name> which climbed
+                        the tree until they were thick above the <persName ref="per.123">boy’s</persName> head. The <persName ref="per.123">boy</persName> took his snake <persName ref="per.007">brother</persName> up in his arms and hugged him, and
+                        the <persName ref="per.007">snake</persName> touched the <persName ref="per.123">boy’s</persName> face with his tongue.
+                        After a time the <persName ref="per.123">boy</persName> put the <persName ref="per.007">snake</persName> down and set
+                        out on his long journey home.</p>
+                    <p>Two or three days after the first war party visited the snake <persName ref="per.007">brother</persName>, they came upon a band of <orgName ref="trb.005"
+                            >Sioux</orgName>, took a lot of <name type="animal">horses</name>, and
+                        killed many of their enemies. They went back by way of the <persName ref="per.007">snake’s</persName> home, and left a <name type="animal"
+                            >horse</name> and the scalps they had taken as presents to the snake <persName ref="per.007">brother</persName>.</p>
+                    <p>The next time a war party went out, it happened that the <persName ref="per.123">boy</persName> could not go
+                        along, but he said to them, “Go to my <persName ref="per.007">brother</persName>, leave presents, and ask his
+                        help.” They did as the <persName ref="per.123">boy</persName> said and they were successful.</p>
+                    <p>The <persName ref="per.123">boy</persName> was always lucky in war. All the warriors wanted to go with him on
+                        the warpath, for they knew his snake <persName ref="per.007">brother</persName> would help them. The <persName ref="per.123">boy</persName> grew
+                        very rich, with many <name type="animal">horses</name>, and became a great
+                        chief.</p>
+                    <fw>- - - - - - - - - - -<lb/>Nebraska Folklore Pamphlet Number Seven will be
+                        issued on or before<lb/> Sept. 1, 1937, and will contain Children’s
+                        Games.</fw>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>

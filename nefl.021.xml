@@ -1,0 +1,1167 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nefl.021">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Nebraska Folklore: Pamphlet Twenty-One</title>
+                <title level="a" type="sub-title">Santee-Sioux Indian Legends</title>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <name n="Little, Kirby T." xml:id="ktl">Kirby T. Little</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>University of Nebraska–Lincoln</publisher>
+                <date>2016</date>
+                <availability>
+                    <p>Copyright © 2016 by University of Nebraska–Lincoln, all rights reserved.
+                        Redistribution or republication in any medium, except as allowed under the
+                        Fair Use provisions of U.S. copyright law, requires express written consent
+                        from the editors and advance notification of the publisher, the University
+                        of Nebraska–Lincoln.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title level="a" type="main">Nebraska Folklore: Pamphlet Twenty-One</title>
+                    <title level="a" type="sub-title">Santee-Sioux Indian Legends</title>
+                    <date when="1939-05-01">May, 1939</date>
+                    <publisher>Nebraska Writer's Project</publisher>
+                    <pubPlace>Lincoln</pubPlace>
+                    <note type="project"> Our transcription is based on a digital image of the
+                        original. </note>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>University of Nebraska-Lincoln Special Collections</repository>
+                        <collection><!----></collection>
+                        <idno><!----></idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+
+
+            <particDesc>
+                <listOrg>
+                    <org>
+                        <orgName xml:id="trb.001">Santee-Sioux</orgName>
+                    </org>
+                    <org>
+                        <orgName xml:id="trb.002">Blackfeet</orgName>
+                    </org>
+                    <org>
+                        <orgName xml:id="trb.003">Dakota</orgName>
+                    </org>
+                </listOrg>
+                <listPerson type="Character_Person">
+                    <person xml:id="per.008">
+                        <persName>Canktewin</persName>
+                        <persName>Younger Sister</persName>
+                    </person>
+                    <person xml:id="per.012">
+                        <persName>Wahmnuhahtahghosha</persName>
+                        <persName>Pearl Spitter</persName>
+                    </person>
+                    <person xml:id="per.013">
+                        <persName>Arrow-points</persName>
+                        <persName>Eagle-foot</persName>
+                    </person>
+                    <person xml:id="per.018">
+                        <persName>Hunter</persName>
+                    </person>
+                    <person xml:id="per.019">
+                        <persName>Hunter</persName>
+                    </person>
+                    <person xml:id="per.020">
+                        <persName>Hunter's Daughter</persName>
+                    </person>
+                    <person xml:id="per.021">
+                        <persName>Hunter's Wife</persName>
+                    </person>
+                    <person xml:id="per.022">
+                        <persName type="group">Medicine Men</persName>
+                    </person>
+                    <person xml:id="per.023">
+                        <persName>Medicine Man Chief</persName>
+                    </person>
+                    <person xml:id="per.024">
+                        <persName>Old Man</persName>
+                    </person>
+                    <person xml:id="per.025">
+                        <persName>Squaw</persName>
+                    </person>
+                    <person xml:id="per.026">
+                        <persName>Rabbit</persName>
+                        <persName>Casko</persName>
+                    </person>
+                    <person xml:id="per.027">
+                        <persName>Younger Daughter</persName>
+                    </person>
+                    <person xml:id="per.028">
+                        <persName>Older Daughter</persName>
+                    </person>
+                    <person xml:id="per.029">
+                        <persName>Old Woman</persName>
+                    </person>
+                    <person xml:id="per.030">
+                        <persName>Old Woman</persName>
+                    </person>
+                    <person xml:id="per.031">
+                        <persName>Old Woman</persName>
+                    </person>
+                    <person xml:id="per.032">
+                        <persName type="group">Young Women</persName>
+                    </person>
+                    <person xml:id="per.033">
+                        <persName>Orphan Boy</persName>
+                    </person>
+                    <person xml:id="per.034">
+                        <persName type="group">Men</persName>
+                    </person>
+                    <person xml:id="per.035">
+                        <persName type="group">Beautiful Young Women</persName>
+                    </person>
+                    <person xml:id="per.036">
+                        <persName>Old Woman</persName>
+                    </person>
+                    <person xml:id="per.037">
+                        <persName>Chief</persName>
+                    </person>
+                    <person xml:id="per.038">
+                        <persName>Honorable Man</persName>
+                    </person>
+                    <person xml:id="per.039">
+                        <persName type="group">Sons</persName>
+                    </person>
+                    <person xml:id="per.040">
+                        <persName>Boatman</persName>
+                    </person>
+                    <person xml:id="per.041">
+                        <persName>Elder Sister</persName>
+                    </person>
+                    <person xml:id="per.043">
+                        <persName>Old Woman</persName>
+                    </person>
+                    <person xml:id="per.044">
+                        <persName>Silent Man</persName>
+                    </person>
+                    <person xml:id="per.045">
+                        <persName>Small Boy</persName>
+                    </person>
+                    <person xml:id="per.107">
+                        <persName>Dwarf</persName>
+                    </person>
+                    <person xml:id="per.108">
+                        <persName>Young Women</persName>
+                    </person>
+                </listPerson>
+
+                <listPerson type="Character_Animal">
+                    <person xml:id="per.014">
+                        <persName type="group">Ducks</persName>
+                    </person>
+                    <person xml:id="per.015">
+                        <persName>Swan</persName>
+                    </person>
+                    <person xml:id="per.016">
+                        <persName>Fox</persName>
+                        <persName>Buffalo</persName>
+                    </person>
+                    <person xml:id="per.017">
+                        <persName>Buffalo</persName>
+                    </person>
+                    <person xml:id="per.109">
+                        <persName>Beaver</persName>
+                    </person>
+                </listPerson>
+
+                <listPerson type="Character_Spirit">
+                    <person xml:id="per.009">
+                        <persName>The Spider</persName>
+                        <persName>Unktomi</persName>
+                    </person>
+                    <person xml:id="per.010">
+                        <persName>Heyoka</persName>
+                    </person>
+                    <person xml:id="per.011">
+                        <persName>Tahkushkanshkan</persName>
+                    </person>
+                    <person xml:id="per.042">
+                        <persName>Wanaghis</persName>
+                    </person>
+
+                </listPerson>
+
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="tgn_7007525">
+                        <placeName>Nebraska</placeName>
+                    </place>
+                    <place xml:id="tgn_7007521">
+                        <placeName>Minnesota</placeName>
+                    </place>
+                    <place xml:id="tgn_7007713">
+                        <placeName>South Dakota</placeName>
+                    </place>
+                    <place xml:id="tgn_7014086">
+                        <placeName>Missouri River</placeName>
+                    </place>
+                    <place xml:id="tgn_2001369">
+                        <placeName>Knox County</placeName>
+                    </place>
+                    <place xml:id="tgn_1110442">
+                        <placeName>Cypress Hill</placeName>
+
+                    </place>
+
+
+
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2016-04-11" who="#ktl">transcribed and encoded</change>
+            <change when="2016-04-12" who="#ktl">transcribed and encoded</change>
+            <change when="2016-04-14" who="#ktl">transcribed and encoded</change>
+            <change when="2016-04-16" who="#ktl">encoded</change>
+            <change when="2016-04-19" who="#ktl">encoded</change>
+            <change when="2016-04-19" who="#ktl">edited encoding</change>
+            <change when="2016-04-26" who="#ktl">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="pamphlet">
+                <pb xml:id="p000" facs="nefl.21.000.jpg"/>
+                <figure>
+                    <graphic url="#nefl.021"/>
+                    <span>Nebraska<lb/>Folklore<lb/>Pamphlet Twenty-One<lb/>Santee-Sioux Indian
+                        Legends</span>
+                    <figDesc>Stylized text for the title Santee-Sioux Indian Legends. Next to the
+                        title is a simple pen drawing of a spear.</figDesc>
+                    <span> Federal Writers' Project<lb/>Nebraska May 1939</span>
+                </figure>
+
+
+                <pb xml:id="p001" facs="nefl.21.001.jpg"/>
+                <fw><title type="pamphlet"><hi rend="all_caps">Nebraska Folklore
+                        Pamphlets</hi></title><lb/>Reproduced from Material Gathered for a Book on
+                    the Folklore of the State<lb/>Issued Irregularly by the<lb/><hi rend="all-caps"
+                        >Federal Writers' Project in Nebraska</hi><lb/> J. Harris Gable, State
+                    Director<gap/>Robert E. Carlson, Editor<lb/>Lincoln, Nebraska <lb/>Prepared In
+                    Cooperation With the State Superintendent of Public<lb/> Instruction<lb/>
+                    <title type="pamphlet.number">Number Twenty-One</title><lb/><title
+                        type="pamphlet.name"><hi rend="all-caps">Santee-Sioux Indian
+                        Legends</hi></title><lb/>May, 1939<lb/> -----------------</fw>
+                <div2 type="introduction">
+                    <p>These eight <orgName ref="trb.001">Santee</orgName> Indian legends have been
+                        collected from the files of the <hi rend="underline">Word
+                        Carrier</hi>&#8212;a missionary paper published by the <orgName
+                            ref="trb.001">Santee</orgName> Mission School. They appeared between the
+                        years of 1883 and 1887 when the paper had a circulation of less than 300
+                        copies.</p>
+                    <p>"The Two Hunters," "The Orphan Boy," "The Fox," and "Canktewin&#8212;the
+                        Ill-Fated Woman," were translated by Miss Julia LaFramboise, a teacher and
+                        missionary in the Santee Normal Training School. "The Spider and the ducks"
+                        was translated by Peter Hunter. The translations of "The Rabbit," "The
+                        Beaver," and "The Hunter" are anonymous.</p>
+                    <p>As published in the <orgName ref="trb.001">Santee</orgName> missionary paper,
+                        the translations were very rough and made no attempt at literary style.
+                        Consequently they have been subject to considerable editing to clarify their
+                        meaning, although every attempt has been made to retain the simple, almost
+                        childlike style of the <orgName ref="trb.001">Santee</orgName> original.</p>
+                    <p>Like most Indian legends, these have lost a great deal of their original
+                        charm and interest in translation and in print. So much of their effect
+                        depends upon the gestures of the story-teller and their natural setting.</p>
+                    <p>Certain references to large bodies of water not found in <placeName
+                            ref="tgn_7007525">Nebraska</placeName>, such as the sea mentioned in the
+                        "Orphan Boy," relate to the lakes of <placeName ref="tgn_7007521"
+                            >Minnesota</placeName>, where the tribe originated. The <orgName
+                            ref="trb.001">Santee</orgName> were moved to <placeName
+                            ref="tgn_7007713">South Dakota</placeName> and lived there until April,
+                        1866, when (on account of the barrenness of their location) they were moved
+                        to their present domain in <placeName ref="tgn_2001369">Knox
+                            County</placeName>, in northeastern <placeName ref="tgn_7007525"
+                            >Nebraska</placeName>, on the bank of the <placeName ref="tgn_7014086"
+                            >Missouri River</placeName>.</p>
+
+                </div2>
+
+                <div2 type="article">
+                    <p>
+                        <title><hi rend="all_caps">The Spider and the Ducks</hi><lb/>Translated by
+                            Peter Hunter</title></p>
+                    <p>The <persName ref="per.009">Spider</persName> [<orgName ref="trb.001"
+                            >Santee</orgName> name for evil spirit] was searching for food on the
+                        plains when he came to the base of a high hill. Thinking to find food at its
+                        top, he laboriously climbed one of its steep sides. When he reached his
+                        destination he saw before him a large lake which stretched from the base of
+                        the hill into the distance as far as the eye could see. Many <persName
+                            ref="per.014">ducks</persName> were floating on its shiny surface. The
+                            <persName ref="p.009">Spider</persName>, becoming ravenously hungry<pb
+                            xml:id="p002" facs="nefl.21.002.jpg"/> at sight of the <name
+                            type="animal"><choice>
+                                <orig>water fowl</orig>
+                                <reg>ducks</reg>
+                            </choice></name>, began to scheme how he could get some of them to eat.
+                        Finally, after some minutes of thought, a plan came to him. He descended to
+                        the base of the hill, where he had started, and gathered a bundle of hay
+                        which he carried to the hilltop.</p>
+                    <p>This time he stood erect on the hilltop so that all the <name type="animal"
+                            >ducks</name> could see him; one of them said: "Hello, old <name
+                            type="animal">Spider</name>, what do you carry on your back?" "Songs,"
+                        replied the <persName ref="p.009">Spider</persName>. To this remark they all
+                        answered, "You had better come down and sing to us." The <name type="animal"
+                            >Spider</name> immediately accepted their invitation and descended to
+                        the lake shore near the <persName ref="per.014">ducks</persName>, where he
+                        proceeded to fashion a lodge from the hay he was carrying. When he had
+                        finished the lodge he invited the <persName ref="per.014">ducks</persName>
+                        to come in and sit down. It took a long time for the <persName ref="per.014"
+                            >ducks</persName> to get in because there were so many of them.</p>
+                    <p>When all of the <persName ref="per.014">ducks</persName> were seated the
+                            <persName ref="per.009">Spider</persName> closed the door and told them
+                        to shut their eyes. Then he began to sing:</p>
+                    <lg type="song">
+                        <l>"Whoever opens his eyes</l>
+                        <l>Must have red eyes, red eyes,</l>
+                        <l>Whoever opens his eyes</l>
+                        <l>Must have red eyes, red eyes,</l>
+                        <l>Whoever opens his eyes must have red eyes."</l>
+                    </lg>
+                    <p>The <persName ref="per.014">ducks</persName> liked the song and began dancing
+                        to its tune. The <persName ref="p.009">Spider</persName> kept on singing; at
+                        the same time he went from one <persName ref="per.014">ducks</persName> to
+                        another and twisted off its neck, until the necks of half the <persName
+                            ref="per.014">ducks</persName> in the lodge had been twisted off. Then
+                        he came to a <persName ref="per.015">swan</persName>, who had been visiting
+                        the <persName ref="per.014">ducks</persName> on the lake and had followed
+                        his companions into the lodge to hear the <persName ref="per.009"
+                            >Spider</persName> sing, and attempted to twist his head off. But the
+                            <name type="animal">swan's</name> neck was too long and strong for the
+                            <persName ref="p.009">Spider</persName> to break it off. So the
+                            <persName ref="per.015">swan</persName>, who was badly frightened, said,
+                        "Quack! quack!" One of the young <persName ref="per.014">ducks</persName>,
+                        upon hearing this warning, opened his eyes and at once saw many dead
+                            <persName ref="per.014">ducks</persName> in the lodge. He cried out in
+                        alarm: "Open your eyes, all of you, the <persName ref="p.009"
+                            >Spider</persName> has killed almost the entire flock!" All of the
+                        remaining <persName ref="per.014">ducks</persName> opened their eyes when
+                        they heard what had happened to their companions. Their eyes immediately
+                        became red, as the <persName ref="p.009">Spider</persName> had said they
+                        would. This is the reason why <persName ref="per.014">ducks</persName>, to
+                        this day, always have red eyes.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">The Fox</hi><lb/>Translated by Julia
+                            LaFramboise<lb/>Part I</title></p>
+                    <p>A <persName ref="per.016">fox</persName>, who had spent many days searching
+                        for something to eat, was on the point of starvation when he came to a large
+                        tent of buffalo skins. Although at first afraid to venture into the tent, in
+                        which he could hear two men were talking, his hunger finally compelled him
+                        to do so. The first thing he saw, after he had entered, was a pot of venison
+                        cooking over a fire. On either side of the fire sat two old blind men; they
+                        were discussing old times while waiting for their meat to be cooked. The
+                            <persName ref="per.016">fox</persName>, perceiving that they were blind,
+                        grew bolder and, seeing a rib sticking out of the pot, slyly took it out and
+                        picked off the meat. Then he took another and<pb xml:id="p003"
+                            facs="nefl.21.003.jpg"/> still another, until nothing was left but a
+                        pile of bare rib bones. These he replaced in the pot.</p>
+                    <p>At last one of the blind men said, "Well, I think this meat must be done." He
+                        removed the pot from the fire but found it contained nothing but bones. He
+                        then said to the other old man, "You artful, good-for-nothing fellow: You
+                        thought to cheat me out of my dinner." The other man, in great surprise at
+                        the accusation of his companion, became enraged. Each accused the other of
+                        being the guilty one, in load and angry tones. The <persName ref="per.016"
+                            >fox</persName> meanwhile took up a stick and, going very stealthily up
+                        to one of them, struck him with it. The blind man at once turned and accused
+                        the other man of striking him. The <persName ref="per.016">fox</persName>
+                        then struck the other man. Both blind men thereupon flew at each other in
+                        great wrath, which so excited the <name type="animal">fox</name> that he
+                        giggled. The blind men ceased fighting and enquired who had come. The
+                            <persName ref="per.016">fox</persName>, smoothing his face, answered, "A
+                        traveler."</p>
+                    <p>The old men, very much ashamed of their quarrel with each other, resumed
+                        their respective places and welcomed the stranger. They told him to partake
+                        of the dried <name type="animal">buffalo</name> meat which was packed away
+                        in skins in great piles around the tent. The <persName ref="per.016"
+                            >fox</persName> accepted their invitation and ate until he could eat no
+                        more. Then said the old men, "If you are without provisions for the way,
+                        take one of the sacks of buffalo meat." So the <persName ref="per.016"
+                            >fox</persName> selected the largest and went on his way rejoicing. The
+                        meat was so good, however, that he stopped every little while to eat. Very
+                        soon he had nothing left but the skin in which the meat was packed; this he
+                        rationed out so it would last for two days. When the last mouthful of this
+                        was gone he was as famished as ever.</p>
+                    <p>One day, when he thought he would die of hunger, he saw a fat <name
+                            type="animal">buffalo</name> feeding on the green grass. The <persName
+                            ref="per.016">fox</persName> immediately hid in the tall grass, and was
+                        trying to devise some way of killing the <persName ref="per.017"
+                            >buffalo</persName> when the animal looked up and saw him. He said,
+                        "What do you want, my young brother?" The <persName ref="per.016"
+                            >fox</persName> came forward and answered, "Ah! my brother, you see how
+                        starved I am. Oh, that I were a <name type="animal">buffalo</name> so I
+                        could feed on green grass and grow fat like you!" The <persName
+                            ref="per.017">buffalo</persName>, hearing his wish, replied, "Would you
+                        indeed be a <name type="animal">buffalo</name> if you could?" Since you
+                        would be, you shall. Do you see yonder knoll? Go and sit upright on it and I
+                        will come up the hill and jump over you." The <persName ref="per.016"
+                            >fox</persName> obeyed the <name type="animal">buffalo</name> and took
+                        his position. The <name type="animal">buffalo</name>, with staring eyes and
+                        foaming mouth, came galloping up the hill, frightening the <persName
+                            ref="per.016">fox</persName> so much that he jumped to one side. The
+                            <persName ref="per.017">buffalo</persName> said, "You have now spoiled
+                        it all. You can never be a <name type="animal">buffalo</name> if you don't
+                        sit still and let me jump over you." The <persName ref="per.016"
+                            >fox</persName> was very penitent and promised to sit still the next
+                        time if the <name type="animal">buffalo</name> would try once more. Again
+                        the <persName ref="per.016">fox</persName> sat on the knoll, but when he saw
+                        the <name type="animal">buffalo</name> coming at him so fiercely he jumped
+                        aside a second time. The <persName ref="per.017">buffalo</persName>, now
+                        angry, said, "Since you are such a coward it is best that you remain a
+                        half-starved <persName ref="per.016">fox</persName>." But the <persName
+                            ref="per.016">fox</persName> entreated him to try once more. This time
+                        the <persName ref="per.016">fox</persName> sat still. The <name
+                            type="animal">buffalo</name>, as he jumped over him, knocked him over
+                        with his hoof, causing the <persName ref="per.016">fox</persName> to tumble
+                        down the hill. When the <persName ref="per.016">fox</persName> got up from
+                        his fall he was a <name type="animal">buffalo</name>. He immediately began
+                        to eat the green grass, which grew profusely in the vicinity.</p>
+                    <p><title>Part II</title></p>
+                    <p>The <persName ref="p.009">Spider</persName> [Evil spirit] was hunting in the
+                        prairie with a quiver full of weeds and a tall weed for a bow. During his
+                        hunt he met the <name type="animal">buffalo</name>, to<pb xml:id="p004"
+                            facs="nefl.21.004.jpg"/> whom he said, "Why, the last time I saw you,
+                        you were a poor hungry <persName ref="per.016">fox</persName>." The
+                            <persName ref="per.016">fox</persName> then told him how a kind <name
+                            type="animal">buffalo</name> had turned him into a <name type="animal"
+                            >buffalo</name> so that he might not be hungry as long as there was
+                        grass to eat. <persName ref="per.009">Unktomi</persName> [the Evil Spirit]
+                        answered, "This, indeed, has been a hard year. Famine is in all the land.
+                        Turn me into a <name type="animal">buffalo</name> that I may not be hungry."
+                        "Well," said the good natured <persName ref="per.016">fox</persName>, "get
+                        up on yonder knoll and I will jump over you." <persName ref="per.009"
+                            >Unktomi</persName> did as he was told, but when he saw the <persName
+                            ref="per.016">fox-buffalo</persName> running toward him he jumped aside.
+                        The <persName ref="per.016">fox</persName>-<name type="animal"
+                            >buffalo</name> then said, "You will never be a <name type="animal"
+                            >buffalo</name> if you are such a coward." <persName ref="per.009"
+                            >Unktomi</persName> sat down on the knoll again, and as the <persName
+                            ref="per.016">fox buffalo</persName> jumped over him he hit <persName
+                            ref="per.009">Unktomi</persName>; but instead of turning the <persName
+                            ref="p.009">Spider</persName> into a <name type="animal">buffalo</name>,
+                        he was himself turned back into a <persName ref="per.016">fox</persName>.
+                        After <persName ref="per.009">Unktomi</persName> had seen what had happened
+                        he sat down and laughed immoderately while the poor <persName ref="per.016"
+                            >fox</persName> sneaked out of sight.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">The Two Hunters</hi><lb/>Translated by Julia
+                            LaFramboise</title></p>
+                    <p>Two hunters started out form a camp on a day when the snow was deep and game
+                        was scarce. One of them was successful in his chase, but the other <persName
+                            ref="per.018">hunter</persName> did not succeed in finding any game.
+                        When the fortunate <persName ref="per.019">man</persName> sat down on a log
+                        to rest the other <persName ref="per.018">man</persName> came over to sit
+                        beside him. They smoked their pipes and talked about the events of the day.
+                        The unfortunate <persName ref="per.018">hunter</persName> expected,
+                        according to the Indian hunters' courtesy, the successful <persName
+                            ref="per.019">hunter</persName> to share his game with him. But the
+                        successful <persName ref="per.019">hunter</persName>, after having smoked
+                        his pipe, took up his <name type="animal">deer</name> and walked off without
+                        further ceremony. This insult was deeply resented by the other <persName
+                            ref="per.018">man</persName>, who decided to have revenge. He at once
+                        resolved to kill the other hunter's <persName ref="per.020"
+                            >daughter</persName>, as his Wakan [sacred medicines] would enable him
+                        to do so without detection, since he was a medicine man.</p>
+                    <p>When he came to his tent he opened his medicine bag and prayed to his gods to
+                        send a disease that would immediately kill the successful hunter's <persName
+                            ref="per.020">daughter</persName>. The prayer of hatred was answered and
+                        the hunter's <persName ref="per.020">daughter</persName> died. The
+                        successful <persName ref="per.019">hunter</persName>, who knew his <persName
+                            ref="per.020">daughter</persName> had died from an unnatural death,
+                        desired to find out who had caused her death. When she was laid on a
+                        scaffold in the top of a tree (which was the way the <orgName ref="trb.001"
+                            >Santee</orgName> buried their dead) he lay down beside her, knowing
+                        that the <persName ref="per.018">man</persName> responsible for her death
+                        would come in the night to cut off the tongue of his <persName ref="per.020"
+                            >victim</persName>. He did not have to wait long. As soon as the sun had
+                        gone down he heard a rushing sound like that of a whirlwind. A winged
+                            <persName ref="per.018">man</persName> flew over him and lit beside his
+                            <persName ref="per.020">daughter's</persName> corpse. The <persName
+                            ref="per.019">father</persName> scanned the countenance of the <persName
+                            ref="per.018">man</persName> who was preparing to cut out his <persName
+                            ref="per.020">victim's</persName> tongue, and recognized the features of
+                        the slighted <persName ref="per.018">hunter</persName>.</p>
+                    <p>As the <persName ref="per.018">medicine man</persName> proceeded with his
+                        terrible work he asked the corpse: "Do you still eat of your <persName
+                            ref="per.019">father's</persName> venison?" Whereat the enraged
+                            <persName ref="per.019">father</persName> seized him, saying, "Yes, she
+                        still eats of it!" The struggle between the two powerful men was long and
+                        terrible, but when the beams of the pale moon shot out from behind a cloud
+                        the stricken <persName ref="per.019">father</persName> was avenged.</p>
+                    <p>The <persName ref="per.019">father</persName> of the dead <persName
+                            ref="per.020">girl</persName> cut up the corpse of the <persName
+                            ref="per.018">medicine man</persName> and took it home, where he told
+                        his <persName ref="per.021">wife</persName> he had brought fresh meat for
+                        her to<pb xml:id="p005" facs="nefl.21.005"/> put in the pot. After it was
+                        put on to boil he called all the <persName ref="per.022">members</persName>
+                        of the medicine fraternity to a feast. The <persName ref="per.019"
+                            >host</persName> did not speak until after the last man was through
+                        eating and the pipe was passed around the group. Then he said: "You all know
+                        that my <persName ref="per.020">daughter</persName> has been killed by
+                        medicine; 'tis useless to deny it." They all answered, "Yes." Then the
+                            <persName ref="per.019">host</persName> went on: "My <persName
+                            ref="per.020">daughter</persName> death was the work of one of your
+                        fraternity, of one of your greatest <persName ref="per.022">medicine
+                            men</persName>, whom I called to attend this feast and who did not come.
+                        But I caught him, and it was of him you have made such a hearty meal. I am
+                        avenged."</p>
+                    <p>The <persName ref="per.022">medicine men</persName> all looked grave as their
+                            <persName ref="per.023">chief</persName> speaker stood up and said: "It
+                        was just. Since he was so bungling as to be caught he deserves his
+                        fate."</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">The Rabbit</hi><lb/>Translator
+                        anonymous</title></p>
+                    <p>An old <persName ref="per.024">man</persName> lived with his <persName
+                            ref="per.025">squaw</persName> and two daughters, for whom he used to
+                        fetch wood. One day, when he was chopping wood, he heard some one whistling.
+                        Upon looking around he saw, sitting by a distant tree, a <persName
+                            ref="per.026">rabbit</persName> motioning for him to come over. The
+                            <name type="animal">rabbit</name>, upon his approach, gave him an acorn
+                        and told him to crack it open in his stable when he went home. The old
+                            <persName ref="per.024">man</persName>, when he came to his stable, did
+                        as he was told. To his surprise a wagon came out of the acorn.</p>
+                    <p>The next day, when again he went after wood, he met the same <persName
+                            ref="per.026">rabbit</persName> who gave him another acorn. This time it
+                        contained a harnessed team of <name type="animal">horses</name>.</p>
+                    <p>The <persName ref="per.026">rabbit</persName> on the third day gave him an
+                        acorn that was to be cracked open in the tepee. It contained a pack full of
+                        clothes for his two daughters.</p>
+                    <p>The old <persName ref="per.024">man</persName> told his daughters on the
+                        morning after they had received their clothes that there was a young
+                            <persName ref="per.026">man</persName> who had been very good to him and
+                        wanted to know which one of his daughters would marry him. They both thought
+                        they would like to. The old <persName ref="per.024">man</persName> went to
+                        the tree and found the <persName ref="per.026">rabbit</persName> and asked
+                        him to come home with him. The <persName ref="per.026">rabbit</persName>,
+                        now very bashful, did not want to go. So the old <persName ref="per.024"
+                            >man</persName> picked him up, put him in the wagon and took him home by
+                        force. When they got there he took the <persName ref="per.026"
+                            >rabbit</persName> out, carried him into the house and said to his
+                        daughters, "Here he is." The daughters looked at the <persName ref="per.026"
+                            >rabbit</persName> and said they did not want him. This made the
+                            <persName ref="per.026">rabbit</persName> feel ashamed, so he crept
+                        under the bed. Before long he crawled out as a young <persName ref="per.026"
+                            >man</persName>, dressed in grey clothes. Then they both wanted to marry
+                        him. But the <persName ref="per.027">younger</persName> one said to the
+                            <persName ref="per.028">older</persName>, "You must not marry him,
+                        because you hate him so." So the <persName ref="per.027">younger
+                            daughter</persName> and the young <persName ref="per.026">man</persName>
+                        were married.</p>
+                    <p>After they were married the young <persName ref="per.026">man</persName>
+                        cracked an acorn which caused a large tent to rise up a short distance form
+                        where the old people lived. The young couple moved into this tent, which was
+                        completely furnished. The only request the young <persName ref="per.026"
+                            >man</persName> made of his bride was that he should not be called
+                            "<persName ref="per.026">Rabbit</persName>," but "<persName
+                            ref="per.026">Casko</persName>." She complied with his request and
+                        called him <persName ref="per.026">Casko</persName>,<pb xml:id="p006"
+                            facs="nefl.21.006.jpg"/>but one day she forgot and called him <persName
+                            ref="per.026">Rabbit</persName>. This made him so angry that he left
+                        her. She felt very badly and cried for many days.</p>
+                    <p> At last one day she put on her finest dress, prepared some lunch, and went
+                        away. The first person she met on her journey was an old <persName
+                            ref="per.029">woman</persName> who lived in a grass tent. The old
+                            <persName ref="per.029">woman</persName> said, "<persName ref="per.027"
+                            >Grandchild</persName>, whoever you are, come in." When she went in the
+                        old <persName ref="per.029">woman</persName> took a handful of wild beans
+                        from under some hay, and a few pieces of dried-out tallow, which she gave to
+                        her for her meal. After she was through eating, the old <persName
+                            ref="per.029">woman</persName> asked her where she was going. The
+                            <persName ref="per.027">girl</persName> answered, "Nowhere in
+                        particular: I am just walking around." Then the old <persName ref="per.029"
+                            >woman</persName> said, "No, <persName ref="per.027"
+                            >Grandchild</persName>, I know where you are going and what you are
+                        going for, but I prefer my <persName ref="per.030">sister</persName> to tell
+                        you."</p>
+                    <p>The old <persName ref="per.029">woman</persName> told her where to find her
+                            <persName ref="per.030">sister</persName>, who lived down the road in
+                        another grass tent.</p>
+                    <p>But the second old <persName ref="per.030">woman</persName> did as the first
+                        one had done--gave her beans and tallow to eat, asked her the same
+                        questions, and told her to go to her sister who lived still farther down the
+                        road. She visited five old women, all sisters, who lived in grass tents and
+                        gave her wild beans and tallow to eat, and asked her the same questions. The
+                        only exception was the fifth <persName ref="per.031">sister</persName>, who
+                        said, "You are going after your <persName ref="per.026">husband</persName>
+                        who is not far from here. God down the road until you come to a place where
+                        some young <persName ref="per.032">women</persName> are washing and laughing
+                        as they wash. Among their clothes you will find those that belong to your
+                            <persName ref="per.026">husband</persName>. Take them with you. These
+                        young <persName ref="per.032">women</persName> will tell you where your
+                            <persName ref="per.026">husband</persName> is."</p>
+                    <p>She followed the old <persName ref="per.031">woman's</persName> directions
+                        and found the place where the young <persName ref="per.032">women</persName>
+                        were washing. Here she saw <persName ref="per.026">Casko's</persName>
+                        clothing and asked the young <persName ref="per.032">women</persName> if
+                        they could tell her where <persName ref="per.026">Casko</persName> was. They
+                        replied that he had gone to a dance where he was going to be married. They
+                        directed her to the dance, where she found <persName ref="per.026"
+                            >Casko</persName> dancing with a very pretty girl. She watched them for
+                        a long time, until <persName ref="per.026">Casko</persName> turned around
+                        and saw his <persName ref="per.027">wife</persName> looking at him. He came
+                        over to her and took her away from the people. When they were alone he took
+                        an acorn out of his pocket and cracked it. It contained clothes for his
+                            <persName ref="per.027">wife</persName>, as hers were all ragged from
+                        her travels. <persName ref="per.026">Casko</persName> cracked another acorn
+                        and got <name type="animal">horses</name> and a wagon. They then rode home,
+                        where they lived happily together for a long time.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">The Orphan Boy</hi><lb/>Translated by Julia
+                            LaFramboise</title></p>
+                    <p>At one time, long ago, a friendless orphan <persName ref="per.033"
+                            >boy</persName> lived in a large village on the seashore. One day
+                        becoming tired of his surroundings, he got into a large canoe and paddled
+                        out to sea. A terrible storm came up and cast him upon a lonely island,
+                        where he lived in solitude until one day a large canoe, containing several
+                            <persName ref="per.034">men</persName>, landed. They told the <persName
+                            ref="per.033">boy</persName>, who met them at the beach, that they were
+                        going to a distant shore where there was a well which, when salt was thrown
+                        into it, would create gold. The <persName ref="per.034">men</persName> had
+                        their canoe filled with salt for that purpose. The <persName ref="per.033"
+                            >boy</persName> was glad to take passage with them.</p>
+                    <p>They were on the ocean many days before they came to the well. When<pb
+                            xml:id="p007" facs="nefl.21.007.jpg"/> they arrived they threw in their
+                        salt and got a great deal of gold, yet they wanted more. So they sent the
+                        orphan <persName ref="per.033">boy</persName> down in a sack, in spite of
+                        his cries and screams, threatening to keep him in the bottom of the well
+                        until he had filled the sack with gold. They used all their ropes in an
+                        attempt to get him to the bottom of the well; then they fastened poles
+                        together. At length, after many poles had been fastened together, the
+                            <persName ref="per.033">boy</persName> reached the bottom of the well
+                        where he found many gold coins at the mouth of a huge cave. He filled two
+                        sacks with coins, and attached them to a rope with himself on the top of the
+                        sack. After this had been done he signaled to the <persName ref="per.034"
+                            >men</persName> at the top by jerking the rope that he was ready to
+                        ascend. They commenced to pull him up. He was almost within reach of the
+                        mouth of the well when the rope and poles gave way, letting the <persName
+                            ref="per.033">boy</persName> drop to the bottom of the well again.</p>
+                    <p>When the <persName ref="per.033">boy</persName> recovered consciousness he
+                        heard a great noise above him which sounded like a whirlwind. To his terror
+                        he found that it was coming nearer down the well. He crept into the large
+                        sack, but was soon conscious of being carried upward, past the mouth of the
+                        well and high into the air. He now knew for certain that he was the captive
+                        of a large <name type="animal">bird</name>. After what seemed to be ages he
+                        was put down. When he crept out of the bag he saw that he was in an <name
+                            type="animal">eagle's</name> nest</p>
+                    <p>The old <name type="animal">eagle</name> was about to tear him to pieces but,
+                        seeing the <persName ref="per.033">boy's</persName> wretchedness, took
+                        compassion on him and brooded him with her young. The nest was in the top of
+                        a very tall cottonwood tree which stood alone on a plain. One day when the
+                        old <name type="animal">eagle</name> was gone he commenced climbing down the
+                        tree. It took him a long time to slide down, and when he reached the ground
+                        he was scarcely able to move. The branches had torn his clothes and skin so
+                        badly that his flesh was exposed and raw. Yet he knew it would be certain
+                        death to remain where he was, so he crept away, rested for a while, and
+                        moved on a little further, until he reached a river, where he quenched his
+                        thirst. Shortly after he came to the river two beautiful young <persName
+                            ref="per.035">women</persName> appeared along the river bank and took
+                        compassion on him. They bound up his wounds and fed him; and when he was
+                        able to walk they took him home with them.</p>
+                    <p>They lived in a splendid palace with many hundreds of rooms in it, each
+                        filled with curious and beautiful things from all parts of the world. Here
+                        they took care of him until he was well again. After he was well they
+                        adopted him for their brother, and for the first time the poor <persName
+                            ref="per.033">boy</persName> was very happy.</p>
+                    <p>One day his <persName ref="per.035">sisters</persName> told him they were
+                        going away from home for the day. Before they left they told him he could
+                        amuse himself in any portion of the house with the exception of one room,
+                        which he was never to enter. Then, after giving him the keys to the place,
+                        they departed. He went from room to room, admiring the many beautiful things
+                        he saw. When night came his <persName ref="per.035">sisters</persName> had
+                        not returned and he had not yet seen all the rooms in the palace.</p>
+                    <p>The next day he went over the other rooms. At length he came to the forbidden
+                        room, where he paused a long time on the threshold. He put the key into the
+                        key-hole, then pulled it out with a shudder at thought of the possible
+                        consequences, and passed on. Yet when he had seen all the other rooms he
+                        returned to the forbidden one. This time he opened it and saw a fiery <name
+                            type="animal"><choice>
+                                <orig>steed</orig>
+                                <reg>horse</reg>
+                            </choice></name>, milk white with golden markings, wonderously
+                        beautiful. Its<pb xml:id="p008" facs="nefl.21.008.jpg"/> eyes flashed as he
+                        led it from the palace and mounted it.</p>
+                    <p>He had scarcely gotten firmly seated before the <name type="animal"
+                            >horse</name> flew into the air with the <persName ref="per.033"
+                            >boy</persName> on its back. The speed of its flight took his breath
+                        away and he fainted. When he recovered consciousness he was lying wounded
+                        and bleeding on the sea-shore. Raising his head, he looked around and
+                        recognized the place from whence he had embarked months before. An old
+                            <persName ref="per.036">woman</persName> came along and took him to her
+                        home, where he told her of his experiences. She immediately re-told his tale
+                        to the great <persName ref="per.037">chief</persName> of the town, who had
+                        him brought to his palace for an interview. After he had told his story a
+                        second time the <persName ref="per.037">chief</persName> said: "Those young
+                            <persName ref="per.035">women</persName> that you call <persName
+                            ref="per.035">sisters</persName> are my long lost <persName
+                            ref="per.035">daughters</persName>. They were carried away by a man one
+                        day, years ago, when they were swimming. The <name type="animal"
+                            >horse</name> that flew away with you is my long lost <name
+                            type="animal">horse</name>. When he came near home he left you by the
+                        seashore, where you were found. Through you I have gotten back my beautiful
+                            <name type="animal">horse</name>, and he has told me where my <persName
+                            ref="per.035">daughters</persName> can be found."</p>
+                    <p>The <persName ref="per.037">chief</persName> sent men in canoes after his
+                            <persName ref="per.035">daughters</persName>. There was great rejoicing
+                        in the town on the day when they were returned. The lonely orphan <persName
+                            ref="per.033">boy</persName> became the <persName ref="per.037"
+                            >Chief's</persName> son, and was made chief over all the warriors in the
+                        country.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Canktewin--The Ill-Fated Woman</hi></title><title
+                            type="credit">Translated by Julia LaFramboise</title><title
+                            type="sub-title">Part I</title></p>
+                    <p>Once there was a large village in which lived an honorable <persName
+                            ref="per.038">man</persName> who was called to all the great feasts. He
+                        took an active part in the dances to the Sun and to the <persName
+                            ref="per.010">Heyoka</persName> [anti-natural deity]. He had ten
+                            <persName ref="per.039">sons</persName>, all of whom were handsome
+                        braves, and two fair daughters.</p>
+                    <p>Now, as <name type="season">spring</name> drew near, and according to their
+                        usual custom, they started out on their <name type="season">spring</name>
+                        hunt. The young <persName ref="per.039">braves</persName> took their two
+                        sisters with them. The five eldest <persName ref="per.039"
+                            >brothers</persName> were to hunt game for the elder <persName
+                            ref="per.041">sister</persName>, and the other five for the younger
+                            <persName ref="per.008">sister</persName>. After traveling a long
+                        distance they selected their camping ground. Day by day the <persName
+                            ref="per.039">brothers</persName> vied with one another in bringing to
+                        their sisters the choicest game.</p>
+                    <p>As time went on the younger <persName ref="per.008">sister</persName>, who
+                        was the more amiable of the two, became the favorite. To her white deer-skin
+                        tent came the choicest game of forest and lake. So, in consequence, jealousy
+                        grew in the breast of the elder <persName ref="per.041">sister</persName>.
+                        One morning, after the departure of her <persName ref="per.039"
+                            >brothers</persName>, she decked herself in fine clothes and trinkets,
+                        after which she picked up an ax and told her <persName ref="per.008"
+                            >sister</persName> that she was going to get firewood. She followed the
+                        well-worn path of her <persName ref="per.039">brothers</persName> through
+                        the forest until she came to a tall tree, where she perched herself among
+                        its thick branches. There she waited until evening, when her eldest brother
+                        came in sight, heavily laden with a <name type="animal">deer</name>. As he
+                        passed beneath her she struck his head a blow with her ax that broke his
+                        skull. Then she descended from the tree and dragged him into the bushes,
+                        after which she resumed her hiding place before the second<pb xml:id="p009"
+                            facs="nefl.21.009"/> brother appeared. She disposed of him in the same
+                        manner, and the same with the next and the next, until all of the ten
+                            <persName ref="per.039">brothers</persName> were killed. Then she went
+                        home to her <persName ref="per.008">sister</persName> and affected great
+                        distress and uneasiness for their non-appearance. The really distressed
+                        younger <persName ref="per.008">sister</persName> looked in vain for their
+                        coming that night.</p>
+                    <p>Next morning the younger <persName ref="per.008">girl</persName>, upon
+                        awakening, saw that her <persName ref="per.041">sister</persName> was busy
+                        out doors by the fire. To her horror she saw that her <persName
+                            ref="per.041">sister</persName> had the ten heads of her murdered
+                            <persName ref="per.039">brothers</persName>; she was scalping them and
+                        sewing together the scalps for a mantle. Then she heard her exclaim: "What
+                        shall I do? I lack just one scalp of finishing my beautiful mantle. O! I'll
+                        complete it with my <persName ref="per.008">sister's</persName> scalp!" The
+                        younger <persName ref="per.008">sister</persName>, upon hearing these words,
+                        fled in terror from the tent to the deepest recess of the forest, where she
+                        wailed out her anguish, calling on the <persName ref="per.042"
+                            >Wanaghis</persName> [ghosts] to avenge her lost <persName ref="per.039"
+                            >brothers</persName>.</p>
+                    <p>When night came and darkness spread over the earth her attention was
+                        attracted by a low whistle, then another whistle, longer and louder; then
+                        one to the north of her; then another to the east; then to the south and to
+                        the east; then to the south of west. Afterward came a stillness that even
+                        the insects dared not disturb, while close by her voice said, "<persName
+                            ref="per.008">Sister</persName>, it is your murdered <persName
+                            ref="per.039">brothers</persName> that whistled. Go home and go to bed!
+                        In the night you will hear whistling, as you did just now, but fear not.
+                        When you hear this whistling your elder <persName ref="per.041"
+                            >sister</persName> will say, 'My <persName ref="per.008"
+                            >sister</persName>, get up and light the fire,' but do not heed her
+                        though she implores you to get up."</p>
+                    <p>So she went home, where her <persName ref="per.041">sister</persName> still
+                        worked on the scalp mantle. After awhile they both retired. They were
+                        awakened at midnight by the whistling. At the first sound the elder
+                            <persName ref="per.041">sister</persName> called to the younger, whose
+                        name was <persName ref="per.008">Canktewin</persName>, and entreated her to
+                        light the fire. But <persName ref="per.008">Canktewin</persName> slept until
+                        morning. When she awakened she found that her <persName ref="per.041"
+                            >sister</persName> was already up and about. When <persName
+                            ref="per.008">Canktewin</persName> came out of the tent her <persName
+                            ref="per.041">sister</persName> cried angrily at her, "Go back, or I
+                        will kill you with this!" wielding a human leg. It was one of her own legs
+                        that the ghost of one of her <persName ref="per.039">brothers</persName> had
+                        pulled off. The elder <persName ref="per.041">sister's</persName> face had
+                        become so distorted during the night that <persName ref="per.008"
+                            >Canktewin</persName> found it difficult to recognize her. The elder
+                            <persName ref="per.041">sister</persName>, after threatening <persName
+                            ref="per.008">Canktewin's</persName> life, sat down again, muttering to
+                        herself in the manner of witches. At length she arose and hopped off on one
+                        leg, carrying the other one under her arm.</p>
+                    <p>The elder <persName ref="per.041">sister</persName> had hardly gotten out of
+                        sight before <persName ref="per.008">Canktewin</persName> left the tent and
+                        fled for her life. She ran until out of breath, but when she paused to rest
+                        she heard a voice in the distance which she recognized as her <persName
+                            ref="per.041">sister's</persName>, who was pursuing her. Upon looking
+                        back <persName ref="per.008">Canktewin</persName> saw the unsightly creature
+                        hopping toward her at the rate of one or two yards at a hop, with her scalp
+                        mantle streaming behind her. She had nearly overtaken the helpless <persName
+                            ref="per.008">Canktewin</persName> when they encountered a small swamp.
+                        The one-legged creature, in trying to extricate herself from the mire,
+                        pulled the other leg off. Unable to proceed further, she died there.</p>
+                    <p>In the meantime <persName ref="per.008">Canktewin</persName> came to the
+                        shore of a beautiful lake. Off in the distance, on the surface of the lake,
+                        gleamed something which, when it came closer to the bank, proved to be a
+                        metal canoe with a single <persName ref="per.040">boatman</persName>. She
+                        hid in the bushes, but was too late to escape the sight of<pb xml:id="p010"
+                            facs="nefl.21.010"/> the <persName ref="per.040">boatman</persName>, for
+                        he landed just below her, walked up to her hiding place and commanded her to
+                        get into his canoe. But when she began to step into the canoe she saw a
+                        hundred <name type="animal">snakes</name> in its prow, each of which hissed
+                        at her. She drew back in terror, only to be driven forward by her <persName
+                            ref="per.040">captor</persName>. Again the <name type="animal"
+                            >snakes</name> jumped toward her. When their <persName ref="per.040"
+                            >master</persName> commanded them to be silent they obeyed him, and
+                            <persName ref="per.008">Canktewin</persName> got into the canoe and
+                        seated herself among them. The <persName ref="per.040">man</persName> then
+                        got in and paddled until the sun was on the west side, when they came in
+                        sight of a very high precipice. As the canoe drew nearer a door flew open
+                        and the <persName ref="per.040">man</persName> ordered her to get out. She
+                        stepped into a great stone hall, where a little old <persName ref="per.043"
+                            >woman</persName> was sitting by a huge fire and an immense pot
+                        containing a stew.</p>
+                    <p>Next morning, as the <persName ref="per.040">man</persName> was starting out
+                        in his metal canoe, he said to the old <persName ref="per.043"
+                            >woman</persName>, "<persName ref="per.043">Grandmother</persName>, have
+                        another stew ready on my return." After his departure the old <persName
+                            ref="per.043">woman</persName> wept and said, "O, my <persName
+                            ref="per.008">grandchild</persName>, why did you come here to the
+                            <persName ref="per.040">man-eater's</persName> house? This <persName
+                            ref="per.040">man</persName> has eaten a great many young men and women,
+                        and you are the fairest of them all. I cannot kill you. Take this tomahawk
+                        and cleave open this old head of mine. My life has been long but what use is
+                        it to me now? Take my body, put it into the pot and make a savory stew for
+                        the <persName ref="per.040">man-eater</persName>. Then take my severed arms
+                        and the ax to yonder island, tie them to a tree, and fly for your life. Go
+                        toward the east; run night and day until you come to a bright metal
+                        house."</p>
+                    <p>Poor <persName ref="per.008">Canktewin</persName> wrung her hands in agony
+                        and said, "I cannot! O! I cannot! It is better that you do your work and
+                        kill me."</p>
+                    <p>"Ah! my <persName ref="per.008">grandchild</persName>," said the old
+                            <persName ref="per.043">woman</persName>, "it would be but one of your
+                        kindest acts to take me away from this den to the happy land of the spirits,
+                        where all my kind have preceded me. I am nothing but a lightning-blasted
+                        tree whose center has been rotted out with age. Take, O take, my <persName
+                            ref="per.008">grandchild</persName>, this weapon and kill me." But her
+                        pleadings were in vain. <persName ref="per.008">Canktewin</persName> would
+                        not kill her. The old <persName ref="per.043">woman</persName> then threw
+                        herself into the boiling pot.</p>
+                    <p><persName ref="per.008">Canktewin</persName>, upon seeing what the old
+                            <persName ref="per.043">woman</persName> had done, became horrified and
+                        wept until the dealing sun reminded her that she must escape before the
+                            <persName ref="per.040">man-eater</persName> returned. But before
+                        leaving she severed the arms of the old <persName ref="per.043"
+                            >woman</persName>, which, together with the ax, she carried to the
+                        island where she tied them to a tree. Then she fled.</p>
+                    <p>Soon after her flight the <persName ref="per.040">man-eater</persName>
+                        returned to find his <persName ref="per.043">grandmother</persName> gone. In
+                        answer to his call he heard her voice from the far off island. Again he
+                        called. This time he heard her answer that she would come as soon as the
+                        wood was chopped. He sat down to wait, listening to the strokes of her ax.
+                        After awhile he became angry at her delay and started after her. When he
+                        arrived at the island he found only her arms, which were chopping wood. He
+                        knew then that <persName ref="per.008">Canktewin</persName> had escaped. His
+                        anger was so great that he foamed at the mouth as he started in pursuit.</p>
+                    <p>In the meantime <persName ref="per.008">Canktewin</persName> ran night and
+                        day until suddenly a bright light dazzled her eyes. After she had become
+                        used to the strange light she discerned a metal house. Her limbs by now were
+                        so tired that she could scarcely stand up. But she was quickly aroused from
+                        her pause by a yell of rage. Turning around she saw the <persName
+                            ref="per.040">man-eater</persName> running toward her with a flashing
+                        tomahawk in his hand. He was only a few steps behind her when she<pb
+                            xml:id="p011" facs="nefl.21.011"/> reached the metal house, by the steps
+                        of which sat a <persName ref="per.044">man</persName> carving a large pipe.
+                        Carven images were fastened to his ears; they winked and blinked at her when
+                        he turned his head. She cried, "Save me and I'll be your cousin!" Still he
+                        was silent. She screamed in desperation, "Save me and I'll be your sister!"
+                        The <persName ref="per.040">man-eater</persName> almost had her in his grasp
+                        when the silent <persName ref="per.044">man</persName> sprang to his feet
+                        and pushed her into his metal house. "Why did you not say you were my sister
+                        before?" he asked.</p>
+                    <p>In the meantime the <persName ref="per.040">man-eater</persName>, shouting
+                        angrily at the top of his voice, kept running around the house. This annoyed
+                        the silent <persName ref="per.044">man</persName>, so he said, "My pets, go
+                        and eat him up; he troubles me." He opened a side door that let out a <name
+                            type="animal">lion</name> and a <name type="animal">tiger</name> who
+                        immediately sprung upon the <persName ref="per.040">man-eater</persName>,
+                        tore him to pieces and commenced to devour him. But each piece that touched
+                        the ground became a <persName ref="per.040">man-eater</persName>, and it was
+                        only when they ate up the ground on which his blood dropped that they were
+                        victorious.</p>
+                    <p><title type="sub-title">Part II</title></p>
+                    <p><persName ref="per.008">Canktewin</persName> was very happy to become the
+                        silent <persName ref="per.044">man's</persName> sister. The many rooms of
+                        her <persName ref="per.044">brother's</persName> house were decorated with
+                        braided belts, moccasins, quilled blankets and leggings. Some of the
+                        articles were unfinished. "These," said her <persName ref="per.044"
+                            >brother</persName>, as she was surveying them, "are the handiwork of my
+                        former adopted sister, who was deceived and killed during my absence. Now I
+                        am going to leave you, but do not, on any account, open the door to any one
+                        while I am gone." So saying he set out on a journey to a far country.</p>
+                    <p>One day, when <persName ref="per.008">Canktewin</persName> was working on one
+                        of the unfinished belts, she heard a pleading voice at the door saying,
+                        "Aunt, do let me in 'ere I perish with cold. I am the silent <persName
+                            ref="per.044">man's</persName> child and he sent me to you." This
+                        wailing voice repeated its demand for admittance at regular intervals until
+                        her sympathizing heart could withstand it no longer. She admitted a small
+                            <persName ref="per.045">boy</persName> with a large mouth. His strange
+                        deformity made her shrink back, but when she remembered that it was her
+                            <persName ref="per.044">protector's</persName>
+                        <persName ref="per.045">child</persName> she led him to the fire and warmed
+                        him, where he fell asleep. She sat and watched him. As he slept his mouth
+                        opened wider and wider until she saw a man's foot coming out of his throat.
+                        She immediately awoke the ugly creature, saying, "Get up, my nephew, and
+                        fetch some wood; our fire is going out." As he stepped out she closed and
+                        barred the door. The <persName ref="per.045">boy</persName>, who was but a
+                            <persName ref="per.045">demon</persName> in disguise, saw that he had
+                        been fooled. He raged and raved at the door for a long time, but it was to
+                        no purpose. <persName ref="per.008">Canktewin</persName> would not let him
+                        in a second time. When her <persName ref="per.044">brother</persName>
+                        returned he praised her wisdom in escaping the wiles of such an <persName
+                            ref="per.045">enemy</persName>.</p>
+                    <p>She lived with her <persName ref="per.044">brother</persName> many happy
+                        years, but after a time she began thinking of her lonely parents, bereft of
+                        their children, and became seized with the desire to return and comfort
+                        them. When she made known the cause of her unhappiness to her <persName
+                            ref="per.044">brother</persName> he told her to go at once. But before
+                        she left he gave her instructions on how to avoid the many danger she would
+                        find on her journey.</p>
+                    <p>One day, when she was traveling through a large village, she was chased by
+                        the men, women, children and dogs who inhabited the place. But she looked
+                        straight before her and did not heed their uproar. When she came to the
+                        outskirts of the town there was a furious earthquake which nearly
+                            swallowed<pb xml:id="p012" facs="nefl.21.012"/> her up. She ran, in
+                        order to get away from the new danger, but on looking around saw a large
+                        spotted <name type="animal">dog</name> which was fiercely pursuing her. She
+                        was nearly out of breath when the <name type="animal">dog</name> also became
+                        tired out and abandoned the pursuit.</p>
+                    <p>Shortly afterwards she heard a child-like voice calling her name. She looked
+                        around and spied a <persName ref="per.107">dwarf</persName> in the branches
+                        of a tree. He tried in every way to make her speak. She had nearly passed
+                        out of sight when his extreme insolence made her command him to be still.
+                        Whereupon he came down and told her that she could not pass until she had
+                        shot arrows with him. She shot arrows with him and lost them. He led the way
+                        in the hunt for them until they came to an enclosure, where he told her she
+                        was his slave. Looking around, she found every avenue of escape closed and
+                        barred. All she could see was a large field, where hundreds of scalpless
+                        young women were toiling. The <persName ref="per.107">dwarf</persName> left
+                        her to give an offering to the <persName ref="per.011"
+                            >Tahkushkanshkan</persName> [the motion god] for permitting him to find
+                        another slave. When he was preparing for his ceremony he retired to his
+                        round hut and called for <persName ref="per.008">Canktewin</persName> to
+                        bring his heated stone. When she was handing it to him he pulled off her
+                        scalp. After the <persName ref="per.107">dwarf</persName> finished his
+                        offering he bound <persName ref="per.008">Canktewin</persName> and seated
+                        her in the center of his round house.</p>
+                    <p>After she had been seated there awhile she saw a large black stone slowly
+                        descending toward her from the top of the roof. To save herself she threw up
+                        her hand, in which was a small sharp stick. The stick pierced through the
+                        soft center of the stone, which contained the <persName ref="per.107"
+                            >dwarf's</persName> heart, immediately killing him. She then ran out to
+                        the field and proclaimed freedom to the poor scalped creatures. They all
+                        went to a nearby lake where they bathed their heads in the water. Their
+                        scalps were immediately restored to their heads. Then she continued on her
+                        way homeward, while the other slaves, after thanking her for freeing them
+                        returned to theirs.</p>
+                    <p>One day, while still on her journey, she walked along the shore of a lake,
+                        where she met two young <persName ref="per.108">women</persName> who asked
+                        her to bathe in the lake with them. Before doing so they informed her that
+                        the fates had decreed that whoever dove up from beneath the surface of the
+                        water in the center of the lake, which was marked by a tuft of wild rice,
+                        would be taken as his wife by <persName ref="per.012"
+                            >Wahmnuhahtahghosha</persName> [the Pearl Spitter]. <persName
+                            ref="per.008">Canktewin</persName> was the only one who succeeded in
+                        coming up at the tuft of wild rice. Then they proceeded on their journey
+                        together until they saw a beautiful canoe come to the shore, out of which a
+                        young man stopped, saying, "I am the Pearl Spitter." Then, as <persName
+                            ref="per.008">Canktewin</persName> was getting ready to step into the
+                        canoe, the two young <persName ref="per.108">women</persName> pushed her
+                        aside and stepped in themselves.</p>
+                    <p><persName ref="per.008">Canktewin</persName> was now alone again. She
+                        followed the lake's shore until another canoe came in sight. This was far
+                        more beautiful than the first, and the <persName ref="per.012"
+                            >boatman</persName> far more handsome than the other. He sprang ashore
+                        and began to spit beautiful pearls of all sizes. This proved him to be the
+                        real <persName ref="per.012">Pearl Spitter</persName>, the first one being
+                        an impostor. She eagerly gathered the pearls. Then they entered the canoe
+                        and paddled to the opposite side, where there was a large village, the
+                            <persName ref="per.012">Pearl Spitter's</persName> home. Here they lived
+                        in great happiness, until one evening, when there was a grand feast to which
+                        they were both invited. While they were at the feast her two <persName
+                            ref="per.108">rivals</persName> in the diving contest saw her with the
+                        real <persName ref="per.012">Pearl Spitter</persName>; whereupon they were
+                        filled with envy and jealousy. They followed the <persName ref="per.012"
+                            >Pearl Spitter</persName> and his <persName ref="per.008"
+                            >wife</persName> home,<pb xml:id="p013" facs="nefl.21.013.jpg"/> where
+                        they drove <persName ref="per.008">Canktewin</persName> out of the house and
+                        occupied it themselves. The counterfeit Pearl Spitter came in great wrath,
+                        and called the real <persName ref="per.012">Pearl Spitter</persName> a
+                        coward, whereupon they had a fight. They destroyed the village during this
+                        struggle, also all the trees by the lake, and shook up the waters of the
+                        lake so that it was never clear from that time on. But at length, by
+                        cowardly wiles, the counterfeit Pearl Spitter overcame his noble antagonist.
+                        Poor <persName ref="per.008">Canktewin</persName> stayed long enough to wail
+                        over the grave, then went home and comforted her <persName ref="per.038"
+                            >father</persName> and mother all the days of their lives.</p>
+                    <p><title>The Meaning of the Myth</title></p>
+                    <p>In the myth of "Canktewin, the Ill-Fated Woman," we have a peculiar character
+                        study. The name, "Ill-Fated Woman," was chosen to express the original
+                            <orgName ref="trb.001">Santee</orgName> meaning. <hi rend="underline"
+                            >Canktewin</hi> gives only a part of the native idea. <hi
+                            rend="underline">Cankte</hi> (the <hi rend="underline">win</hi> is the
+                        feminine termination in proper names), in <orgName ref="trb.003"
+                            >Dakota</orgName>, means a tree that has been blasted by lightning. It
+                        is also used as an attribute to the great Thunder God, who kills the trees
+                        by his flash. By figure of speech it seems to be used of this young woman
+                        who, though amiable and full of good intent, always brings disaster on those
+                        with whom she is connected, as well as on herself. But as for herself she
+                        miraculously escapes every time, only to fall into new dangers and stir up
+                        more trouble.</p>
+                    <p>Thus by her amiability she captivates her <persName ref="per.039"
+                            >brothers</persName> and arouses the jealousy of her <persName
+                            ref="per.041">sister</persName>, causing the death of them all. She
+                        falls into the hands of the <persName ref="per.040">man-eater</persName>,
+                        only to cause the death of the good <persName ref="per.043"
+                            >grandmother</persName> who befriends her and shows her how to escape.
+                        She is nearly re-captured because she fails to say the right word in time.
+                        She almost brings ruin to her new benefactor, the silent <persName
+                            ref="per.044">man</persName>, and death to herself by opening his house
+                        to the <persName ref="per.045">demon</persName>. On her road home, by
+                        failing to keep still one moment longer, she falls into the hands of the
+                        wicked <persName ref="per.107">dwarf</persName> and loses her scalp. And
+                        later, as was seen in the second part of the story, she brings disaster on
+                        her lover and the village and country in which he lives by the jealousy she
+                        arouses in her rivals.</p>
+                    <p>Consistently fortunate herself, she brings misfortune to the people who are
+                        connected with her. True, she liberates the scalpless maidens toiling in the
+                        fields of the wicked <persName ref="per.107">dwarf</persName>, and at last
+                        goes home to cherish her parents in their last days. But these are only
+                        incidents, and not main points of her life.</p>
+                    <p>Doubtless other ideas, mythological and philosophical, may be traced in this
+                        story. Its most evident meaning, however, is as a study in character.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all-caps">The Beaver</hi><lb/></title><title type="credit"
+                            >Translator Anonymous</title></p>
+                    <p>Once <persName ref="per.009">Unktomi Evil Spirit</persName> was going along
+                        the bank of a river when he saw a little <persName ref="per.109"
+                            >beaver</persName> fast asleep on the shore. <persName ref="per.009"
+                            >Unktomi</persName>, chuckling to himself, said, "Now I'll have some
+                        fun." He took the bark from a nearby tree and with it carefully tied up the
+                        little <persName ref="per.109">beaver</persName>. Then he carried it a long way
+                            off<pb xml:id="p014" facs="nefl.21.014.jpg"/> to a high hill; where,
+                        after untying it, he woke it up by asking, "Why <persName ref="per.109">brother</persName>, how did you get
+                        here?"</p>
+                    <p>The little <persName ref="per.109">beaver</persName>, half asleep and
+                        thinking he was still by the river bank, turned over and attempted to dive
+                        into what he thought was water. After making several attempts to dive into
+                        the ground he opened his eyes and saw that he was a long way from home.
+                        Meanwhile <persName ref="per.009">Unktomi</persName> laughed and laughed
+                        until he nearly fell over.</p>
+                    <p>It took the little <persName ref="per.109">beaver</persName> a long time to
+                        get to the river. The grass had been burnt off and the soles of his feet
+                        were out by the stubble. <persName ref="per.009">Unktomi</persName> followed
+                        at a distance, making the most of his practical joke. After this occurrence
+                            <persName ref="per.009">Unktomi</persName> traveled for many days. One
+                        day when the weather was very warm he lay down to rest and fell asleep. The
+                        little <persName ref="per.109">beaver</persName> found him asleep and said,
+                        "Now I'll have my revenge."</p>
+                    <p>He dug a tunnel form the nearby river which ran water to <persName
+                            ref="per.009">Unktomi</persName>. The <persName ref="per.109"
+                            >beaver</persName> kept on digging until there was a vast lake around
+                        his enemy, with nothing but a small island on the center, on which <persName
+                            ref="per.009">Unktomi</persName> slept. When the <persName ref="per.109"
+                            >beaver</persName> finished he said to <persName ref="per.009"
+                                >Unktomi</persName>, "Why my <persName ref="per.009">brother</persName>, how did you happen here?" This
+                        question caused <persName ref="per.009">Unktomi</persName>, who was partly
+                        aroused, to turn over. In doing so he splashed into the lake that the <name
+                            type="animal">beaver</name> had built. The <persName ref="per.109"
+                            >beaver</persName> left the vicinity before <persName ref="per.009"
+                            >Unktomi</persName> came to the surface. His surprise was so great that
+                        he was nearly drowned before he recovered his presence of mind. When he rose
+                        to the surface he tried in vain to climb up on the little island. But with
+                        every effort a piece of the earth would cave in until the island was
+                        completely demolished. Then, nearly exhausted, he struck out for the shore,
+                        reaching it shortly before his strength gave out. He stretched himself out
+                        on the bank to rest. When he had recovered from his experience he looked
+                        around to see if the little <persName ref="per.109">beaver</persName> was laughing
+                        at him; and sure enough, there was his face grinning above the surface of
+                        the water.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all-caps">The Hunter</hi></title></p>
+                    <p>In the olden days, long before the first pale-face set foot in this country,
+                        a small band of Indians were camped near the <placeName ref="tgn_1110442"
+                            >Cypress Hill</placeName>, where they were well supplied with wood and
+                        water. There they had good pasture for their ponies, who were very scarce
+                        and highly prized by the Indians. One of the Indians who lived in this
+                        village, named <persName ref="per.013">Arrow-points</persName>, was a hunter who provided meat for his wife and
+                        the little <persName ref="per.013">Arrow-points</persName> To do this he had to spend many days away from his
+                        home, traveling great distances to secure sufficient game for his family's
+                        needs. There, in strange hunting grounds, he was in constant danger of being
+                        killed by the war parties of other tribes. In those days the only weapon was
+                        the bow and arrow; he had to use a great deal of cunning in order to get
+                        near enough to the game to kill it.</p>
+                    <p>One day, when he was stalking a herd of <name type="animal">antelope</name>, he was surprised by a band
+                        of <orgName ref="trb.002">Blackfeet Indians</orgName>, who were out on a <name type="animal"
+                            >horse</name>-stealing expedition. <persName ref="per.013">Arrow-point</persName> had to run for his life. No
+                        matter how fast he ran the <orgName ref="trb.002">Blackfeet</orgName> kept gaining on him, so it became
+                        evident that unless some help came he would soon be slain. As he ran he
+                        called on his feet, "Oh my feet, run, or I will be killed by our enemy," but
+                        his feet answered back, "Call on your<pb xml:id="p015"
+                            facs="nefl.21.015.jpg"/> head--when you eat you give all to your head
+                        and never think of us." Again <persName ref="per.013">Arrow-point</persName> called out, "Oh my feet, run and I
+                        shall always remember you when I eat." But still his feet remained stubborn.
+                        So, seeing that all was lost, he threw himself on the ground and said, "All
+                        right, when I am killed my head will be placed on a pole and all the
+                        <orgName ref="trb.002">Blackfeet nation</orgName> will dance around and admire it, but you, you will be cut
+                        off and thrown to the <name type="animal">dogs</name>." With that threat his
+                        feet began to jump and hop, in a great fright to get away. He sprang to his
+                        feet and flew over the ground, quickly out-distancing his pursuers.</p>
+                    <p>He soon reached his home in safety, and in fulfillment of the promise to his
+                        feet he had them bathed in buffalo fat for two days and nights. He was now
+                        the swiftest runner in his tribe, often beating his companions' fastest
+                            <name type="animal">horses</name>. The Indians changed his name to
+                        <persName ref="per.013">Eagle-foot</persName>. Remembering his narrow escape from death, he always wiped his
+                        hands on his feet when through eating. This is a custom that has been
+                        observed by the Indians to this day.</p>
+
+
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>

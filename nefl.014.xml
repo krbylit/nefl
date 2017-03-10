@@ -1,0 +1,826 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nefl.014">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Nebraska Folklore: Pamphlet Fourteen</title>
+                <title level="a" type="sub-title">Place Name Stories</title>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <name n="Mueller, Zach" xml:id="mzm">Mueller, Zach</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>University of Nebraska–Lincoln</publisher>
+                <date>2016</date>
+                <availability>
+                    <p> Copyright © 2016 by Of the Plains, all rights reserved.Redistribution or republication in any medium, except as allowed under the Fair Use provisions of U.S. copyright law, requires express written consent from the editors and advance notification of the publisher, the Of the Plains.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title level="a" type="main">Nebraska Folklore: Pamphlet Fourteen</title>
+                    <title level="a" type="sub-title">Indian Ghost Legends</title>
+                    <date when="1938-08">August 1938</date>
+                    <publisher>Nebraska Writer's Project</publisher>
+                    <pubPlace>Lincoln</pubPlace>
+                    <note type="project"> Our transcription is based on a digital image of the original. </note>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>University of Nebraska-Lincoln Special Collections</repository>
+                        <collection><!----></collection>
+                        <idno><!----></idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listOrg>
+                    <org>
+                        <orgName xml:id="trb.004">Pawnee</orgName>
+                    </org>
+                    <org>
+                        <orgName xml:id="trb.005">Sioux</orgName>
+                    </org>
+                    <org>
+                        <orgName xml:id="trb.013">Quapaw</orgName>
+                    </org>
+                    <org>
+                        <orgName xml:id="trb.012">Iowa</orgName>
+                    </org>  
+                    <org>
+                        <orgName xml:id="trb.011">Omaha</orgName>
+                    </org>
+                    <org>
+                        <orgName xml:id="trb.003">Dakota</orgName>
+                    </org>                  
+                </listOrg>
+                <listPerson type="Character">
+                    <person xml:id="per.101">
+                        <persName>Indian Maiden</persName>
+                    </person>
+                    <person xml:id="per.102">
+                        <persName >Brave Man</persName>
+                    </person>
+                    <person xml:id="per.103">
+                        <persName>Warrior</persName>
+                    </person>
+                    <person xml:id="per.104">
+                        <persName type="group">Men</persName>
+                    </person>
+                    <person xml:id="per.105">
+                        <persName type="group">Surveyers</persName>
+                    </person>
+                    <person xml:id="per.106">
+                        <persName>Harvey, Robert </persName>
+                    </person>
+<person xml:id="per.107">                       <persName type="group">Prospectors</persName> 
+                    </person>
+                    <person xml:id="per.110">
+                        <persName>Postmaster</persName>
+                    </person>
+                    <person xml:id="per.111">
+                        <persName>Hewitt,Wilson</persName>
+                    </person>
+                    <person xml:id="per.112">
+                        <persName type="group">Cavalrymen</persName>
+                    </person>
+                    <person xml:id="per.113">
+                        <persName type="group">Hunters</persName>
+</person>
+                    <person xml:id="per.114">
+                        <persName>Moore</persName>
+
+                    </person>
+                    <person xml:id="per.115">
+                        <persName type="group">Sex Horse Thieves</persName>
+                        <persName type="group">Gang</persName>
+                    </person>
+                    <person xml:id="per.116">
+                        <persName type="group">Settlers</persName>
+                    </person>
+                    <person xml:id="per.117">
+                        <persName type="group">Foley and Sonter</persName><!--called a firm; maybe more appropriate in OrgName with tribes-->
+                    </person>
+                    <person xml:id="per.118">
+                        <persName>Dr.Worth</persName>
+                    </person>
+                    <person xml:id="per.119">
+                        <persName type="group">Pioneers</persName> <!--Ethnicity:German-->
+                    </person>
+                    <person xml:id="per.120">
+                        <persName>Ola</persName>
+                    </person>
+                    <person xml:id="per.121">
+                        <persName type="group">warriors</persName>
+                    </person>
+                    
+<person xml:id="per.122">
+                        <persName>Korn, L. B.</persName>
+                    </person>
+                    <person xml:id="per.123">
+                        <persName>Indian Chief</persName>
+<persName>prisoner</persName>
+                    </person>
+                    <person xml:id="per.124">
+                        <persName type="group">Pioneers</persName>
+                    </person>
+                    <person xml:id="per.125">
+                        <persName type="group">Skeptics</persName> <!--Called 'Persons' but they are an interesting character because of their use in the article to show reactions towards Native American culture.-->
+                                          </person>
+                    <person xml:id="per.126">
+                        <persName>Settler</persName>
+                    </person>
+                    <person xml:id="per.127">
+                        <persName>Lincoln, Abraham</persName> <!--President of United States-->
+<persName>Emancipator</persName>
+                    </person>
+                    <person xml:id="per.128">
+                        <persName>Reeves, Mills</persName><!--Nebraska Senator-->
+                    </person>
+                    <person xml:id="per.129">
+                        <persName>Patrick, J. N. H</persName><!--Nebraska Senator-->
+                    </person>
+                    <person xml:id="per.130">
+                        <persName>Indian</persName><!--Old-->
+                    </person>
+                    <person xml:id="per.131">
+                        <persName>Settler</persName>
+                    </person>
+                    <person xml:id="per.132">
+                        <persName type="group">Cowboys</persName>
+                    </person>
+                    <person xml:id="per.133"> 
+                        <persName>Publisher</persName>
+                    </person>
+                    <person xml:id="per.134">
+                        <persName type="group">Indian Tribe</persName>
+                    </person>
+                    <person xml:id="per.135">
+                        <persName type="group">White Man</persName>                     </person>
+                    <person xml:id="per.136">
+                        <persName>Warrior</persName>
+                        <persName>Survivor</persName>
+                        <persName>Drowning Indian</persName>
+                    </person>
+                    <person xml:id="per.137">
+                        <persName type="group">Warriors</persName>
+                    </person>
+                    <person xml:id="per.138">
+                        <persName>Ord, E.C</persName><!--Occupation: General-->
+                               </person>
+                    <person xml:id="per.139">
+                        <persName type="group">James Ord</persName>
+                    </person>
+                    <person xml:id="per.140">
+                        <persName>George IV of England</persName>
+                    </person>
+                    <person xml:id="per.141">
+                        <persName>FLady Fitzhugh</persName>
+                    </person>
+                    <person xml:id="per.142">
+                        <persName>Queen Victoria</persName>
+                    </person>
+                    <person xml:id="per.143">
+                        <persName>Cook</persName>
+                    </person>
+                    <person xml:id="per.144">
+                        <persName>French, C. B</persName>
+                  <!--Occupation: Postmaster and Minister of the Church-->  </person>
+                    <person xml:id="per.145">
+                        <persName type="group">Travellers</persName>
+                    </person>
+                    <person xml:id="per.146">
+                        <persName>New Yorker</persName> 
+                    </person>
+                    <person xml:id="per.147">
+                        <persName type="group">Indians</persName>
+                    </person>
+                    <person xml:id="per.148">
+                        <persName type="group">Warriors</persName>
+                        <persName type="group">Braves</persName>
+                    </person>
+                    <person xml:id="per.149">
+                        <persName type="group">Trappers</persName>
+                    </person>
+                    <person xml:id="per.150">
+                        <persName>Scott, Hiram</persName>
+                    </person>
+                    <person xml:id="per.151">
+                        <persName>Settler</persName>
+                    </person>
+                    <person xml:id="per.153">
+                        <persName type="group">Soldiers</persName>
+                    </person>
+                    <person xml:id="per.154">
+                        <persName type="group">Indians</persName>
+                    </person>
+                    <person xml:id="per.152">
+                        <persName type="group">Companions</persName>
+                    </person>
+                    <person xml:id="per.155">
+                        <persName>Settler</persName>
+                    </person>
+                    <person xml:id="per.156">
+                        <persName>Cowboy</persName>
+                    </person>
+                    <person xml:id="per.157">
+                        <persName type="group">Ranchers</persName>
+                    </person>
+                    <person xml:id="per.158">
+                        <persName type="group">Settlers</persName>
+                        <persName type="group">Dirt Farmers</persName>
+                    </person>
+                        <person xml:id="per.159">
+                            <persName type="group">Citizens</persName>
+                    </person>
+                    <person xml:id="per.162">
+                        <persName>Chief</persName>
+<persName>Father</persName>
+                    </person>
+                    <person xml:id="per.166">
+                        <persName>Chief</persName>
+                                          </person>
+                    <person xml:id="per.160">
+                        <persName>Wife</persName>
+                    </person>
+                    <person xml:id="per.163">
+                        <persName>Daughter</persName>
+                    </person>
+                    <person xml:id="per.161">
+                        <persName type="group">Prisoners</persName>
+                    </person>
+                    <person xml:id="per.165">
+                        <persName type="group">Maidens</persName>
+                    </person>
+                    <person xml:id="per.164">
+                        <persName type="group">Warriors</persName>
+                    </person>
+                    <person xml:id="per.167">
+                        <persName type="group">Dakota Indian Warriors</persName>
+                    </person>
+                    <person xml:id="per.169">
+                        <persName type="group">Children</persName>
+                    </person>
+                    <person xml:id="per.168">
+                        <persName>German Immigrant</persName>
+                    </person>
+                </listPerson>
+                <listPerson type="Character_Animals">
+                    <person>  <persName/>
+                    </person>
+                </listPerson>
+                <listPerson type="Character_Spirit">
+                    <person xml:id="per.005">
+                        <persName>Nahurac</persName>
+                        <note>In the Pawnee traditional religion, the supreme being Tirawa conferred miraculous powers on certain animals. These spirit animals, knthe nahurac, act as Tirawa's messengers and servants</note>
+                    </person>
+                    <person xml:id="per.065">
+                        <persName type="group">ghosts</persName>
+                    </person>
+                    <person xml:id="per.077">
+                        <persName type="group">Uncles</persName>
+                    </person>
+                    <person xml:id="per.081">
+                        <persName type="group">Spirits</persName>
+                    </person>
+                    <person xml:id="per.094">
+                        <persName type="group">Spirits</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="tgn_2162094">
+                        <placeName>Bad Village</placeName>
+                    </place>
+                    <place xml:id="tgn_2180527">
+                        <placeName>Bloody Creek</placeName>
+                    </place>
+                    <place xml:id="tgn_7007253">
+                        <placeName>Iowa</placeName>
+                    </place>
+                    <place xml:id="tgn_7014086">
+                        <placeName>Missouri River</placeName>
+                    </place>
+                    <place xml:id="tgn_2061998">
+                        <placeName> Broken Bow</placeName>
+                    </place>
+                    <place xml:id="tgn_2212357">
+                        <placeName>Buzzard's Roost</placeName>
+                    </place>
+                    <place xml:id="tgn_2234176">
+                        <placeName>Cheese Creek</placeName>
+                    </place>
+                    <place xml:id="tgn_2278707">
+                        <placeName>Dead Horse Creek</placeName>
+                    </place>
+                    <place xml:id="tgn_2062267">
+                        <placeName>Indianola</placeName>
+                    </place>
+                    <place xml:id="tgn_2305069">
+                        <placeName>Louse Creek</placeName>
+                    </place>
+                    <place xml:id="tgn_7015717">
+                        <placeName>Washington</placeName>
+                    </place>
+                    <place xml:id="tgn_7013892">
+                        <placeName>Lincoln</placeName>
+                    </place>
+                    <place xml:id="tgn_2681388">
+                        <placeName>South Platte</placeName>
+                    </place>
+                    <place xml:id="tgn_2534723">
+                        <placeName>Nacora</placeName>
+                    </place>
+                    <place xml:id="tgn_2062424">
+                        <placeName>Naponee</placeName>
+                    </place>
+                    <place xml:id="tgn_2062442">
+                        <placeName>Norfolk</placeName>
+                    </place>
+                    <place xml:id="tgn_2083720">
+                        <placeName>Okay</placeName>
+                    </place> <place xml:id="tgn_2677501">
+                        <placeName>Platte River</placeName>
+                    </place>
+                    <place xml:id="tgn_7014285">
+                        <placeName>Omaha</placeName>
+                    </place>
+                    <place xml:id="tgn_2575515">
+                        <placeName>Pepper Creek</placeName>
+                    </place>
+                    <place xml:id="tgn_2062527">
+                        <placeName>Oxford</placeName>
+                    </place>
+                    <place xml:id="tgn_2609161">
+                        <placeName>Rawhide Creek</placeName>
+                    </place>
+                    <place xml:id="tgn_2001394">
+                        <placeName>Scotts Bluff</placeName>
+                    </place>
+                    <place xml:id="tgn_2722342">
+                        <placeName>Tin Can Lake</placeName>
+                    </place>
+                    <place xml:id="tgn_7014265">
+                        <placeName>Ohio River</placeName>
+                    </place>
+                    <place xml:id="tgn_2695653">
+                        <placeName>Stinkwater Creek</placeName>
+                    </place>
+                    <place xml:id="tgn_2682926">
+                        <placeName>Sowbelly Canyon</placeName>
+                    </place>
+                    <place xml:id="tgn_2544418">
+                        <placeName>Weeping Water</placeName>
+                    </place>
+                    <place xml:id="tgn_2765167">
+                        <placeName>Whistle Creek</placeName>
+                    </place>
+                 </listPlace>
+            </settingDesc>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2016-03-19" who="#mzm">transcribed</change>
+            <change when="2016-03-22" who="#mzm">encoded characters and places</change>
+            <change when="2016-04-16" who="#mzm">added tgn xml:ids</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="pamphlet">
+                <pb xml:id="p000" facs="nefl.14.000.jpg"/>
+                <figure>
+                    <graphic url="#nefl.014"/>
+                    <figDesc/>
+                </figure>
+                <span>Nebraska Folklore<lb/> Pamphlet Fourteen<lb/> Place Name Stories</span>
+<span> Federal Writers' Project<lb/> Nebraska August 1938</span>
+                <pb xml:id="p001" facs="nefl.14.001.jpg"/>
+                <fw><hi rend="all_caps">Nebraska Folklore Pamphlets</hi><lb/> Reproduced from Material Gathered for a Book on the Folklore of the State<lb/> Issued Irregularly, at Least Once Each Month by the<lb/>
+                    <hi rend="all_caps">Federal Writers' Project in Nebraska</hi>
+                    <lb/> Prepared In Cooperation With the State Superintendent of Public Instruction</fw>
+                <fw>Number Fourteen<lb/> Place Name Stories<lb/> August, 1938<lb/> - - - - - - - - - - - </fw>
+                <div2 type="note">
+                   <p> The following pages are devoted to those Nebraska place names that reveal interesting stories concerning their origin. In some instances the story of a locale's naming, as in the case of Weeping Water, derives from a folk legend. This, however, makes the story all the more interesting; since it is the tale, not the fact, in which we are interested in this pamphlet. Consequently all the hundreds of Nebraska places that have been named in honor of early settlers, railroad officials, or towns in other states have been omitted.</p>
+                    
+                    <list><head>Names included in this collection:</head>
+                    <item>Bad Village</item>
+                    <item>Belmar</item>
+                    <item>Bloody Creek</item>
+                    <item>Boothill Cemetary</item>
+                    <item>Broken Bow</item>
+                    <item>Buzzard's Roost</item>
+                    <item>Cheese Creek</item>
+                    <item>Dead Horse Creek</item>
+                    <item>Dead Men's Island</item>
+                    <item>Dead Men's Gulch</item>
+                    <item>Foley and Sonter Lake</item>
+                    <item>Goodstreak</item>
+                    <item>Hadar</item>
+                    <item>Holl Creek</item>
+                    <item>Indianola</item>
+                    <item>Indian Peak</item>
+                    <item>Lincoln</item>
+                    <item>Louse Creek</item>
+                    <item>Nacora</item>
+                    <item>Naponee</item>
+                    <item>Nonparoil</item>
+                    <item>Norfolk</item>
+                    <item>Okay</item>
+                    <item>Omaha</item>
+                    <item>Ord</item>
+                    <item>Oxford</item>
+                    <item>Pepper Creek</item>
+                    <item>Rain</item>
+                    <item>Rawhide Creek</item>
+                    <item>Sarbon</item>
+                    <item>Scottsbluff</item>
+                    <item>Soak Creek</item>
+                    <item>Soudan</item>
+                    <item>Sowbelly Canyon</item>
+                    <item>Stinkwater Creek</item>
+                    <item>Surprise</item>
+                    <item>Swan</item>
+                    <item>Tin Can Lake</item>
+                    <item>Triumph</item>
+                    <item>Trouble</item>
+                    <item>Waunota</item>
+                    <item>Weeping Water</item>
+                    <item>Whistle Creek</item>
+                    <item>Wynot</item></list>
+                </div2>
+
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Bad Village
+                    </hi>(Cedar County)</title></p>
+                    
+                    <p>According to tradition this, not extinct, village of the Omaha
+                    <pb xml:id="p002" facs="nefl.14.002.jpg"/>
+                    <fw>2</fw>
+                        Indians received its name from a tragedy which occurred many years ago before Cedar County was named.</p>
+                    
+                    <p> A young <persName ref="per.101">Indian maiden</persName> is supposed to have eloped with a young <persName ref="per.102">brave</persName> in order to avoid being forced into marriage with an old <persName ref="per.103">warrior</persName> whom she did not love. The old Indian, eager for revenge, collected a searching party from among his friends and succeeeded in apprehending the young <persName ref="per.101">maiden</persName>. The rejected suitor gave her a severe flogging which was continued until the girl's sympathizers came to her rescue. Bitter words and then a fight ensued between the two factions, ending in much bloodshed and many deaths.</p>
+                    
+                    <p> The result of the feud was a permanent separation of the tribe, with the sympathizers of the girl migrating southward.</p>
+
+                </div2>
+
+<div2 type="article">
+    <p><title><hi rend="all_caps">Belmar
+    </hi>(Keith County)</title></p>  
+    <p>Some <persName ref="per.104">men</persName> who had been working in a field near the present town found a rusty cowbell "marred" in the mud. The incident suggested the appropriate name of Belmar when the village was named.</p>
+        
+<p><hi rend="underline">The town was probably named for an officer of the Union Pacific Railroad.</hi></p>
+
+</div2>
+
+<div2 type="article">
+                <p><title><hi rend="all_caps">Blood Creek
+                </hi>(Sherman County)</title></p>  
+                    
+    <p>One day, when a group of <persName ref="per.105">surveyers</persName>, headed by <persName ref="106">Mr. Robert Harvey</persName>, was working along the stream, a party of Indians in war dress was observed in the distance. The <persName ref="per.105">surveyers</persName> had no weapons with which to defend themselves in case of attack, so each man shouldered a surveying stake in military formation. The warriors left the vicinity without making a closer investigation of the bluff. <persName ref="per.106">Mr. Harvey</persName>, in a spirit of fun, printed the name Bloody Creek upon his field map.</p>
+                   
+</div2>
+
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Boothill Cemetery
+                    </hi>(Cheyenne County)</title></p>
+
+                    <p>So many people were killed in Sidney "with their boots on" during its pioneer days that the cemetery in which they were buried was named Boothill. In the 1880's, when most of the gold <persName ref="per.107">prospectors</persName> of the South Dakota Blackhills purchased their supplies in Sidney, it was not unusual for two or three murders to take place in one night. At this time twenty-three saloons were opened in one block, each one doing a flourishing business. Public dance halls were often operated in conjunction with the saloons. A man was shot in one of these halls one
+<pb xml:id="p003" facs="nefl.14.003.jpg"/>
+<fw>3</fw>night, but instead of the incident stopping the dance it served to heighten the fun. The corpse was propped up in a corner where he became a stony spectator of the amusement. It was not until a third victim had been set up against the wall that the dancers decided the party was becoming a bit too rough even for them. The next morning three more corpses were buried in Boothill.</p>
+                    <p>Lynching were another common way of swelling the Boothill's population. It is said that at one time the possibility of a stranger becoming a member of Boothill was so great that the Union Pacific Railroad refused to allow its passengers to get off the train at Sidney.</p>
+                </div2>
+                
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Broken Bow
+                    </hi>(Custer County)</title></p>
+                    
+                    <p> The <persName ref="per.110">postmaster</persName> proposed three names to the Post Office Department. After the third name had been rejected a settler named <persName ref="per.111">Wilson Hewitt</persName> found a broken bow on an old Indian hunting ground, which suggested the unusual name, Broken Bow. THe bow was almost destroyed when Hewitt's hired girl used it as kindling wood for starting a fire in the stove. A fragment is now in the care of the editor of the <hi rend="underline">Custer County Chief</hi>.</p>
+
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Buzzards Roost
+                    </hi>(Dawson County)</title></p>
+                    <p>So named on account of the many buzzards who used to inhabit the rough and isolated land in this vicinity.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Dead Horse Creek
+                    </hi>(Sherman County)</title></p>
+                    <p>During the blizzard of 1873 a troop of <persName ref="per.112">cavalrymen</persName> were forced to abandon their <name type="animal">horses</name> near a small stream. The animals froze to death during the snowstorm. In the spring, when the snow melted, their carcasses floated down the creek; causing the stream to become known as Dead Horse Creek.</p>
+               
+                </div2>
+
+                <div2 type="article">
+                    <pb xml:id="p004" facs="nefl.14.004.jpg"/>
+                    <p><title><hi rend="all_caps">Dead Men's Gulch
+                    </hi>(Loop County)</title></p>
+                    
+                    <p>One day, in the fall of 1879, three <persName ref="per.113">men</persName> were hunting deer in Loup County. The <persName ref="per.113">hunters</persName> tracked some deer to a gulch, where, upon catching sight of the animals the <persName ref="per.113">hunters</persName> immediately threw themselves on the ground, with one of the men, named <persName ref="per.114">Moore</persName>, stalking some twenty feet ahead of the others. At the moment <persName ref="per.114">Moore</persName> raised his head above the dark woods to aim at the deer, one of his <persName ref="per.113">companions</persName> pulled the trigger of his rifle. The top of Moore's head, at this close range, was blown off. The locality has ever since been known as Dead Man's Gulch or Dead Man's Gulch.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Dead Men's Island
+                    </hi>(Colfax County)</title></p>
+                    
+                    <p>In the Platte River, east of where the town of Rogers is located in Colfax County, used to be an island known as Dead Men's Island. It was, in reality, little more than a sandbar, with fringes of grass at its edges and a few willows for its vegetation. The whole island has long since been washed away by the Platte's swirling waters, and its only interest now is how it came to get its name.</p>
+                    
+                    <p>In the early 1860's a band of <persName ref="per.115">sex horse thieves</persName> came into the Platte Valley from the southwest, raiding the corrals of the <persName ref="per.116">settlers</persName> in the section now embraced by western Dodge and eastern Colfax Counties. The settlers quickly formed a posse in pursuit of the <persName ref="per.115">gang</persName> with its stolen <name type="animal">horses</name>.</p>
+                    
+                    <p> In escaping, the <persName ref="per.115">thieves</persName> forced their <name type="animal">horses</name> into the Platte and made them swim to the island near the opposite shore. Here the <persName ref="per.115">men</persName> hoped to find refuge for the night, planning to escape to the south bank early the next morning before the posse could cross farther down the river and head them off.</p>
+                    
+                    <p>But the island was a bed of quicksand which began engulfing the <persName ref="per.115">men</persName> and <name type="animal">horses</name> as soon as they had set foot on it. Before the <persName ref="per.115">thieves</persName> realized their danger they were in the clutches of the sands. Their despairing shrieks rang out over the dark waters like the wails of damned souls. By morning the island was empty of all life; the sands had swallowed up both the <persName ref="per.115">thieves</persName> and their <name type="animal">horses</name>.</p>
+                    
+                    <p>For years afterward the <persName ref="per.116">settlers</persName> declared that on dark and rainy nights shrieks and groans could be heard from the island. The sandbar was appropriately named Dead Men's Island, and was pointed cut to those who traveled by, seeking locations farther west.</p>
+
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Foley and Sonter Lake
+                    </hi>(Cherry County)</title></p>
+                    
+                    <p>The firm of <persName ref="per.117">Foley and Sonter</persName> carried on a flourishing wagon trail
+                    <pb xml:id="p005" facs="nefl.14.005.jpg"/>
+                    <fw>5</fw>
+                        business in the Nebraska sandhill region. On one of their trips dried up water holes caused their oxen to become unusually thirsty. So when they came near a lake the animals stampeded into the water, drawing the wagons after them. The lake was know by the name of this freighting firm from that time on.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Goodstreak
+                    </hi>(Morrill County)</title></p>
+                    <p><persName ref="per.118">Dr. Worth</persName>, a pioneer physician and homesteader discovered a locality where there was a plentiful supply of wood for fuel. He told all his friends and patients about "finding a good streak." The name clung to the locality, so when a village was established it was given this name. </p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Hadar
+                    </hi>(Pierce County)</title></p>  
+                    <p>Two early German <persName ref="per.119">pioneers</persName> had a very wordy argument by a creek in Pierce County. The creek, and later the town, was called <hi rend="underline">Hadorwasser-wasser</hi> being the German word for water, <hi rend="underline">hadar</hi> for quarrel--in a humorous attempt to perpetuate the memory of the dispute. English speaking people gave the town the official name of Hadar.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Hell Creek
+                    </hi>(Washington County)</title></p>    
+                    
+                    <p> The extremely soft mud along the banks of the stream wrecked so many of the pioneer wagons that one of the <persName ref="per.116">settlers</persName>, who had occasion to make frequent trips to Omaha, named it Hell Creek.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Indianola
+                    </hi>(Red Willow County)</title></p>  
+                    
+                    <p>The entire <orgName ref="trb.004">Pawnee</orgName> tribe, which was composed of 300 warriors, 400 women and children, 1,200 ponies and a thousand dogs, was hunting along the banks of the Frenchman River in the summer of 1873. The women accompanied the expedition for the purpose of cutting up and drying the moat brought in by the <persName ref="per.121">warriors</persName>, most of which was to be stored for winter use. One of the maidens who helped with this work was named <persName ref="per.120">Ola</persName>.</p>
+                    
+                    <p>On the fifth of August a party of <orgName ref="trb.005">Sioux</orgName>, who were on the warpath in this locality, attacked the <orgName ref="trb.004">Pawnee</orgName> in the battle which became known as the Tronton Massacre. <persName ref="per.120">Ola</persName>, who was behind the lines with the other women and children, was struck by a flying arrow. In order to escape from what now appeared certain death she followed the river eastward. A man, hunting along the river bank, brought the hystorical <persName ref="per.120">girl</persName> to the cabin of a
+                    
+    <pb xml:id="p006" facs="nefl.14.006.jpg"/>
+                    <fw>6</fw>
+                        homesteader, named <persName ref="per.122">L. B. Korn</persName>, where she died a few days later.</p>
+                    
+                    <p>When a village grow up around <persName ref="per.122">Korn</persName>'s cabin the town was named Indianola in memory of the Pawnee girl.</p>
+                        <p rend="underline">Note: The town was possibly named for a place in Iowa.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Indian Peak
+                    </hi>(Saunders County)</title></p>
+                    <p>West of the village of Morse Bluffs is a peak which rooms high over the surrounding country. Its sides are covered by trees and grass, but the top, which is as level as a floor and about fifteen feet in diameter, is perfectly bare. No grass will grow on its apparently fertile black loam. The explanation for this arid space is found in an old legend that was told to the <persName ref="per.124">pioneers</persName> by the <orgName ref="trb.004">Pawnee</orgName> who once lived in this region. The legend is that a powerful <persName ref="per.123">Indian chief</persName> is buried at the top of the peak, and because he was a traitor and committed suicide no grass will grow upon his grave.</p>
+                    
+                    <p>He was discovered imparting information to the <orgName ref="trb.004">Pawnee</orgName>'s traditional enemy, the Sioux. Upon being caught, the <orgName ref="trb.004">tribe</orgName>, in full council, decreed the sentence of death by burning at the stake upon the <persName ref="per.123">prisoner</persName>. On the night before the day of his execution the former <persName ref="per.123">chief</persName> managed to commit suicide by hanging himself from the cross poles of his tepee prison. Disgraced, he was buried at the top of Indian Peak, away from the burial ground of his <orgName ref="trb.004">tribe</orgName>.</p>
+                    
+                    <p><persName ref="per.125">Persons</persName> who have been skeptical of the legend have tried to disprove it by removing samples of soil from the peak and sowing it to blue grass. It is said that the grass grew luxuriantly until it was transplanted to the top of the peak, where it immediately wilted and died.</p>
+
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Lilac
+                    </hi>(McPherson County)</title></p>
+                    
+                    <p>A small lilac tree was found blooming in the front yard of a <persName ref="per.126">settler</persName>'s home. It created such a sensation in this treeless and flowerless community that when the post office was to be named Lilac was suggested.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Lincoln
+                    </hi>(Lancaster County)</title></p>                    
+                    <p>Lincoln was named for <persName ref="per.127">President Abraham Lincoln</persName>, though its naming was the result of a clever political ruse rather in honor of the <persName ref="per.127">Emancipator</persName>. In 1864, three years before Nebraska was admitted to the Union, political controversies became very intense over the reapportionment issue. After this had been settled the storm renewed its fury out the relocation of the capital. The North Platte faction--that is,
+                    <pb xml:id="p007" facs="nefl.14.007.jpg"/>
+                    <fw>7</fw>
+                        people living north of the Platte River--which included the large delegation from Omaha, used every stratagem and dodge they could think of to keep the capital in that city; while the South Platte group was equally determined to locate the seat of government somewhere south of the river. After numerous amendments, offered to delay action, had been steadily voted down to the South Platte party, the bill for relocation of the capital finally passed the House and was taken up by the Senate. In the Senate was a Senator <persName ref="per.128">Reeves</persName>, from the South Platte faction, who hated <persName ref="per.128">President Lincoln</persName>. Senator <persName ref="per.129">Patrick</persName> of Omaha, a member of the opposing camp, knew of Reeve's prejudice against the President, which caused him to make the teasing motion that the new capital's name be changed from Capital City to Lincoln. His amendment passed both houses, much to Reeve's chagrin and Patrick's delight.</p>
+                    
+                    <p>The family name Lincoln was derived from the ancient cathedral city in England. This city was first called Lydon or Lindon. The first syllable means lake or pool, the second hill-fort, and the Hill-Fort-by-the-Pool was a literal description of the barbaric stronghold. When the Romans took it over their engineers transformed the treacherous swamps into firm land; and built walls and a moat to make the place impregnable. The Romans added to the name, calling it Lindum Colonia, meaning a (Roman) settlement-at-the-mill-fort-by-the-pool. Later, because of so many dispatches to be sent back to Rome the name was abbreviated simply by crossing out many of the letters Lin<del>dun</del>col<del>o</del>n<del>ia</del>. In the Anglo-Saxon era the name may have been Lindocycllancoaster, meaning a fort built partly of stone. There were at least 12 changes of spelling for the name and standardized spelling was developed only after English became a modern language. The first Lincoln in Massachusetts was named for Lincoln, England in 1754. In 1854 New Hampshire gave the name to a village, and in 1790 Vermont also had a Lincoln post office.</p>
+                    
+                    <p>Probably no family name in America has been so greatly honored with such wide distribution. The Post Office Department has a list of over 40, most of which were named for <persName ref="per.127">Abraham Lincoln</persName>, though there were other Lincolns beside and before Abraham; for example, several Lincolns are named for Lovi, Lovi Jr., Enoch or Benjamin Lincoln. Abraham was a descendent of the Lovi family who came west from Hingham, Mass. to Jefferson County, Ky. Counting centers and cities, dales and vales, places, parks, and ridges, Maine and Pennsylvania have 4 each; Indiana, Illinois and several others have 2 or 3 each. There are 20 Lincoln counties in the various states, and there are countless precincts, townships, schools, universities, lakes, streams, parks and streets.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Louse Creek
+                    </hi>(Holt County)</title></p>             
+                    <p>When a group of surveyors were working in Holt County their clothes became infested with lice. A serious attempt was made to get rid of their "guests" in a small stream, which, ever since, has borne the name of Louse Creek.</p>
+                </div2>
+                <div2 type="article">
+                    <pb xml:id="p008" facs="nefl.14.008.jpg"/>
+                    <fw>8</fw>
+                    <p><title><hi rend="all_caps">Nacora
+                    </hi>(Dakota County)</title></p>  
+                    <p>Coined from <hi rend="underline">nacio</hi>, meaning in Spanish, I am born.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Naponee Creek
+                    </hi>(Franklin County)</title></p>                  
+                    <p>An old <persName ref="per.130">Indian</persName>, who was hunting for his run-away pony, was stopped by a party of travellers who wished to know the name of the settlement they saw in the distance. The <persName ref="per.130">Indian</persName>, who did not understand many words of English, thought they were asking him where his pony was, so he answered "No pony." The <persName ref="per.116">settlers</persName>, thinking the old <persName ref="per.130">Indian</persName> was naming the village, called it Naponee from that time on.</p>
+
+                    <p rend="underline">Note: The actual source for this name is probably a town in Canada.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Nonpareil
+                        </hi>(Sheridan County)</title></p>                 
+                    <p>The town had its beginning when a <persName ref="per.131">settler</persName> drove to the locality with a wagon load of boards, several cases of whiskey and a supply of tobacco. After building a shack out of his boards he painted the word "Saloon" over its doorway. The "town" was now open for business.</p>
+                    
+                    <p> The first customers were <persName ref="per.132">cowboys</persName>, who drank up the stock in one riotous evening. Soon another settler, more conservative in his tastes, started a general store. Later a printing press was installed. The <persName ref="per.133">publisher</persName>, who possessed a sense of humor, suggested the town be called Nonpareil because nonpareil was the smallest printers type allowed on legal documents; and, likewise, if the town was any smaller it would not be permitted to have a legal existence.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Norfolk
+                    </hi>(Madison County)</title></p>                 
+                    
+                    <p>Norfolk is located near the north fork of the Elkhorn river. When a post office was established in the village in 1867 it was decided to name the town Nor'fork, a simplification of North Fork. The post office department accepted the name, but, being under the impression the word was misspelled, wrote it out as "Norfolk." The city, ever since, has been spelt "Norfolk" but pronounced by everyone in its vicinity as "Nor'fork."</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Okay
+                    </hi>(Platte County)</title></p>                    
+                    <p>After having many suggested names rejected by the Washington postal
+                        <pb xml:id="p009" facs="nefl.14.009.jpg"/>
+                    <fw>9</fw>
+                        authorities one of the <persName ref="per.116">settler's</persName> sent in the work Okay, hoping it would be O.K. It was.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Omaha
+                    </hi>(Douglas County)</title></p>                   
+                    <p>Named in commemoration of the <persName ref="per.134">Indian tribe</persName> which used to have its camping grounds in the vicinity of this city.</p>
+
+</div2>
+<div2 type="article">
+                    
+               <p><title rend="all_caps">The Woman and the Spirits</title></p>
+                    
+    <p>The meaning of <hi rend="underline">Omaha</hi> is a <persName ref="per.135">white man's</persName> corruption of <hi rend="underline">umo ha</hi>, which means "against the current" or "upstream." The name is supposed to refer to the time, several hundred years ago, when the Omaha parted company with another tribe.</p>
+                    
+    <p>The *<hi rend="underline">Twenty-Seventh Annual Report, Bureau of American Ethnology</hi>, p. 36, says: "There are two versions of how this parting came about. One account says that the people were moving down the Uhai ke river (Ohio), 'The-River-Down-Which-They-Came'. When they came to a wide river, they made skin boats in which to cross the river. As they were crossing a storm came up. The <orgName ref="trb.011">Omaha</orgName> and <orgName ref="trb.012">Iowa</orgName> got safely across, but the <orgName ref="trb.013">Quapaw</orgName> drifted down the stream and were never seen again until within the last century. When the <orgName ref="trb.011">Omaha</orgName> made their landing, they camped in a sandy place. The strong wind blew the sand over the people and gave them a grayish appearance. From this circumstance they called themselves <hi rend="underline">Paxude</hi>, 'gray head,' and the <orgName ref="trb.011">Omaha</orgName> have known them by that name ever since</p>
+    <fw>........</fw>
+    <p> "The other version of the parting between the <orgName ref="trb.011">Omaha</orgName> and the <orgName ref="trb.013">Quapaw</orgName> is that when the wide river was reached the people made a rope of grape vines. They fastened one end on the eastern bank and the other end was taken by strong swimmers and carried across the river and fastened to the western bank. The people crossed the river by clinging to the grapevine. When about half their number were across, including the <orgName ref="trb.012">Iowa</orgName> and <orgName ref="trb.011">Omaha</orgName>, the rope broke, leaving the rest of the people behind. Those who were left were the <orgName ref="trb.013">Quapaw</orgName>. This crossing made on a foggy morning, and those left behind, believing that their companions who had crossed had followed the river downward on the western side, they themselves turned downstream on the eastern side, and so the two groups lost sight of each other."</p>
+
+    <p>Another version, which comes from folklore, is that two branches of the same tribe fought a battle on the ground where the city of Omaha is now located. All but one of the warriors in one faction were killed. This lone <persName ref="per.136">survivor</persName> was thrown into the muddy Missouri. As his enemies gathered along the river's banks to enjoy his drowning struggles, he rose above the whirling waters, held up one arm and shouted "O-ma-ha" at the top of his voice. The word had never been heard before, but as the supposedly drowning Indian immediately swam to the opposite shore and escaped; his victorious enemies interpreted it to mean "on top of the water" or "upstream." The victorious <persName ref="per.137">warriors</persName>, who had come to admire their lone enemy's courage, called themselves to the <orgName ref="trb.011">Omaha</orgName> from that time on.</p>         
+</div2>
+                <div2 type="article">
+                    <pb xml:id="p010" facs="nefl.14.010.jpg"/>
+                    <p><title><hi rend="all_caps">Ord
+                    </hi>(Valley County)</title></p>        
+                       <fw>10</fw>                    
+                    <p>This city has the amusing speculation of wondering if it is named for a man who descended from the British royal family and who might himself have become the King of England. The city was named for <persName ref="per.138">General E.C. Ord</persName>, who was commander of the army in this territory during the Indian days. <persName ref="per.138">General Ord</persName>'s father, <persName ref="per.139">James Ord</persName>, was supposed to have been a son of the Prince of Wales who later became <persName ref="per.140">George IV of England</persName>. In 1905, a box, said to have been sealed by <persName ref="per.141">Lady Fitzhugh</persName> a century before, was opened according to the directions of the lady. It contained the couple's marriage license. The story, as told, is that a son had been born who was placed in charge of a servant named Ord. When the servant emigrated to the United States he took the boy along. <persName ref="per.139">James Ord</persName> asserted he was that son, and therefore the rightful heir to the British throne. But the face that he had fought against the British in 1912 and his affiliation with the Catholic Church barred him from the succession. The other obstacle was <persName ref="per.142">Queen Victoria</persName>, who, according to <persName ref="per.139">Ord</persName>, was too selfish to give her crown to its rightful owner.</p>
+                    
+                    <p> Even so, <persName ref="per.139">Ord</persName> expected to be eventually called to the throne. His room was plastered with newspaper prints of the English nobility so that when he became king he wouldn't be embarrassed by not recognizing his lords at sight.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Oxford
+                    </hi>(Furnas County)</title></p>                    
+                    <p>A ford, crossing the Republican River, used to be located a short distance from this town where the heavily laden ox teams crossed the river. The place became known as Oxford. Later when the town was built, it took the name of the ford.</p>
+                    <p rend="underline">Note: The town may have been named for Oxford, Ohio, or for Oxford University in England.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Pepper Creek
+                    </hi>(Dawes County)</title></p>                    
+                    <p>One evening, when a "cow-outfit" was camped along a stream in Dawes County, the lid of the pepper can fell into the Mulligan stew which the <persName ref="per.143">cook</persName> was preparing. The subsequent pepper flavor of the dish remained in the minds of the cattlemen long after the meal had been consumed and caused the stream to become known as Pepper Creek.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Rain
+                    </hi>(Hayes County)</title></p>                    
+                    <p>In the middle eighties a severe drought was experienced in Hayes County. Religious organizations held weekly meetings at which they prayed for rain. A minister of the Church of Christ, named <persName ref="per.144">C.B. French</persName>, upon
+    <pb xml:id="p011" facs="nefl.14.011.jpg"/>
+                    <fw>11</fw>
+                        becoming the first <persName ref="per.144">postmaster</persName>, suggested that the new office be named rain in connection with their greatest need.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Rawhide Creek
+                    </hi>(Dodge County)</title></p>                     
+                    <p>One morning, when Nebraska, was still a territory, a group of <persName ref="per.145">travellers</persName> enroute to the California gold fields were camped on a little stream a few miles northeast of where North Bend now stands. In the party was a young <persName ref="per.146">New Yorker</persName> who had declared, when he joined them in Council Bluffs, that he would kill the first Indian he saw in Nebraska. At the time no attention was paid to his ridiculous boast, and it was forgotten. But on this morning a <orgName ref="trb.004">Pawnee</orgName> girl came to trade with the white travelers from a friendly Indian camp located farther up the stream. As she approached the <persName ref="per.145">travelers</persName> the boastful <persName ref="per.146">New Yorker</persName> reached for his rifle and shot her. One of the <persName ref="per.147">Indians</persName> who was spying on the camp from some adjoining bluffs, saw the useless murder and immediately reported to his tribe what had occurred. All the wrathful <persName ref="per.147">warriors</persName> surrounded the camp and threatened to scalp all the white men if the culprit was not turned over to them for punishment. Reluctantly, they gave consent to the proposition and so, despite the violent protests of the <persName ref="per.146">young man</persName>, he was bound and delivered to the people of his victim.</p>
+                    
+                    <p>The <persName ref="per.147">Indians</persName>, after undressing their screaming prisoner, tied his legs and arms to stakes in the ground, after which two brawny <persName ref="per.148">warriors</persName> drew their knives and set deftly to work, skinning the <persName ref="per.146">man</persName> alive. The two <persName ref="per.148">braves</persName> did their work so skillfully that he lived for several hours after his hide had been stretched on a frame to dry in the sun. The creek was thereafter known as Rawhide Creek.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Sarben
+                    </hi>(Keith County)</title></p> 
+                    
+                    <p>Named after the first six letter of Nebraska, reversed in order.</p>
+                    <fw><hi rend="all_caps">Nebraska Folklore pamphlet</hi> * Number Thirteen will be issued about December 1, 1937, and will contain *Tall Tales.</fw>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Scottsbluff
+                    </hi>(Scotts Bluff County)</title></p>   
+
+<p>In the early eighties a party of <persName ref="per.149">trappers</persName> came down the North Platte River in canoes. When they came above where the Laramie River joins the Platte all of their food and hunting supplies were lost. One member of the group, <persName ref="per.150">Hiram Scott</persName>, became very sick after the accident and could not travel by foot. The other <persName ref="per.149">trappers</persName>, when reconnoitering the territory, discovered the fresh trail of a group of hunters. They left <persName ref="per.150">Scott</persName> at the mouth of the Laramie River with the promise to come back as soon as they had secured supplies from this party. Instead of returning to <persName ref="per.150">Scott</persName>, as was promised, they reported him dead and proceeded on their expedition.</p>
+
+<p>A year later another group of trappers found <persName ref="per.150">Scott</persName>'s skeleton near the high bluff which now bears his name. Sick, starving and abandoned by
+
+                    <pb xml:id="p012" facs="nefl.14.012.jpg"/>
+his <persName ref="per.149">companions</persName> he had crawled forty miles along the river before death overtook him. A tiny spring, beside which the body was found, is known as Hiram Scott Spring.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Soak Creek
+                    </hi>(Gage County)</title></p>   
+
+                    <p>An early <persName ref="per.151">settler</persName> fell into the water when crossing this stream. His amused <persName ref="per.152">companions</persName> immediately named the stream Soak Creek.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Soudan
+                    </hi>(Cherry County)</title></p>
+
+                    <p>The word Soudan means "the land of the blacks." The town was given this name because of its proximity to the South Dakota Black Hills region.</p> 
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Sowbelly Canyon
+                    </hi>(Sioux County)</title></p>  
+                    <p>During the Indian wars some <persName ref="per.153">soldiers</persName> who had been sent out on scout duty were encircled by <persName ref="per.154">Indians</persName> in a canyon. They nearly starved in their cramped quarters before a rescue party arrived. The only food which the rescuing party had brought with them was dry salt bacon--known in the west as "sowbelly." Since then the canyon has been known by that name.</p>
+                </div2>
+                    <div2 type="article">
+                        <p><title><hi rend="all_caps">Stinkwater Creek
+                        </hi>(Chase County)</title></p> 
+                        <p><name type="animals">Buffalo</name>, coming to this stream for water, used to be caught in its sticky mud and slowly engulfed. The odor of their decaying bodies did not sweeten the atmosphere in the immediate vicinity, hence the name of the creek.</p>
+                    </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Surprise
+                    </hi>(Butler County)</title></p> 
+                    <p>The early <persName ref="per.116">settlers</persName> found the land so much better than they expected in this vicinity that they named their town Surprise.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Swan
+                    </hi>(Holt County)</title></p> 
+                    <p>Named from the nearby Swan Lake, which has an oblong body and a long neck.</p>
+                </div2>
+                <div2 type="article">
+                    <pb xml:id="p013" facs="nefl.14.013.jpg"/>
+                    <fw>13</fw> 
+                    <p><title><hi rend="all_caps">Tin Can Lake
+                    </hi>(Sheridan County)</title></p> 
+                    <p>A <persName ref="per.155">settler</persName>, who had built his cabin in this vicinity, was so disgusted with the unsightly pile of rusty tin cans near the lake, where a <persName type="per.156">cowboy</persName> mess wagon had stood some years before, that he named the body of water Tin Can Lake.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Triumph
+                    </hi>(Custer County)</title></p>    
+                    <p>In the conflict between the <persName ref="per.157">ranchers</persName> and <persName ref="per.158">settlers</persName> in Custer County, when the <persName ref="per.157">ranchers</persName> were using nearly every stratagem they knew to drive the dirt <persName ref="per.158">farmers</persName> out of the county in order to secure more acres of free grazing land for their cattle, the <persName ref="per.158">settlers</persName>, with the aid of the government homestead office, won out. The dirt <persName ref="per.158">farmers</persName> were so jubilant over their success that they commemorated it by naming their post office Triumph.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Trouble
+                    </hi>(Cherry County)</title></p>    
+                    <p>This village had considerable difficulty in finding a name acceptable to the Post office department. Time after time a name was sent in, which, for one reason or another was rejected. The finding of a name became so much trouble that one of the <persName ref="per.159">citizens</persName> suggested sending the word Trouble. To their surprise the name was accepted.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Wauneta
+                    </hi>(Chase County)</title></p> 
+                    <p> The <persName ref="per.160">wife</persName> of one of the early <persName ref="per.161">prisoners</persName> had a piano on which she used to play the popular songs of the day. <persName ref="per.132">Cowboys</persName> came from miles around to enjoy this reminder of the more civilized East. The most popular of these songs was Juanita, so, when the naming of the post office came up Juanita was suggested as an appropriate name. Upon finding that there was already a town by that name in the state the spelling was changed to Wauneta.</p>                 </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Weeping Water
+                    </hi>(Cass County)</title></p>  
+                    <p> Is named after the creek which runs by the town. There is a beautiful Indian legend concerning the origin of this stream.</p>
+
+<p>Long ago a peaceful tribe, governed by a wise and brave  <persName ref="per.162">chief</persName>,
+    <pb xml:id="p014" facs="nefl.14.014.jpg"/>
+<fw>14</fw>
+lived near the headwaters of the stream. The <persName ref="per.164">warriors</persName> were strong and peace-loving. The <persName ref="per.165">maidens</persName> were as lovely as the morning flowers. The chief's <persName ref="per.163">daughter</persName> was the fairest of them all. Her beauty was known among all the tribes of the prairie.</p>
+
+                    <p> One day the <persName ref="per.166">chief</persName> of a war-loving tribe from the west was passing by on a hunting expedition. He saw the chief's daughter and asked for her hand in marriage. her <persName ref="per.162">father</persName> disliked the martial chief and refused. The <persName ref="per.166">chief</persName> became very angry and rode away without smoking the pipe of friendship. He spoke words of great hatred to his warriors as he rode out of the village. </p>
+
+<p>Early one morning the <persName ref="per.163">maiden</persName> was bathing with her companions in a small stream near the village. A group of warriors from the war-loving tribe abducted her, stifling her screams in a blanket.</p>
+
+                    <p>Another group of warriors encircled and attacked the group, slaughtering the unprepared warriors. Battle-cries and screams of terror echoed from the hills. The enemy rode off, leaving only the women of the tribe alive.</p>
+
+<p>The women of the desolate village wept all that day and all that night. When they prepared their dead for burial on the next day they wept more. Swollen by tears the trickle of water which passed their village became a small stream and then a creek.</p>
+                    <p>Today the inhabitants of Weeping Water look at one another when rain begins to fall and remark, "The squaw's memory of the battle will never die."</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Whistle Creek
+                    </hi>(Sioux County)</title></p>  
+                    <p>One day, many years ago, a group of <persName ref="per.167">Dakota Indian warriors</persName> were making an unsuccessful search for game. Nearly starved, they were forced to give up their hunting expedition and return to their camp on the Niobrara. Before they had time to reach their tepees, a severe blizzard forced them to seek shelter under a small bluff near the head of a creek. While they huddle near its walls, half starved and half frozen, they heard the tunes of the <orgName ref="trb.003">Dakota</orgName> war song mingling with the roar of the storm. Investigation revealed the whistler, a member of their own tribe, benumbed and nearly crazed by the icy cold, who was attempting to keep up his spirits by whistling the martial song of his people.</p>
+
+<p>When leading their fellow warrior back to their sheltered refuge they stumbled over the half-decayed carcass of an old buffalo bull. The Dakota's, desperate in their hunger, cut up the least decayed portion of the buffalo with their long hunting knives and ate it raw.</p>
+
+                    <p>The entire group promptly became poisoned form the rotten meat,
+                        <pb xml:id="p015" facs="nefl.14.015.jpg"/>
+                        <fw>15</fw>
+                        and all but two died. The stream, in commemoration of their memory, was known as Whistle Creek from that time on.</p>
+                </div2>
+                <div2 type="article">
+                    <p><title><hi rend="all_caps">Wynot
+                    </hi>(Cedar County)</title></p> 
+                    <p>An old <persName ref="per.168">German emigrant</persName>, who did not understand many words of English, used to live in this settlement. Whenever he was spoken to by one of the non-German speaking citizens he would always attempt to cover up his embarrassment by profoundly asking, "W'y not?"</p>
+                    <p>The <persName ref="per.169">children</persName> in the village were quick to imitate him and later, after the older citizens had caught the habit, it became a form of local slang. "W'y not?" became the accepted answer to many questions.</p>
+                    <p>When the naming of the town came up for consideration a local was asked, "Why not name it 'Wynot'?"</p>
+<p>His suggestion was accepted.</p>
+                </div2>   
+<div2 type="note">
+<p>    (<hi rend="underline">Editor's Note:</hi><lb/>
+    <hi rend="all_caps">NEBRASKA FOLKLORE PAMPHLET</hi> Number 15 will be issued before September 1, and will contain <hi rend="all_caps">Songs About Nebraska</hi>.</p></div2>
+            </div1>
+        </body>
+    </text>
+</TEI>

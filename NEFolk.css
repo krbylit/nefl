@@ -1,0 +1,175 @@
+@import-url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+@import url(https://fonts.googleapis.com/css?family=Abel);
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
+
+
+nav {
+	overflow: hidden;
+	color: #5A636E;
+
+}
+
+
+body
+{
+	margin: 0 2 0 2px;
+	color: #333;
+	background-color: #FCFCF8;
+	font: 1em/1.2 Abel;
+	font-weight: 500;
+	line-height: 1 1px;
+	font-size: 2em;
+}
+
+
+#header {
+	font-size: 2.5em;
+	text-align:center;
+	font-family: Oswald;
+	color: #5A636E;
+}
+
+
+
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: bold;
+    
+}
+
+/* visited link */
+a:visited {
+    color: #4E5557;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: EFCA00;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: EFCA00;
+    text-decoration: none;
+}
+
+.blockquote
+{
+	padding: 1em 2em;
+	margin: 1 0 2em;
+	x solid #eee;
+	line-height: 1.1px;
+}
+
+ul{
+	padding: 1 1 2em;
+	margin-left: 2em;
+	border-left: 5px solid #eee;
+
+}
+
+li
+{
+	border-left: 1px;
+	line-height: 1 1.5px;
+
+}
+
+hr
+{
+	height: 0;
+	
+	margin-bottom: m;
+	border: 0;
+	border-top: 1px solid #ddd;
+}
+
+h1 { font-size: 2 em; color:#3E5950; font-family: Oswald; text-align:center;} 
+
+h4 { 
+font-size: 4 em; 
+font-family: Oswald;
+text-transform: uppercase;
+color:#EFCA00; 
+margin-left: 15px;
+padding-top: 8px;
+}
+
+h2 { 
+font-size: 2 em; 
+font-family: Oswald;
+text-transform: uppercase
+color:#C01735;
+text-align:center;
+}
+
+.header8 { font-size: 1.75em; font-family: Oswald;}
+.header7 { font-size: 1.5em; font-width: .43; letter-spacing: 4px; line-height: 1:1; font-family: Oswald; color:C01735; text-align:center;} 
+
+p
+{
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+.menu {font-family: Abel; color:#EFCA00; }
+
+.expand {
+	float: right;
+	
+
+}
+
+.row {
+	
+	
+}
+
+
+.description
+{
+	margin: 1 0 1.5em;
+	padding-left: 2em;
+	padding-right: 3em;
+	letter-spacing: .51px;
+}
+
+.script
+{
+	padding-left: .5em;
+	letter-spacing: .61px;
+}
+
+
+img
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.col-md-6 {
+	padding-left: .2em;
+	color: #EFCA00;
+	height: 15%;
+	margin: 1 1 1 1em;
+	border-style: solid; 
+	border-width: 5px;
+	border-color: #f2f2f3;
+	
+	
+}
+
+#content{
+	padding: 2.5%;
+	margin: 0 0 .5em;
+}
